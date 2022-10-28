@@ -657,17 +657,19 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 #if PLATFORM_WEBGL
         fullscreenToggle.interactable = false;
 #else
-        if (!GlobalController.Instance.checkedForVersion) {
-            UpdateChecker.IsUpToDate((upToDate, latestVersion) => {
-                if (upToDate)
-                    return;
-
-                updateText.text = $"An update is available:\n\nNew Version: {latestVersion}\nCurrent Version: {Application.version}";
-                updateBox.SetActive(true);
-                EventSystem.current.SetSelectedGameObject(updateBoxSelected);
-            });
-            GlobalController.Instance.checkedForVersion = true;
-        }
+        //CUBBY'S: disable update checking
+        //
+        //if (!GlobalController.Instance.checkedForVersion) {
+        //    UpdateChecker.IsUpToDate((upToDate, latestVersion) => {
+        //        if (upToDate)
+        //            return;
+        //
+        //        updateText.text = $"An update is available:\n\nNew Version: {latestVersion}\nCurrent Version: {Application.version}";
+        //        updateBox.SetActive(true);
+        //        EventSystem.current.SetSelectedGameObject(updateBoxSelected);
+        //    });
+        //    GlobalController.Instance.checkedForVersion = true;
+        //}
 #endif
     }
 
