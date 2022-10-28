@@ -21,7 +21,7 @@ TextureImporter:
       213: 2664608197882872095
     second: reserve-ui_5
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -38,6 +38,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -81,6 +82,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -287,9 +290,9 @@ TextureImporter:
       name: reserve-ui_6
       rect:
         serializedVersion: 2
-        x: 441
+        x: 440
         y: 152
-        width: 139
+        width: 140
         height: 140
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -334,7 +337,7 @@ TextureImporter:
         width: 140
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -342,6 +345,27 @@ TextureImporter:
       bones: []
       spriteID: 7d9d02a1ee756cf4f804e5c7d321cc19
       internalID: -14430133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reserve-ui_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 296
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a07770d772b5d4d8e98976cac1ae33
+      internalID: -309508167
       vertices: []
       indices: 
       edges: []
@@ -365,10 +389,10 @@ TextureImporter:
       reserve-ui_7: -1604689058
       reserve-ui_5: 2664608197882872095
       reserve-ui_8: -14430133
+      reserve-ui_9: -309508167
       reserve-ui_2: -4773353537684922170
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

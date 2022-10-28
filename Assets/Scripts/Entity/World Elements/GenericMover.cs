@@ -29,6 +29,6 @@ public class GenericMover : MonoBehaviour {
         time /= animationTimeSeconds;
         time %= animationTimeSeconds;
 
-        transform.position = (origin ?? default) + new Vector3(x.Evaluate((float) time), y.Evaluate((float) time), 0);
+        transform.position = (origin ?? default) + new Vector3(x.Evaluate((float)(time * 4)), y.Evaluate((float)(time * 4)), 0);
     }
 }

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: MusicMainMenu
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: c9850c9bc8b015b4eb42ff8acd836e8b, type: 3}
-  loopStartSample: 3.6685
-  loopEndSample: 18.427
+  fastClip: {fileID: 0}
+  loopStartSample: 0.6966
+  loopEndSample: 72.9273

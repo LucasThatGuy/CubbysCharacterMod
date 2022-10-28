@@ -198,7 +198,7 @@ TextureImporter:
       213: 8270874794024937302
     second: Castle_64
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -260,6 +260,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -995,6 +996,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: castle_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9a258916fb946408fde8bb38b786e1
+      internalID: 1417630976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: castle_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f823d678e3d9a4f9d8ea4082800ed1
+      internalID: -1123940530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1027,6 +1070,7 @@ TextureImporter:
       Castle_36: 4560019785069071703
       Castle_21: -1609143546227108842
       Castle_15: -5185617447438664962
+      castle_65: 1417630976
       Castle_48: 6916266795080129722
       castle_4: 804450432
       Castle_12: -8683591605262331235
@@ -1043,6 +1087,7 @@ TextureImporter:
       Castle_14: 5427314472495278648
       Castle_60: -6284112915086630200
       Castle_37: 6001507995699417439
+      castle_66: -1123940530
       Castle_24: 430629103723400450
       castle_0: -1017462376
       Castle_31: 464114312144006252

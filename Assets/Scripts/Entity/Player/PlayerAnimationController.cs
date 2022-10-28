@@ -6,13 +6,18 @@ using NSMB.Utils;
 
 public class PlayerAnimationController : MonoBehaviourPun {
 
-    [SerializeField] private Avatar smallAvatar, largeAvatar;
+    [SerializeField] private Avatar largeAvatar;
     [SerializeField] private ParticleSystem dust, sparkles, drillParticle, giantParticle, fireParticle;
-    [SerializeField] private GameObject models, smallModel, largeModel, largeShellExclude, blueShell, propellerHelmet, propeller;
+    [SerializeField] private GameObject models, largeModel, largeShellExclude, blueShell, propellerHelmet, propeller;
     [SerializeField] private Material glowMaterial;
     [SerializeField] private Color primaryColor = Color.clear, secondaryColor = Color.clear;
     [SerializeField] [ColorUsage(true, false)] private Color? _glowColor = null;
     [SerializeField] private float blinkDuration = 0.1f, pipeDuration = 2f, deathUpTime = 0.6f, deathForce = 7f;
+    [SerializeField] private float updateRate;
+    private float animTimer;
+    
+    bool customPowerupColor = false;
+    public int characterIndex;
 
     private PlayerController controller;
     private Animator animator;
@@ -60,7 +65,9 @@ public class PlayerAnimationController : MonoBehaviourPun {
     }
 
     public void Update() {
+
         HandleAnimations();
+        CustomPowerupColors();
 
         if (renderers.Count == 0) {
             renderers.AddRange(GetComponentsInChildren<MeshRenderer>(true));
@@ -138,7 +145,7 @@ public class PlayerAnimationController : MonoBehaviourPun {
         if (controller.drill)
             drillParticleAudio.clip = (controller.state == Enums.PowerupState.PropellerMushroom ? propellerDrill : normalDrill);
         SetParticleEmission(sparkles, !gameover && controller.invincible > 0);
-        SetParticleEmission(giantParticle, !gameover && controller.state == Enums.PowerupState.MegaMushroom && controller.giantStartTimer <= 0);
+        SetParticleEmission(giantParticle, !gameover && ((controller.state == Enums.PowerupState.MegaMushroom && controller.giantStartTimer <= 0) || (controller.state == Enums.PowerupState.LightningFlower && controller.LightningTimer <= 0)));
         SetParticleEmission(fireParticle, !gameover && animator.GetBool("firedeath") && controller.dead && deathTimer > deathUpTime);
 
         //Blinking
@@ -166,6 +173,24 @@ public class PlayerAnimationController : MonoBehaviourPun {
         } else if (controller.wallSlideLeft || controller.wallSlideRight) {
             dust.transform.localPosition = new Vector2(mainHitbox.size.x * (3f / 4f) * (controller.wallSlideLeft ? -1 : 1), mainHitbox.size.y * (3f / 4f));
         }
+
+        if (!gameover && !controller.Frozen)
+        {
+            if (updateRate == 0)
+            {
+                animator.enabled = true;
+            }
+            else
+            {
+                animator.enabled = false;
+                animTimer += Time.deltaTime;
+                while (animTimer >= updateRate)
+                {
+                    animator.Update(updateRate);
+                    animTimer -= updateRate;
+                }
+            }
+        }
     }
     private void SetParticleEmission(ParticleSystem particle, bool value) {
         if (value) {
@@ -174,6 +199,110 @@ public class PlayerAnimationController : MonoBehaviourPun {
         } else {
             if (particle.isPlaying)
                 particle.Stop();
+        }
+    }
+
+    public void CustomPowerupColors()
+    {
+        customPowerupColor = false;
+        int skinIndex = (int)photonView.Owner.CustomProperties[Enums.NetPlayerProperties.PlayerColor];
+
+        //Start of custom powerup colors ##############
+        if (controller.state == Enums.PowerupState.FireFlower)
+        {
+            //SMB1 Mario and Luigi
+            if (((characterIndex == 0 || characterIndex == 1) && (skinIndex == 1 || skinIndex == 14)) || (characterIndex == 4 && skinIndex == 13))
+            {
+                primaryColor = new Vector4(0.93227685f, 0.694081f, 0.383775f, 1);
+                secondaryColor = new Vector4(0.47044f, 0.0265487f, 0.0103978f, 1);
+                customPowerupColor = true;
+            }
+            //SMB3 Mario and Luigi
+            if ((characterIndex == 0 || characterIndex == 1) && skinIndex == 2)
+            {
+                primaryColor = new Vector4(0.47044f, 0.0265487f, 0.0103978f, 1);
+                secondaryColor = new Vector4(0.82773f, 0.348865f, 0.011881f, 1);
+                customPowerupColor = true;
+            }
+            //SMW Mario
+            if (characterIndex == 0 && skinIndex == 3)
+            {
+                primaryColor = new Vector4(0.481952f, 0, 0, 1);
+                secondaryColor = new Vector4(0.97f, 1, 0.94f, 1);
+                customPowerupColor = true;
+            }
+            //SMW Luigi
+            if (characterIndex == 1 && skinIndex == 3)
+            {
+                primaryColor = new Vector4(0, 0.21763f, 0.00658495f, 1);
+                secondaryColor = new Vector4(0.97f, 1, 0.94f, 1);
+                customPowerupColor = true;
+            }
+            //SMB1 Wario and Waluigi
+            if ((characterIndex == 2 || characterIndex == 3) && skinIndex == 1)
+            {
+                primaryColor = new Vector4(0.93227685f, 0.69408052f, 0.383775f, 1);
+                secondaryColor = new Vector4(0.106156f, 0.1113f, 0, 1);
+                customPowerupColor = true;
+            }
+            //SMB3 Wario and Waluigi
+            if ((characterIndex == 2 || characterIndex == 3) && skinIndex == 2)
+            {
+                primaryColor = new Vector4(0.325f, 0.073828f, 0, 1);
+                secondaryColor = new Vector4(0.82773f, 0.348865f, 0.011881f, 1);
+                customPowerupColor = true;
+            }
+            //SMW Wario
+            if (characterIndex == 2 && skinIndex == 3)
+            {
+                primaryColor = new Vector4(0.2176f, 0.16687f, 0, 1);
+                secondaryColor = new Vector4(0.97f, 1, 0.94f, 1);
+                customPowerupColor = true;
+            }
+            //SMW Waluigi
+            if (characterIndex == 3 && skinIndex == 3)
+            {
+                primaryColor = new Vector4(0.190463f, 0, 0.2176f, 1);
+                secondaryColor = new Vector4(0.97f, 1, 0.94f, 1);
+                customPowerupColor = true;
+            }
+            //SMB1 Sponge & Pretzel
+            if (characterIndex == 9 && (skinIndex == 1 || skinIndex == 5))
+            {
+                primaryColor = new Vector4(1, 1, 1, 1);
+                secondaryColor = new Vector4(0.07592616f, 0.07592616f, 0.07592616f, 1);
+                customPowerupColor = true;
+            }
+            //SMB3 Sponge & Pretzel
+            if (characterIndex == 9 && (skinIndex == 2 || skinIndex == 6))
+            {
+                primaryColor = new Vector4(0.147998f, 0.154152f, 0, 1);
+                secondaryColor = new Vector4(0.82773f, 0.348865f, 0.011881f, 1);
+                customPowerupColor = true;
+            }
+            //SMW Sponge
+            if (characterIndex == 9 && skinIndex == 3)
+            {
+                primaryColor = new Vector4(0.43134f, 0.042987f, 0, 1);
+                secondaryColor = new Vector4(0.97f, 1, 0.94f, 1);
+                customPowerupColor = true;
+            }
+            //SMW Pretzel
+            if (characterIndex == 9 && skinIndex == 7)
+            {
+                primaryColor = new Vector4(0.080219f, 0.02775528f, 0, 1);
+                secondaryColor = new Vector4(0.97f, 1, 0.94f, 1);
+                customPowerupColor = true;
+            }
+        }
+
+        //End of custom powerup colors #######
+        if (!customPowerupColor || skinIndex == 0)
+        {
+            PlayerColorSet colorSet = GlobalController.Instance.skins[(int)photonView.Owner.CustomProperties[Enums.NetPlayerProperties.PlayerColor]];
+            PlayerColors colors = colorSet.GetPlayerColors(controller.character);
+            primaryColor = colors.overallsColor.linear;
+            secondaryColor = colors.hatColor.linear;
         }
     }
 
@@ -243,7 +372,8 @@ public class PlayerAnimationController : MonoBehaviourPun {
             transform.localScale = Vector3.one + (Vector3.one * (Mathf.Min(1, controller.giantEndTimer / (controller.giantStartTime / 2f)) * 2.6f));
         } else {
             transform.localScale = controller.state switch {
-                Enums.PowerupState.MiniMushroom => Vector3.one / 2,
+                Enums.PowerupState.Small => new(0.75f, 0.6f, 0.75f),
+                Enums.PowerupState.MiniMushroom => new(0.375f, 0.3f, 0.375f),
                 Enums.PowerupState.MegaMushroom => Vector3.one + (Vector3.one * (Mathf.Min(1, 1 - (controller.giantStartTimer / controller.giantStartTime)) * 2.6f)),
                 _ => Vector3.one,
             };
@@ -255,12 +385,19 @@ public class PlayerAnimationController : MonoBehaviourPun {
 
         materialBlock.SetFloat("RainbowEnabled", controller.invincible > 0 ? 1.1f : 0f);
         int ps = controller.state switch {
-            Enums.PowerupState.FireFlower => 1,
-            Enums.PowerupState.PropellerMushroom => 2,
-            Enums.PowerupState.IceFlower => 3,
+            Enums.PowerupState.FireFlower => 2,
+            Enums.PowerupState.PropellerMushroom => 4,
+            Enums.PowerupState.IceFlower => 6,
+            Enums.PowerupState.LightningFlower => 8,
             _ => 0
         };
+        if (customPowerupColor)
+        {
+            ps = 0;
+        }
         materialBlock.SetFloat("PowerupState", ps);
+        bool hatColorEnabled = (bool)photonView.Owner.CustomProperties[Enums.NetPlayerProperties.HatColor];
+        materialBlock.SetFloat("Hat", hatColorEnabled ? 1 : 0);
         materialBlock.SetFloat("EyeState", (int) eyeState);
         materialBlock.SetFloat("ModelScale", transform.lossyScale.x);
         if (enableGlow)
@@ -286,19 +423,27 @@ public class PlayerAnimationController : MonoBehaviourPun {
         //Model changing
         bool large = controller.state >= Enums.PowerupState.Mushroom;
 
-        largeModel.SetActive(large);
-        smallModel.SetActive(!large);
+        largeModel.SetActive(true);
         blueShell.SetActive(controller.state == Enums.PowerupState.BlueShell);
 
         largeShellExclude.SetActive(!animator.GetCurrentAnimatorStateInfo(0).IsName("in-shell"));
         propellerHelmet.SetActive(controller.state == Enums.PowerupState.PropellerMushroom);
-        animator.avatar = large ? largeAvatar : smallAvatar;
-        animator.runtimeAnimatorController = large ? controller.character.largeOverrides : controller.character.smallOverrides;
+        animator.avatar = largeAvatar;
+        animator.runtimeAnimatorController = controller.character.largeOverrides;
 
         HandleDeathAnimation();
         HandlePipeAnimation();
 
-        transform.position = new(transform.position.x, transform.position.y, animator.GetBool("pipe") ? 1 : -4);
+        //transform.position = new(transform.position.x, transform.position.y, animator.GetBool("pipe") ? 1 : -4);
+        transform.position = new(transform.position.x, transform.position.y, -4);
+//        if (controller.Frozen || animator.GetBool("pipe"))
+//        {
+//            transform.position = new(transform.position.x, transform.position.y, -4);
+//        }
+//        else
+//        {
+//            transform.position = new(transform.position.x, transform.position.y, 1);
+//        }
     }
     void HandleDeathAnimation() {
         if (!controller.dead) {
@@ -364,7 +509,7 @@ public class PlayerAnimationController : MonoBehaviourPun {
                 offset.y += size;
             }
             transform.position = body.position = new Vector3(pe.otherPipe.transform.position.x, pe.otherPipe.transform.position.y, 1) - (Vector3) offset;
-            photonView.RPC("PlaySound", RpcTarget.All, Enums.Sounds.Player_Sound_Powerdown);
+            photonView.RPC("PlaySound", RpcTarget.All, Enums.Sounds.Player_Sound_PipeEnter);
             controller.cameraController.Recenter();
         }
         if (pipeTimer >= pipeDuration) {
@@ -382,10 +527,9 @@ public class PlayerAnimationController : MonoBehaviourPun {
     }
 
     public void DisableAllModels() {
-        smallModel.SetActive(false);
         largeModel.SetActive(false);
         blueShell.SetActive(false);
         propellerHelmet.SetActive(false);
-        animator.avatar = smallAvatar;
+        animator.avatar = largeAvatar;
     }
 }

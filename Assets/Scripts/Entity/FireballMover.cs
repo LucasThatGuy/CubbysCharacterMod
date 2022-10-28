@@ -3,7 +3,7 @@ using Photon.Pun;
 
 public class FireballMover : MonoBehaviourPun {
 
-    public bool left, isIceball;
+    public bool left, isIceball, isLightningBall;
 
     [SerializeField] private float speed = 3f, bounceHeight = 4.5f, terminalVelocity = 6.25f;
 
@@ -20,7 +20,25 @@ public class FireballMover : MonoBehaviourPun {
         if (data.Length > 1 && isIceball)
             speed += Mathf.Abs((float) data[1] / 3f);
 
-        body.velocity = new Vector2(speed * (left ? -1 : 1), -speed);
+        if (!isLightningBall)
+        {
+            body.velocity = new Vector2(speed * (left ? -1 : 1), -speed);
+        } 
+        else
+        {
+            body.velocity = new Vector2(speed * (left ? -1 : 1), 0);
+        }
+        if (isLightningBall)
+        {
+            if (left)
+            {
+                transform.localScale = new(transform.localScale.x * -1.75f, transform.localScale.y * 1.33333f, transform.localScale.z);
+            }
+            else
+            {
+                transform.localScale = new(transform.localScale.x * 1.75f, transform.localScale.y * 1.33333f, transform.localScale.z);
+            }
+        }
     }
 
     public void FixedUpdate() {
@@ -34,7 +52,14 @@ public class FireballMover : MonoBehaviourPun {
         HandleCollision();
 
         float gravityInOneFrame = body.gravityScale * Physics2D.gravity.y * Time.fixedDeltaTime;
-        body.velocity = new Vector2(speed * (left ? -1 : 1), Mathf.Max(-terminalVelocity, body.velocity.y));
+        if (isLightningBall)
+        {
+            body.velocity = new Vector2(speed * (left ? -1 : 1), 0);
+        }
+        else
+        {
+            body.velocity = new Vector2(speed * (left ? -1 : 1), Mathf.Max(-terminalVelocity, body.velocity.y));
+        }
     }
 
     private void HandleCollision() {
@@ -47,7 +72,7 @@ public class FireballMover : MonoBehaviourPun {
 
             body.velocity = new Vector2(body.velocity.x, bounceHeight + boost);
         } else if (isIceball && body.velocity.y > 1.5f)  {
-            breakOnImpact = true;
+                breakOnImpact = true;
         }
         bool breaking = physics.hitLeft || physics.hitRight || physics.hitRoof || (physics.onGround && breakOnImpact);
         if (photonView && breaking) {
@@ -60,7 +85,9 @@ public class FireballMover : MonoBehaviourPun {
 
     public void OnDestroy() {
         if (!GameManager.Instance.gameover)
-            Instantiate(Resources.Load("Prefabs/Particle/" + (isIceball ? "IceballWall" : "FireballWall")), transform.position, Quaternion.identity);
+        {
+            Instantiate(Resources.Load("Prefabs/Particle/" + (isLightningBall ? "LightningballWall" : (isIceball ? "IceballWall" : "FireballWall"))), transform.position, Quaternion.identity);
+        }
     }
 
     [PunRPC]
@@ -70,7 +97,7 @@ public class FireballMover : MonoBehaviourPun {
     }
 
     private void OnTriggerEnter2D(Collider2D collider) {
-        if (!photonView.IsMine)
+        if (!photonView.IsMine && !isLightningBall)
             return;
 
         switch (collider.tag) {

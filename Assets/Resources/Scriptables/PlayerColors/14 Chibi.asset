@@ -12,8 +12,200 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8b0cb6c1d54e5428273c6662ede73f, type: 3}
   m_Name: 14 Chibi
   m_EditorClassIdentifier: 
-  index: 14
   colors:
-  - player: {fileID: 0}
-    hatColor: {r: 1, g: 0.83413935, b: 0, a: 1}
-    overallsColor: {r: 0.21176471, g: 0.21176471, b: 0.21176471, a: 1}
+  - player: {fileID: 11400000, guid: 8e33573d2c2ae7c4682fc6cdb5ea28cd, type: 2}
+    hatColor: {r: 0, g: 0, b: 0, a: 1}
+    overallsColor: {r: 0.3962264, g: 0.027903266, b: 0, a: 1}
+    ColorName: Mario '85 PC Port
+  - player: {fileID: 11400000, guid: 083779ae7bd92ab4295d580d757b328e, type: 2}
+    hatColor: {r: 0.16078432, g: 0.3882353, b: 0, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
+    ColorName: Super Mario Bros. 1
+  - player: {fileID: 11400000, guid: e71e58856cf310249ae2925a2728fa1d, type: 2}
+    hatColor: {r: 0.007843138, g: 0.29411766, b: 0.60784316, a: 1}
+    overallsColor: {r: 0.3254902, g: 0.654902, b: 0.8470589, a: 1}
+    ColorName: Sportacus
+  - player: {fileID: 11400000, guid: d6217e62595e9cb4e9a1b8debb9f1084, type: 2}
+    hatColor: {r: 0.18823531, g: 0.227451, b: 0.427451, a: 1}
+    overallsColor: {r: 0.735849, g: 0.13536847, b: 0.2761061, a: 1}
+    ColorName: Robbie Rotten
+  - player: {fileID: 11400000, guid: 1680a917bf425ef46bd2b723950b99b5, type: 2}
+    hatColor: {r: 0.084549636, g: 0.781731, b: 0.9433962, a: 1}
+    overallsColor: {r: 0.16286933, g: 0.15939835, b: 0.16981131, a: 1}
+    ColorName: Smash 64 (Luigi Alt 2)
+  - player: {fileID: 11400000, guid: ac01b8abb6cd32d459870beafb44251e, type: 2}
+    hatColor: {r: 1, g: 1, b: 1, a: 1}
+    overallsColor: {r: 0.079432175, g: 0.4811321, b: 0.30961147, a: 1}
+    ColorName: Mushbert
+  - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
+    hatColor: {r: 1, g: 1, b: 1, a: 1}
+    overallsColor: {r: 0.079432175, g: 0.4811321, b: 0.30961147, a: 1}
+    ColorName: Mushbert
+  - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
+    hatColor: {r: 0.9686275, g: 0.45882356, b: 0.8470589, a: 1}
+    overallsColor: {r: 0.9686275, g: 0.21960786, b: 0.10588236, a: 1}
+    ColorName: Birdo
+  - player: {fileID: 11400000, guid: 66bb671a666f3144d9c07eb2c13dfb5b, type: 2}
+    hatColor: {r: 0.49056602, g: 0.3043663, b: 0.23371306, a: 1}
+    overallsColor: {r: 0.7264151, g: 0.40926725, b: 0.33236918, a: 1}
+    ColorName: Meat
+  - player: {fileID: 11400000, guid: ab48292241a0d4f4bbda6dfc9c04d90f, type: 2}
+    hatColor: {r: 0.501513, g: 0.9245283, b: 0.597618, a: 1}
+    overallsColor: {r: 0.2896938, g: 0.5849056, b: 0.33206287, a: 1}
+    ColorName: Green Dress
+  - player: {fileID: 11400000, guid: 2aeb00d4151405e4c8b9d00b27d0de64, type: 2}
+    hatColor: {r: 0.91764706, g: 0.59607846, b: 0.7137255, a: 1}
+    overallsColor: {r: 0.9647059, g: 0, b: 0, a: 1}
+    ColorName: Amy Rose (Modern)
+  - player: {fileID: 11400000, guid: cc1d882d37abc65499daf3734fabf7fa, type: 2}
+    hatColor: {r: 0.6773332, g: 0.2901961, b: 0.972549, a: 1}
+    overallsColor: {r: 0.5471698, g: 0.31527403, b: 0, a: 1}
+    ColorName: Sandopolis Zone
+  - player: {fileID: 11400000, guid: 23ef4b04d80ba9f4ca171b4695348fbc, type: 2}
+    hatColor: {r: 0.7176471, g: 0.22352941, b: 0.19215687, a: 1}
+    overallsColor: {r: 0.14509805, g: 0.007843138, b: 0.015686275, a: 1}
+    ColorName: Bimbo the Dog
+  - player: {fileID: 11400000, guid: 5de00afeafccb1f4b8ba524d1eddea46, type: 2}
+    hatColor: {r: 0, g: 0.019607844, b: 0.48235297, a: 1}
+    overallsColor: {r: 0, g: 0.019607844, b: 0.48235297, a: 1}
+    ColorName: Super Nintendo Chalmers
+  - player: {fileID: 11400000, guid: 918205ef0e4c3f548b4f46abea168fba, type: 2}
+    hatColor: {r: 0.46274513, g: 0.12941177, b: 0.18039216, a: 1}
+    overallsColor: {r: 0.1137255, g: 0.25490198, b: 0.28627452, a: 1}
+    ColorName: Carter Pewterschmidt
+  - player: {fileID: 11400000, guid: 892d13dc90ccf4547b06b9a8f4ac5e28, type: 2}
+    hatColor: {r: 0.9215687, g: 0.23529413, b: 0.03529412, a: 1}
+    overallsColor: {r: 0.5754717, g: 0.3013083, b: 0.11672304, a: 1}
+    ColorName: The Robot Devil
+  - player: {fileID: 11400000, guid: 0893a905a0d605f4e915f1f7ef31b8ed, type: 2}
+    hatColor: {r: 0.86274517, g: 0.3254902, b: 0.3019608, a: 1}
+    overallsColor: {r: 0.8235295, g: 0.09411766, b: 0, a: 1}
+    ColorName: Larry the Lobster
+  - player: {fileID: 11400000, guid: ad655be5bca2e5144b4dd9fc3429a657, type: 2}
+    hatColor: {r: 0.40784317, g: 0.8196079, b: 0.8352942, a: 1}
+    overallsColor: {r: 0.74509805, g: 0.82745105, b: 0.5568628, a: 1}
+    ColorName: Harvey Beaks
+  - player: {fileID: 11400000, guid: 418476784c17d4e4f8488886dd83f136, type: 2}
+    hatColor: {r: 0.3647059, g: 0.48235297, b: 0.42352945, a: 1}
+    overallsColor: {r: 0.039215688, g: 0.04705883, b: 0.03529412, a: 1}
+    ColorName: Dennis the Fish (Movie Biker)
+  - player: {fileID: 11400000, guid: d4aa23e8d3990464e8ac2f8a68b44f33, type: 2}
+    hatColor: {r: 0.011764707, g: 0.011764707, b: 0.011764707, a: 1}
+    overallsColor: {r: 0.7058824, g: 0.019607844, b: 0, a: 1}
+    ColorName: Gargamel
+  - player: {fileID: 11400000, guid: b41039d835a311545924a9916d959d0b, type: 2}
+    hatColor: {r: 0.42352945, g: 0.22352943, b: 0.29411766, a: 1}
+    overallsColor: {r: 0.9215687, g: 0.9490197, b: 0.9843138, a: 1}
+    ColorName: Meathead Cat
+  - player: {fileID: 11400000, guid: 3b5f4754b0d87d54bbb3e38b29238288, type: 2}
+    hatColor: {r: 0.97647065, g: 0.74509805, b: 0.68235296, a: 1}
+    overallsColor: {r: 0.93725497, g: 0.60784316, b: 0.4901961, a: 1}
+    ColorName: Orson Pig
+  - player: {fileID: 11400000, guid: 2da3e782b9c5ff947b21a18b57ff882f, type: 2}
+    hatColor: {r: 0.53333336, g: 0.8862746, b: 0.80392164, a: 1}
+    overallsColor: {r: 0.9686275, g: 0.8431373, b: 0.47058827, a: 1}
+    ColorName: Pearl
+  - player: {fileID: 11400000, guid: d5a5613aff85bc845b5a4cb443739afa, type: 2}
+    hatColor: {r: 0.43921572, g: 0.46274513, b: 0.5568628, a: 1}
+    overallsColor: {r: 0.16862746, g: 0.7372549, b: 0, a: 1}
+    ColorName: Mr. Garrison
+  - player: {fileID: 11400000, guid: 5bdfe76f24a1dd245a76e8ea0d29c123, type: 2}
+    hatColor: {r: 0.34509805, g: 0.45098042, b: 0.49411768, a: 1}
+    overallsColor: {r: 0.47058827, g: 0.19215688, b: 0.13333334, a: 1}
+    ColorName: Captain K'nuckles
+  - player: {fileID: 11400000, guid: c1130733f53c540438e49444a5ccb8e9, type: 2}
+    hatColor: {r: 0.909804, g: 0.85098046, b: 0.6156863, a: 1}
+    overallsColor: {r: 0.11764707, g: 0.28627452, b: 0.5176471, a: 1}
+    ColorName: Android 18
+  - player: {fileID: 11400000, guid: 91e3d79eeabd20141bd60ca8f9d7cf4a, type: 2}
+    hatColor: {r: 0.0627451, g: 0.0627451, b: 0.0627451, a: 1}
+    overallsColor: {r: 0.0627451, g: 0.0627451, b: 0.0627451, a: 1}
+    ColorName: Koko the Clown
+  - player: {fileID: 11400000, guid: 22d78d6a193e5534691207e0d9cf1e2b, type: 2}
+    hatColor: {r: 0.18823531, g: 0.1764706, b: 0.18039216, a: 1}
+    overallsColor: {r: 0.54901963, g: 0.5176471, b: 0.49803925, a: 1}
+    ColorName: Francis
+  - player: {fileID: 11400000, guid: 6e9c93c7f497bc24d91a85f805222f55, type: 2}
+    hatColor: {r: 1, g: 0.9960785, b: 0.74509805, a: 1}
+    overallsColor: {r: 0.8196079, g: 0.7372549, b: 0.5411765, a: 1}
+    ColorName: Banana
+  - player: {fileID: 11400000, guid: 88c181024ddbde54481b675733744cb6, type: 2}
+    hatColor: {r: 0.3254902, g: 0.9686275, b: 0.28235295, a: 1}
+    overallsColor: {r: 0.9686275, g: 0.9686275, b: 0.11764707, a: 1}
+    ColorName: Asriel Dreemurr
+  - player: {fileID: 11400000, guid: 41b163f7336930d47a2650eb9bc6691c, type: 2}
+    hatColor: {r: 0.3254902, g: 0.9686275, b: 0.28235295, a: 1}
+    overallsColor: {r: 0.9686275, g: 0.9686275, b: 0.11764707, a: 1}
+    ColorName: Asriel Dreemurr
+  - player: {fileID: 11400000, guid: e3b97d2648b4d1e42bf813e73eeb903b, type: 2}
+    hatColor: {r: 0.70980394, g: 0.3254902, b: 0.15686275, a: 1}
+    overallsColor: {r: 0.41960788, g: 0.83921576, b: 0.41960788, a: 1}
+    ColorName: Pants Luigi
+  - player: {fileID: 11400000, guid: 79ce5d28598a46d44a6d58c0772b03d5, type: 2}
+    hatColor: {r: 0.9803922, g: 0.7254902, b: 0.6, a: 1}
+    overallsColor: {r: 0.7137255, g: 0, b: 0, a: 1}
+    ColorName: Donkey Kong
+  - player: {fileID: 11400000, guid: 1e0355177a29aef4f8550a71dc884568, type: 2}
+    hatColor: {r: 0.30980393, g: 0.8980393, b: 0, a: 1}
+    overallsColor: {r: 0.42526048, g: 0.5849056, b: 0.40005338, a: 1}
+    ColorName: Green Spoopballoon
+  - player: {fileID: 11400000, guid: 55bfefbd77f7f7b4689abcf2ce979f3b, type: 2}
+    hatColor: {r: 0.9716981, g: 0.84705883, b: 0.3987629, a: 1}
+    overallsColor: {r: 0.627451, g: 0.21960786, b: 0, a: 1}
+    ColorName: The Vigilante
+  - player: {fileID: 11400000, guid: 666aae9cae67adf43889bca972a829c2, type: 2}
+    hatColor: {r: 0.6509804, g: 0.27058825, b: 0, a: 1}
+    overallsColor: {r: 0.2392157, g: 0.29411766, b: 0.40000004, a: 1}
+    ColorName: Cooper
+  - player: {fileID: 11400000, guid: 9657d262f0b083c4eac38938113a0585, type: 2}
+    hatColor: {r: 0.7830189, g: 0.30613118, b: 0.07756319, a: 1}
+    overallsColor: {r: 0.7843138, g: 0.30588236, b: 0.078431375, a: 1}
+    ColorName: Liontamer Orange
+  - player: {fileID: 11400000, guid: 75e48fdc081294b45a1ce289e6cbe16c, type: 2}
+    hatColor: {r: 0.8773585, g: 0.52733254, b: 0.39315593, a: 1}
+    overallsColor: {r: 1, g: 0.99215686, b: 0.9098039, a: 1}
+    ColorName: Hanerooi (Orange Louie)
+  - player: {fileID: 11400000, guid: beb35cfa9ad18af4db79a5972d1ea604, type: 2}
+    hatColor: {r: 0.6627451, g: 0.5176471, b: 0.3254902, a: 1}
+    overallsColor: {r: 0.21176472, g: 0.18039216, b: 0.039215688, a: 1}
+    ColorName: Jenka
+  - player: {fileID: 11400000, guid: 0846bdb9c30964c4bb30899b96d3c0cf, type: 2}
+    hatColor: {r: 0.3254902, g: 0.45882356, b: 0.627451, a: 1}
+    overallsColor: {r: 0.10588236, g: 0.15294118, b: 0.20784315, a: 1}
+    ColorName: Outer Wall
+  - player: {fileID: 11400000, guid: c4087ecec4983dd4f993af3eb460f97b, type: 2}
+    hatColor: {r: 0.57655895, g: 0.6132076, b: 0.12437701, a: 1}
+    overallsColor: {r: 0.5764706, g: 0.6117647, b: 0.1254902, a: 1}
+    ColorName: Olive
+  - player: {fileID: 11400000, guid: 2deb8edcc21b63d4d9c316df8c5a071f, type: 2}
+    hatColor: {r: 0.4630495, g: 0, b: 0.7075472, a: 1}
+    overallsColor: {r: 0.46274513, g: 0, b: 0.7058824, a: 1}
+    ColorName: Purple
+  - player: {fileID: 11400000, guid: 122d53be3b9bf5e4c80100ceaaef2412, type: 2}
+    hatColor: {r: 0.8745099, g: 0.83921576, b: 0.7803922, a: 1}
+    overallsColor: {r: 0.9215687, g: 0.69803923, b: 0.15686275, a: 1}
+    ColorName: Nutrisystem
+  - player: {fileID: 11400000, guid: fc9e42e0ee9661c4a9d27d7572e98d32, type: 2}
+    hatColor: {r: 0.20784315, g: 0.2784314, b: 0.28235295, a: 1}
+    overallsColor: {r: 0.121568635, g: 0.20392159, b: 0.21176472, a: 1}
+    ColorName: Howard Hamlin
+  - player: {fileID: 11400000, guid: 87077d6e24ba06744a1360bafc6faa69, type: 2}
+    hatColor: {r: 0.49411768, g: 0.4784314, b: 0.4431373, a: 1}
+    overallsColor: {r: 0.43529415, g: 0.41960788, b: 0.30980393, a: 1}
+    ColorName: The Gaming Historian
+  - player: {fileID: 11400000, guid: 152fa74729f11d1499291712a60f18bd, type: 2}
+    hatColor: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+    overallsColor: {r: 0.46274513, g: 0.46274513, b: 0.46274513, a: 1}
+    ColorName: '"I Got a Rock" Gray'
+  - player: {fileID: 11400000, guid: b4fe72e0991e7854796b638645892d76, type: 2}
+    hatColor: {r: 0.7372549, g: 1, b: 0.49411768, a: 1}
+    overallsColor: {r: 0.20392159, g: 0.7607844, b: 0.8470589, a: 1}
+    ColorName: AutumnLeaf
+  - player: {fileID: 11400000, guid: 913a318059cd0fb45a2eec6674e3e64b, type: 2}
+    hatColor: {r: 0.8235294, g: 0.8352941, b: 0.15294118, a: 1}
+    overallsColor: {r: 0.6039216, g: 0.85098046, b: 0.9215687, a: 1}
+    ColorName: Nice Cream Guy
+  - player: {fileID: 11400000, guid: 7e259f82204dea34382f1f9d421e33bb, type: 2}
+    hatColor: {r: 0.9716981, g: 0.5568478, b: 0.18792273, a: 1}
+    overallsColor: {r: 0.03470988, g: 0.5660378, b: 0.43159395, a: 1}
+    ColorName: Phineas & Ferb

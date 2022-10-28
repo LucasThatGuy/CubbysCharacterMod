@@ -54,7 +54,7 @@ TextureImporter:
       213: -3752053547170821965
     second: bigboi_16
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,6 +116,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -549,6 +550,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: megamushroom-SMB3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 5
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d88b4bbd220bd4ebdafbeed2c67416
+      internalID: -548304619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -570,6 +592,7 @@ TextureImporter:
       megamushroom_2: -126000455
       megamushroom_14: -399741618
       megamushroom_3: -1750250691
+      megamushroom-SMB3: -548304619
       megamushroom_10: -1439950783
       megamushroom_8: -278838182
       megamushroom_13: 861247388

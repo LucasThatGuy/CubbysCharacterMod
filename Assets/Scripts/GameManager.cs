@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
 
     public int levelMinTileX, levelMinTileY, levelWidthTile, levelHeightTile;
     public float cameraMinY, cameraHeightY, cameraMinX = -1000, cameraMaxX = 1000;
-    public bool loopingLevel = true;
+    public bool loopingLevel = true, isMario3 = false;
     public Vector3 spawnpoint;
     public Tilemap tilemap;
     [ColorUsage(false)] public Color levelUIColor = new(24, 178, 170);
@@ -99,26 +99,6 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
             int viewId = (int) table[7];
 
             //Debug.Log((sender.IsMasterClient ? "[H] " : "") + sender.NickName + " (" + sender.UserId + ") - Instantiating " + prefab);
-
-            //even the host can't be trusted...
-            if ((sender?.IsMasterClient ?? false) && (prefab.Contains("Static") || prefab.Contains("1-Up") || (musicEnabled && prefab.Contains("Player")))) {
-                //abandon ship
-                PhotonNetwork.Disconnect();
-                return;
-            }
-
-            //server room instantiation
-            if (sender == null || sender.IsMasterClient)
-                return;
-
-            PlayerController controller = players.FirstOrDefault(pl => sender == pl.photonView.Owner);
-            bool invalidProjectile = controller.state != Enums.PowerupState.FireFlower && prefab.Contains("Fireball");
-            invalidProjectile |= controller.state != Enums.PowerupState.IceFlower && prefab.Contains("Iceball");
-
-            if (prefab.Contains("Enemy") || prefab.Contains("Powerup") || prefab.Contains("Static") || prefab.Contains("Bump") || prefab.Contains("BigStar") || prefab.Contains("Coin") || ((!nonSpectatingPlayers.Contains(sender) || musicEnabled) && prefab.Contains("Player"))) {
-                PhotonNetwork.CloseConnection(sender);
-                PhotonNetwork.DestroyPlayerObjects(sender);
-            }
 
             break;
         }

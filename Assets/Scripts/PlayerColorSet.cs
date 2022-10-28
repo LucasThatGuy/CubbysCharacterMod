@@ -25,5 +25,6 @@ public class PlayerColors {
 
     public PlayerData player;
     public Color hatColor = Color.black, overallsColor = Color.black;
+    public string ColorName = "Bottom Text";
 
 }

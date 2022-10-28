@@ -10,7 +10,7 @@ public class BobombWalk : HoldableEntity {
     [SerializeField] private float walkSpeed = 0.6f, kickSpeed = 4.5f, detonationTime = 4f;
     [SerializeField] private int explosionTileSize = 2;
 
-    public bool lit, detonated;
+    public bool lit, detonated, fromBomber;
 
     private Vector3 previousFrameVelocity;
     private float detonateCount;
@@ -20,6 +20,14 @@ public class BobombWalk : HoldableEntity {
         base.Start();
 
         body.velocity = new(walkSpeed * (left ? -1 : 1), body.velocity.y);
+        if (fromBomber)
+        {
+            detonateCount = detonationTime;
+            object[] data = photonView.InstantiationData;
+            left = (bool) data[0];
+            body.velocity = new(6.5f * (left ? -1 : 1), 0);
+            PlaySound(Enums.Sounds.Enemy_Bobomb_FuseFade);
+        }
     }
 
     public override void FixedUpdate() {
@@ -168,15 +176,21 @@ public class BobombWalk : HoldableEntity {
 
         Vector3Int tileLocation = Utils.WorldToTilemapPosition(body.position);
         Tilemap tm = GameManager.Instance.tilemap;
-        for (int x = -explosionTileSize; x <= explosionTileSize; x++) {
-            for (int y = -explosionTileSize; y <= explosionTileSize; y++) {
-                if (Mathf.Abs(x) + Mathf.Abs(y) > explosionTileSize) continue;
-                Vector3Int ourLocation = tileLocation + new Vector3Int(x, y, 0);
-                Utils.WrapTileLocation(ref ourLocation);
+        if (explosionTileSize > 0)
+        {
+            for (int x = -explosionTileSize; x <= explosionTileSize; x++)
+            {
+                for (int y = -explosionTileSize; y <= explosionTileSize; y++)
+                {
+                    if (Mathf.Abs(x) + Mathf.Abs(y) > explosionTileSize) continue;
+                    Vector3Int ourLocation = tileLocation + new Vector3Int(x, y, 0);
+                    Utils.WrapTileLocation(ref ourLocation);
 
-                TileBase tile = tm.GetTile(ourLocation);
-                if (tile is InteractableTile iTile) {
-                    iTile.Interact(this, InteractableTile.InteractionDirection.Up, Utils.TilemapToWorldPosition(ourLocation));
+                    TileBase tile = tm.GetTile(ourLocation);
+                    if (tile is InteractableTile iTile)
+                    {
+                        iTile.Interact(this, InteractableTile.InteractionDirection.Up, Utils.TilemapToWorldPosition(ourLocation));
+                    }
                 }
             }
         }

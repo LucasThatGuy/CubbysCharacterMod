@@ -77,6 +77,7 @@ GameObject:
   - component: {fileID: 7205141821402601888}
   - component: {fileID: -7894537434146019362}
   - component: {fileID: 3620156037037848498}
+  - component: {fileID: 3541911001952325900}
   m_Layer: 9
   m_Name: IceFlower
   m_TagString: Powerup
@@ -319,3 +320,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interpolate: 1
   body: {fileID: 7205141821402601894}
+--- !u!114 &3541911001952325900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7205141821402601890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec9d7cc5497847245a13fd40c60b24bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewSprite: {fileID: -1024919499, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+  NewAnimation: {fileID: 0}
+  DisableAnimator: 1
+  UseController: 0

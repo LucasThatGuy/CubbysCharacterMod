@@ -10379,6 +10379,8 @@ MonoBehaviour:
   soundRange: 10
   slopeSlidingAngle: 12.5
   pickupTime: 0.45
+  LightningTimer: 0
+  LightningTimerPrevious: 0
   propellerLaunchVelocity: 6
   propellerFallSpeed: 2
   propellerSpinFallSpeed: 1.5
@@ -10427,6 +10429,9 @@ MonoBehaviour:
   fireballKnockback: 0
   startedSliding: 0
   canShootProjectile: 0
+  fatAss: 0
+  randomStepSound: 0
+  isBomberman: 0
   jumpLandingTimer: 0
   landing: 0
   koyoteTime: 0
@@ -10443,6 +10448,7 @@ MonoBehaviour:
   propellerTimer: 0
   propellerSpinTimer: 0
   fireballTimer: 0
+  dippySpeed: 5.625
   invincible: 0
   giantTimer: 0
   floorAngle: 0
@@ -10481,7 +10487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cf9d71929a202541b352e506ca0197e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smallAvatar: {fileID: 9000000, guid: e0d3ef6bcff32414dbd34fc6ac031292, type: 3}
   largeAvatar: {fileID: 9000000, guid: 024ceb223bceebd488dbc425555f4df0, type: 3}
   dust: {fileID: 4824223342336871185}
   sparkles: {fileID: 4824223340723290478}
@@ -10489,7 +10494,6 @@ MonoBehaviour:
   giantParticle: {fileID: 8077331287960115309}
   fireParticle: {fileID: 5320528148583097166}
   models: {fileID: 8422425992379838812}
-  smallModel: {fileID: 8422425991972032533}
   largeModel: {fileID: 6784312141689353033}
   largeShellExclude: {fileID: 8560942985992866803}
   blueShell: {fileID: 3629787967981286811}
@@ -10502,6 +10506,8 @@ MonoBehaviour:
   pipeDuration: 2
   deathUpTime: 0.6
   deathForce: 7
+  updateRate: 0
+  characterIndex: 0
   normalDrill: {fileID: 8300000, guid: 80e6fe6f66166f04e8beccc08fe56422, type: 3}
   propellerDrill: {fileID: 8300000, guid: c8ae9349c885145468011889cafc470b, type: 3}
   deathUp: 0

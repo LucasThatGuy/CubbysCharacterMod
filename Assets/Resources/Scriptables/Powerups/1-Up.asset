@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea796f302b1a91d478efc94e21899d8d, type: 3}
   m_Name: 1-Up
   m_EditorClassIdentifier: 
-  state: 0
+  state: 2
   prefab: 1-Up
   soundEffect: 78
-  spawnChance: 0
+  spawnChance: 0.2
   losingSpawnBonus: 0
   big: 0
   vertical: 0

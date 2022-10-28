@@ -573,7 +573,6 @@ SkinnedMeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 0d584398a31da1a4086cc8a189562938, type: 2}
   - {fileID: 2100000, guid: 44b589e71dec4564d8b250647f07fb0a, type: 2}
-  - {fileID: 2100000, guid: 2cfa80f93994da44c9bdacad018e6ff5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21426,15 +21425,15 @@ MonoBehaviour:
   state: 0
   previousState: 0
   slowriseGravity: 1.05
-  normalGravity: 3.25
-  flyingGravity: 0.8
+  normalGravity: 2.25
+  flyingGravity: 0.6
   flyingTerminalVelocity: 1.40625
   drillVelocity: 7.5
   groundpoundTime: 0.26666668
   groundpoundVelocity: 11.25
   blinkingSpeed: 0.25
   terminalVelocity: -7.5
-  jumpVelocity: 6.7382812
+  jumpVelocity: 7.2
   megaJumpVelocity: 12.65625
   launchVelocity: 12
   wallslideSpeed: -4.6875
@@ -21442,6 +21441,8 @@ MonoBehaviour:
   soundRange: 10
   slopeSlidingAngle: 12.5
   pickupTime: 0.45
+  LightningTimer: 0
+  LightningTimerPrevious: 0
   propellerLaunchVelocity: 6
   propellerFallSpeed: 2
   propellerSpinFallSpeed: 1.5
@@ -21490,6 +21491,9 @@ MonoBehaviour:
   fireballKnockback: 0
   startedSliding: 0
   canShootProjectile: 0
+  fatAss: 0
+  randomStepSound: 0
+  isBomberman: 0
   jumpLandingTimer: 0
   landing: 0
   koyoteTime: 0
@@ -21506,6 +21510,7 @@ MonoBehaviour:
   propellerTimer: 0
   propellerSpinTimer: 0
   fireballTimer: 0
+  dippySpeed: 5.625
   invincible: 0
   giantTimer: 0
   floorAngle: 0
@@ -21544,7 +21549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cf9d71929a202541b352e506ca0197e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smallAvatar: {fileID: 9000000, guid: e0d3ef6bcff32414dbd34fc6ac031292, type: 3}
   largeAvatar: {fileID: 9000000, guid: 024ceb223bceebd488dbc425555f4df0, type: 3}
   dust: {fileID: 8636928219237579149}
   sparkles: {fileID: 1192088335986799603}
@@ -21552,7 +21556,6 @@ MonoBehaviour:
   giantParticle: {fileID: 1382120724504233341}
   fireParticle: {fileID: 2621800665490406039}
   models: {fileID: 4741703498087908288}
-  smallModel: {fileID: 1717812904357955791}
   largeModel: {fileID: 3839069354041722077}
   largeShellExclude: {fileID: 2138997100770737255}
   blueShell: {fileID: 5339554911692584767}
@@ -21565,6 +21568,8 @@ MonoBehaviour:
   pipeDuration: 2
   deathUpTime: 0.6
   deathForce: 7
+  updateRate: 0
+  characterIndex: 1
   normalDrill: {fileID: 8300000, guid: 80e6fe6f66166f04e8beccc08fe56422, type: 3}
   propellerDrill: {fileID: 8300000, guid: c8ae9349c885145468011889cafc470b, type: 3}
   deathUp: 0

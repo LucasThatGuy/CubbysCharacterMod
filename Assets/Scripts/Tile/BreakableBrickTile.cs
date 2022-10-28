@@ -6,7 +6,7 @@ using NSMB.Utils;
 public class BreakableBrickTile : InteractableTile {
     [ColorUsage(false)]
     public Color particleColor;
-    public bool breakableBySmallMario = false, breakableByLargeMario = true, breakableByGiantMario = true, breakableByShells = true, breakableByBombs = true, bumpIfNotBroken = true, bumpIfBroken = true;
+    public bool breakableBySmallMario = false, breakableByLargeMario = true, breakableByGiantMario = true, breakableByShells = true, breakableByBombs = true, bumpIfNotBroken = true, bumpIfBroken = true, iceSkidding = false, isMario3 = false;
     protected bool BreakBlockCheck(MonoBehaviour interacter, InteractionDirection direction, Vector3 worldLocation) {
         bool doBump = false, doBreak = false, giantBreak = false;
         if (interacter is PlayerController pl) {
@@ -37,7 +37,7 @@ public class BreakableBrickTile : InteractableTile {
         if (doBump && !doBreak && bumpIfNotBroken)
             BumpWithAnimation(interacter, direction, worldLocation);
         if (doBreak)
-            Break(interacter, worldLocation, giantBreak ? Enums.Sounds.Powerup_MegaMushroom_Break_Block : Enums.Sounds.World_Block_Break);
+            Break(interacter, worldLocation, isMario3 ? Enums.Sounds.World_Mario3_Break : (giantBreak ? Enums.Sounds.Powerup_MegaMushroom_Break_Block : Enums.Sounds.World_Block_Break));
         return doBreak;
     }
     public void Break(MonoBehaviour interacter, Vector3 worldLocation, Enums.Sounds sound) {
@@ -48,7 +48,7 @@ public class BreakableBrickTile : InteractableTile {
         GameManager.Instance.SendAndExecuteEvent(Enums.NetEventIds.SetTile, parametersTile, ExitGames.Client.Photon.SendOptions.SendReliable);
 
         //Particle
-        object[] parametersParticle = new object[]{ tileLocation.x, tileLocation.y, "BrickBreak", new Vector3(particleColor.r, particleColor.g, particleColor.b) };
+        object[] parametersParticle = new object[]{ tileLocation.x, tileLocation.y, isMario3 ? "BrickBreakSMB3" : "BrickBreak", new Vector3(particleColor.r, particleColor.g, particleColor.b) };
         GameManager.Instance.SendAndExecuteEvent(Enums.NetEventIds.SpawnParticle, parametersParticle, ExitGames.Client.Photon.SendOptions.SendUnreliable);
 
         if (interacter is MonoBehaviourPun pun)

@@ -98,8 +98,46 @@ TextureImporter:
   - first:
       213: 105889491633116753
     second: animation_31
+  - first:
+      213: -1277017350
+    second: inbetween-1
+  - first:
+      213: -1621852024
+    second: inbetween-2
+  - first:
+      213: -825542707
+    second: inbetween-3
+  - first:
+      213: -1534621477
+    second: inbetween-4
+  - first:
+      213: 47873115
+    second: inbetween-5
+  - first:
+      213: -1872223662
+    second: inbetween-6
+  - first:
+      213: -2146836890
+    second: inbetween-7
+  - first:
+      213: -1993669534
+    second: inbetween-8
+  - first:
+      213: 137883560
+    second: inbetween-9
+  - first:
+      213: -1515480666
+    second: inbetween-10
+      213: 1838121780
+    second: mario3-8
+      213: 1543797990
+    second: mario3-9
+      213: -304336407
+    second: mario3-10
+      213: -285261335
+    second: mario3-11
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,6 +154,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -159,6 +198,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -236,7 +277,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animation_0
+      name: inbetween-
       rect:
         serializedVersion: 2
         x: 0
@@ -428,7 +469,7 @@ TextureImporter:
       name: animation_9
       rect:
         serializedVersion: 2
-        x: 18
+        x: 34
         y: 96
         width: 11
         height: 16
@@ -449,7 +490,7 @@ TextureImporter:
       name: animation_10
       rect:
         serializedVersion: 2
-        x: 38
+        x: 70
         y: 96
         width: 4
         height: 16
@@ -470,7 +511,7 @@ TextureImporter:
       name: animation_11
       rect:
         serializedVersion: 2
-        x: 50
+        x: 98
         y: 96
         width: 12
         height: 16
@@ -512,7 +553,7 @@ TextureImporter:
       name: animation_13
       rect:
         serializedVersion: 2
-        x: 18
+        x: 34
         y: 80
         width: 11
         height: 16
@@ -533,7 +574,7 @@ TextureImporter:
       name: animation_14
       rect:
         serializedVersion: 2
-        x: 38
+        x: 70
         y: 80
         width: 4
         height: 16
@@ -554,7 +595,7 @@ TextureImporter:
       name: animation_15
       rect:
         serializedVersion: 2
-        x: 50
+        x: 98
         y: 80
         width: 12
         height: 16
@@ -991,6 +1032,468 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: inbetween-1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 96
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f0361b8912b6b448ea1168969d3806
+      internalID: -1277017350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 128
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84c2e7f6a95e2e4db6c19f44e500d7a
+      internalID: -1621852024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 128
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dba002193469a408c1eca835f39b61
+      internalID: -825542707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 96
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d74c7ac112b5cf4c9cb602de63d6bd3
+      internalID: -1534621477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 128
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910dd75a544efca4db0e4ac52c25e8f0
+      internalID: 47873115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 128
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce5a03c538a2f3418b4e90bd7bc4327
+      internalID: -1872223662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 96
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2135f2d20d554254ca7aa2aa0a6d52a8
+      internalID: -2146836890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 112
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d64cccd2bac56746afbdab207bfeae4
+      internalID: -1993669534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 112
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f294bf7708c867b438143eccc9e59ea3
+      internalID: 137883560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inbetween-10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a557549f5955d9844b3980fb581595c7
+      internalID: -1515480666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf59d2a2cf288e458d80610f406cff2
+      internalID: -1790379777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfc93c009e7b1e459ffd16bc523c65e
+      internalID: 85189006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465e50f4f2f6f1442813b9d229a9e6ed
+      internalID: 2019153355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396f9600224db6d448edc35db8f58943
+      internalID: -675547942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9128bc5612cced4ba45e1c656d1ae69
+      internalID: -1320163366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751bb42d0c93c494f8957cd6a236441e
+      internalID: 7362954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923464e50b9550e45a01a93633dbb544
+      internalID: 871859911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e992b73935fd994990f6cd148469d23
+      internalID: -1853251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8e3728c17adfe4fa07b7e0cfc2a17d
+      internalID: 1838121780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8dac02f80359d48951c5a8011b628b
+      internalID: 1543797990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09e6eb6e1327f84c9c1655428d6f86c
+      internalID: -304336407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario3-11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ed7c601ffc05242a0e38dc25d969ca
+      internalID: -285261335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1002,45 +1505,66 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      animation_18: 3988752837330785565
+      mario3-1: -1790379777
       animated-blocks_3: -644409675
-      animation_24: 4602633912051959003
-      animation_27: -3318003699947615551
       animation_12: 595918852289861335
-      animation_17: -8954504132767192025
+      mario3-4: -1320163366
       animation_28: 5242519309527336308
-      animation_0: -8917260427315313510
-      animation_3: 2250798203632615395
+      inbetween-10: -1515480666
       animation_6: -6030831360514867012
       animation_9: -3961342211389282260
-      animation_8: 2620925746830137660
-      animation_11: -6910632858783443427
+      inbetween-3: -825542707
+      mario3-3: 2019153355
+      inbetween-5: 47873115
       animation_5: 3442106473843032738
-      animation_7: 3684821612489964542
-      animation_21: 6700115880502462848
       animation_23: 5563996254464901877
       animation_19: -4876230672202525009
-      animation_22: 4366118933763392549
       animation_10: -2074995507315294404
       animation_31: 105889491633116753
       animated-blocks_1: 550154214
       animation_15: -8417162070665421395
       animation_1: -8151411539534625427
       animation_26: 4103098580831267492
+      mario3-10: -304336407
+      inbetween-8: -1993669534
+      mario3-9: 1543797990
+      inbetween-1: -1277017350
+      inbetween-: -8917260427315313510
+      animation_20: 6088895996261290297
+      animation_16: 6764869996083366342
+      animation_4: 1709446548163320796
+      animation_18: 3988752837330785565
+      animated-blocks_0: 1300903088
+      inbetween-2: -1621852024
+      mario3-5: 7362954
+      mario3-0: -675547942
+      animation_24: 4602633912051959003
+      animation_27: -3318003699947615551
+      inbetween-7: -2146836890
+      animation_17: -8954504132767192025
+      mario3-11: -285261335
+      animation_11: -6910632858783443427
+      animation_3: 2250798203632615395
+      animation_8: 2620925746830137660
+      animation_21: 6700115880502462848
+      animation_7: 3684821612489964542
+      mario3-6: 871859911
+      mario3-8: 1838121780
+      animation_22: 4366118933763392549
+      mario3-7: -1853251
+      inbetween-9: 137883560
       animated-blocks_2: -1993281826
       animation_30: 2286950547735446004
       animation_2: 215657226047675787
+      inbetween-6: -1872223662
       animation_29: -5785169764808499753
-      animation_20: 6088895996261290297
+      inbetween-4: -1534621477
       animation_13: 845948447533366988
       animation_14: -5313328981683241401
-      animation_4: 1709446548163320796
       animation_25: -8450008797135637194
-      animation_16: 6764869996083366342
-      animated-blocks_0: 1300903088
+      mario3-2: 85189006
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

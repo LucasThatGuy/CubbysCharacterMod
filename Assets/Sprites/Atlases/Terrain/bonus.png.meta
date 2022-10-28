@@ -57,7 +57,7 @@ TextureImporter:
       213: -6450420347727313635
     second: clown_17
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -119,6 +119,7 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1113,7 +1114,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1121,6 +1122,90 @@ TextureImporter:
       bones: []
       spriteID: d0f9ba5deec82094a88e1e6740b41158
       internalID: -2103662274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini_generator_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c930c53ed4008d34194fced15aa38b2b
+      internalID: -2138282839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini_generator_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81af10be27d6496488b961591bbb6a1b
+      internalID: 1882840691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini_generator_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dfad8dfe9aa184ca668abe55c0dd01
+      internalID: -1581068491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini_generator_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e28c922377138b4cbd1e6e080f707c9
+      internalID: 1548467027
       vertices: []
       indices: 
       edges: []
@@ -1148,7 +1233,6 @@ TextureImporter:
       bonus_5: 63873621
       bonus_12: -1728517974
       bonus_24: 775316621
-      bonus_21: -1848089947
       bonus_2: -1647841331
       clown_16: -7488802388398291836
       clown_8: 3661830941288844219
@@ -1169,10 +1253,14 @@ TextureImporter:
       bonus_1: -1394567960
       clown_17: -6450420347727313635
       bonus_22: 1038974077
+      mini_generator_3: 1548467027
       clown_15: -7962056515094391696
       bonus_13: 1684036044
+      mini_generator_2: -1581068491
       clown_4: 3036753812775530641
+      mini_generator_0: -2138282839
       bonus_23: 1669150104
+      mini_generator_1: 1882840691
       clown_9: -1082198178173625565
       bonus_9: -1958766692
       bonus_15: 1767055595

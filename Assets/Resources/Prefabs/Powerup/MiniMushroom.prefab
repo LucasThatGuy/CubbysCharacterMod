@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 5111157548884678091}
   - component: {fileID: 1327096901491533370}
   - component: {fileID: 3348339991063947105}
+  - component: {fileID: -55303910608914449}
   m_Layer: 9
   m_Name: MiniMushroom
   m_TagString: Powerup
@@ -273,6 +274,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interpolate: 1
   body: {fileID: 3379984366894124869}
+--- !u!114 &-55303910608914449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3379984366894124873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec9d7cc5497847245a13fd40c60b24bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewSprite: {fileID: -255822782, guid: 794bc215dd02bf34ab2cfae7702bfdfd, type: 3}
+  NewAnimation: {fileID: 0}
+  DisableAnimator: 1
+  UseController: 0
 --- !u!1 &6433809598137731468
 GameObject:
   m_ObjectHideFlags: 0

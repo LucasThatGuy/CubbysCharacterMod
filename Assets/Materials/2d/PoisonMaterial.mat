@@ -41,6 +41,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2DLOD_14fea36738ec45e9afaddff6a22b8796_Texture_1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -64,6 +72,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Height: 1.05
+    - PixelSnap: 0
     - Points: 256
     - PointsPerTile: 4
     - TextureIndex: 7
@@ -73,6 +82,7 @@ Material:
     - WidthTiles: 64
     - _BUILTIN_QueueControl: -1
     - _BUILTIN_QueueOffset: 0
+    - _EnableExternalAlpha: 0
     - _Points: 160
     - _RandomizeOffset: 0
     - _TextureIndex: 0
@@ -82,7 +92,10 @@ Material:
     - FoamColor: {r: 1, g: 0.96761364, b: 0.36226404, a: 1}
     - RippleColor: {r: 1, g: 0.630872, b: 0, a: 1}
     - TopColor: {r: 1, g: 0.14068651, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _Glow: {r: 1, g: 1, b: 1, a: 0}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7893850056676362737
 MonoBehaviour:

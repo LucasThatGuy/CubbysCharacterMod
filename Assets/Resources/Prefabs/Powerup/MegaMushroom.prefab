@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: -3959699289907803836}
   - component: {fileID: 7613750627592452174}
   - component: {fileID: -4375549080584697295}
+  - component: {fileID: 1852613062807248187}
   m_Layer: 9
   m_Name: MegaMushroom
   m_TagString: Powerup
@@ -331,3 +332,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interpolate: 1
   body: {fileID: 6853285212139825909}
+--- !u!114 &1852613062807248187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853285212139825912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec9d7cc5497847245a13fd40c60b24bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewSprite: {fileID: -548304619, guid: 9f188d58ca4de6148a6e6d1ee86fda7b, type: 3}
+  NewAnimation: {fileID: 0}
+  DisableAnimator: 1
+  UseController: 0

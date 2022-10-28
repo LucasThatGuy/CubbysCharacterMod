@@ -101,6 +101,7 @@ public class UIUpdater : MonoBehaviour {
             if (player.lives != lives) {
                 lives = player.lives;
                 uiLives.text = Utils.GetCharacterData(player.photonView.Owner).uistring + Utils.GetSymbolString("x" + lives);
+                livesParent.SetActive(true);
             }
         } else {
             livesParent.SetActive(false);

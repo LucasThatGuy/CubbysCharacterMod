@@ -32,7 +32,7 @@ public class Settings : Singleton<Settings> {
 
     public string nickname;
     public int character, skin;
-    public bool ndsResolution = false, fireballFromSprint = true, vsync = false, fourByThreeRatio = false;
+    public bool ndsResolution = false, fireballFromSprint = true, vsync = false, fourByThreeRatio = false, hatcolor = false;
     public bool scoreboardAlways = false, filter = true;
 
     public void Awake() {
@@ -60,6 +60,7 @@ public class Settings : Singleton<Settings> {
         filter = PlayerPrefs.GetInt("ChatFilter", 1) == 1;
         character = PlayerPrefs.GetInt("Character", 0);
         skin = PlayerPrefs.GetInt("Skin", 0);
+        hatcolor = (PlayerPrefs.GetInt("HatColor", 0) == 1);
     }
     public void SaveSettingsToPreferences() {
         PlayerPrefs.SetString("Nickname", Regex.Replace(PhotonNetwork.NickName, "\\(\\d*\\)", ""));
@@ -74,6 +75,7 @@ public class Settings : Singleton<Settings> {
         PlayerPrefs.SetInt("ChatFilter", filter ? 1 : 0);
         PlayerPrefs.SetInt("Character", character);
         PlayerPrefs.SetInt("Skin", skin);
+        PlayerPrefs.SetInt("HatColor", hatcolor ? 1 : 0);
         PlayerPrefs.Save();
     }
 
