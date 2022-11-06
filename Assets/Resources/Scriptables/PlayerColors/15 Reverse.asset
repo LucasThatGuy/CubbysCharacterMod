@@ -35,11 +35,11 @@ MonoBehaviour:
     ColorName: Smash 64 (Luigi Alt 3)
   - player: {fileID: 11400000, guid: ac01b8abb6cd32d459870beafb44251e, type: 2}
     hatColor: {r: 1, g: 1, b: 1, a: 1}
-    overallsColor: {r: 0.6887766, g: 0.6981132, b: 0.2733179, a: 1}
+    overallsColor: {r: 0.5803922, g: 0.58431375, b: 0.25490198, a: 1}
     ColorName: Shroomlock
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
-    hatColor: {r: 1, g: 1, b: 1, a: 1}
-    overallsColor: {r: 0.6887766, g: 0.6981132, b: 0.2733179, a: 1}
+    hatColor: {r: 0.5803922, g: 0.58431375, b: 0.25490198, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
     ColorName: Shroomlock
   - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
     hatColor: {r: 0.8000001, g: 0.03137255, b: 0, a: 1}

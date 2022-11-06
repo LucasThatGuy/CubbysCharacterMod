@@ -10360,6 +10360,7 @@ MonoBehaviour:
   playerId: -1
   dead: 0
   spawned: 0
+  sonicPhysics: 0
   state: 0
   previousState: 0
   slowriseGravity: 1.05
@@ -21770,11 +21771,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c343d4296cbe09a49aea1fc1773d6dde, type: 2}
-  - {fileID: 2100000, guid: ebcdacf689eab05438011608f4b0029f, type: 2}
   - {fileID: 2100000, guid: a49df55d4a6f0f149aee9ef404c99608, type: 2}
-  - {fileID: 2100000, guid: 637fb7f1e4c14be48a3ff9f561a3aaf5, type: 2}
-  - {fileID: 2100000, guid: 49491396e7c09e04097a9355ff74a840, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21799,7 +21796,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 1894308661918468122, guid: 2a7df54361df9af44afd1b06b765fd51, type: 3}
+  m_Mesh: {fileID: -7063023082441856147, guid: 2a7df54361df9af44afd1b06b765fd51, type: 3}
   m_Bones:
   - {fileID: 7840069683890638377}
   - {fileID: 1433334807171778901}

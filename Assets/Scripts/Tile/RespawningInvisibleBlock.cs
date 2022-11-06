@@ -6,7 +6,8 @@ using NSMB.Utils;
 public class RespawningInvisibleBlock : MonoBehaviour {
 
     private double bumpTime;
-
+    public string PrefabSpawn = "Coin";
+    public string ResultTile = "EmptyYellowQuestion";
     public void OnTriggerEnter2D(Collider2D collision) {
         Vector3Int tileLocation = Utils.WorldToTilemapPosition(transform.position);
 
@@ -40,7 +41,7 @@ public class RespawningInvisibleBlock : MonoBehaviour {
     public void DoBump(Vector3Int tileLocation, PhotonView player) {
         player.RPC(nameof(PlayerController.AttemptCollectCoin), RpcTarget.All, -1, (Vector2) Utils.TilemapToWorldPosition(tileLocation) + Vector2.one / 4f);
 
-        object[] parametersBump = new object[] { tileLocation.x, tileLocation.y, false, "SpecialTiles/EmptyYellowQuestion", "Coin" };
+        object[] parametersBump = new object[] { tileLocation.x, tileLocation.y, false, "SpecialTiles/" + ResultTile, PrefabSpawn };
         GameManager.Instance.SendAndExecuteEvent(Enums.NetEventIds.SetThenBumpTile, parametersBump, ExitGames.Client.Photon.SendOptions.SendReliable);
     }
 

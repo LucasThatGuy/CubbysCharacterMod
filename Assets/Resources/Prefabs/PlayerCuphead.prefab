@@ -10360,6 +10360,7 @@ MonoBehaviour:
   playerId: -1
   dead: 0
   spawned: 0
+  sonicPhysics: 0
   state: 0
   previousState: 0
   slowriseGravity: 1.05
@@ -26916,7 +26917,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 637fb7f1e4c14be48a3ff9f561a3aaf5, type: 2}
+      objectReference: {fileID: 2100000, guid: f2e365ac700717c4a8a291c732b92ec5, type: 2}
     - target: {fileID: -4656471593961653199, guid: 165babb21afc2ba47bfbc27cb6af3182,
         type: 3}
       propertyPath: m_Materials.Array.data[1]

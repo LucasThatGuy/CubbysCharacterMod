@@ -10360,6 +10360,7 @@ MonoBehaviour:
   playerId: -1
   dead: 0
   spawned: 0
+  sonicPhysics: 0
   state: 0
   previousState: 0
   slowriseGravity: 1.05
@@ -26842,7 +26843,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 165babb21afc2ba47bfbc27cb6af3182,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.03
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 165babb21afc2ba47bfbc27cb6af3182,
         type: 3}

@@ -38,8 +38,8 @@ MonoBehaviour:
     overallsColor: {r: 0.079432175, g: 0.4811321, b: 0.30961147, a: 1}
     ColorName: Mushbert
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
-    hatColor: {r: 1, g: 1, b: 1, a: 1}
-    overallsColor: {r: 0.079432175, g: 0.4811321, b: 0.30961147, a: 1}
+    hatColor: {r: 0.078431375, g: 0.48235294, b: 0.30980393, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
     ColorName: Mushbert
   - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
     hatColor: {r: 0.9686275, g: 0.45882356, b: 0.8470589, a: 1}

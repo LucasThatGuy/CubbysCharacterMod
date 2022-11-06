@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
 
     public MusicData mainMusic, invincibleMusic, megaMushroomMusic;
 
-    public int levelMinTileX, levelMinTileY, levelWidthTile, levelHeightTile;
+    public int levelMinTileX, levelMinTileY, levelWidthTile, levelHeightTile, StarRange = 4;
     public float cameraMinY, cameraHeightY, cameraMinX = -1000, cameraMaxX = 1000;
     public bool loopingLevel = true, isMario3 = false;
     public Vector3 spawnpoint;
@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
     public Canvas nametagCanvas;
     public GameObject nametagPrefab;
 
-    //Audio
+    //Audio sex
     public AudioSource music, sfx;
     private LoopingMusic loopMusic;
     public Enums.MusicState? musicState = null;
@@ -606,7 +606,7 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
             int index = Random.Range(0, remainingSpawns.Count);
             Vector3 spawnPos = remainingSpawns[index].transform.position;
             //Check for people camping spawn
-            foreach (var hit in Physics2D.OverlapCircleAll(spawnPos, 4)) {
+            foreach (var hit in Physics2D.OverlapCircleAll(spawnPos, StarRange / 2)) {
                 if (hit.gameObject.CompareTag("Player")) {
                     //cant spawn here
                     remainingSpawns.RemoveAt(index);

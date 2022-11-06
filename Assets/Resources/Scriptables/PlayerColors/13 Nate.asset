@@ -38,8 +38,8 @@ MonoBehaviour:
     overallsColor: {r: 0.5686275, g: 0.34509805, b: 0.18431373, a: 1}
     ColorName: Toadsworth
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
-    hatColor: {r: 0.7803922, g: 0.75294125, b: 0.40784317, a: 1}
-    overallsColor: {r: 0.5686275, g: 0.34509805, b: 0.18431373, a: 1}
+    hatColor: {r: 0.5686275, g: 0.34509805, b: 0.18431373, a: 1}
+    overallsColor: {r: 0.7803922, g: 0.75294125, b: 0.40784317, a: 1}
     ColorName: Toadsworth
   - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
     hatColor: {r: 0.51428443, g: 0.6251305, b: 0.8584906, a: 1}

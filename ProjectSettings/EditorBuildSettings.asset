@@ -54,6 +54,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/CustomDoNot.unity
     guid: d7ff36cb93f1e7b45847e4712791c0ef
   - enabled: 1
+    path: Assets/Scenes/Levels/CustomCastle.unity
+    guid: 2fd88ab551c27564c8947e1229827f57
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomStarChasers.unity
+    guid: 68375ef286521144fa1613adece88d58
+  - enabled: 1
     path: Assets/Scenes/Levels/SCustomFinalDestination.unity
     guid: 67658b0e075d6e44e94ec6a4e37a3470
   m_configObjects:

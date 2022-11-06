@@ -38,8 +38,8 @@ MonoBehaviour:
     overallsColor: {r: 0.6698113, g: 0.3254272, b: 0.626469, a: 1}
     ColorName: DJ Toad
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
-    hatColor: {r: 1, g: 1, b: 1, a: 1}
-    overallsColor: {r: 0.6698113, g: 0.3254272, b: 0.626469, a: 1}
+    hatColor: {r: 0.67058825, g: 0.3254902, b: 0.627451, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
     ColorName: DJ Toad
   - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
     hatColor: {r: 0.9921569, g: 0.9921569, b: 0.9921569, a: 1}

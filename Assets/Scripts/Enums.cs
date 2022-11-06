@@ -156,6 +156,7 @@ public static class Enums {
         [SoundData("ui/lobby_enter")] UI_Lobby_Enter = 106,
         [SoundData("ui/start")] UI_Start = 107,
         [SoundData("ui/huh")] UI_Huh = 108,
+        [SoundData("ui/flingtone")] UI_Flingtone = 112,
 
         //World Elements
         [SoundData("world/block_break")] World_Block_Break = 67,

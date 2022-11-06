@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
     // == MONOBEHAVIOURS ==
 
     public int playerId = -1;
-    public bool dead = false, spawned = false;
+    public bool dead = false, spawned = false, sonicPhysics = false;
     public Enums.PowerupState state = Enums.PowerupState.Small, previousState;
     public float slowriseGravity = 0.85f, normalGravity = 2.5f, flyingGravity = 0.8f, flyingTerminalVelocity = 1.25f, drillVelocity = 7f, groundpoundTime = 0.25f, groundpoundVelocity = 10, blinkingSpeed = 0.25f, terminalVelocity = -7f, jumpVelocity = 6.25f, megaJumpVelocity = 16f, launchVelocity = 12f, wallslideSpeed = -4.25f, giantStartTime = 1.5f, soundRange = 10f, slopeSlidingAngle = 12.5f, pickupTime = 0.5f, LightningTimer = 0f, LightningTimerPrevious = 0f;
     public float propellerLaunchVelocity = 6, propellerFallSpeed = 2, propellerSpinFallSpeed = 1.5f, propellerSpinTime = 0.75f, propellerDrillBuffer, heightSmallModel = 0.42f, heightLargeModel = 0.82f;
@@ -2244,7 +2244,10 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
             float speed = Mathf.Abs(body.velocity.x);
             bool reverse = body.velocity.x != 0 && ((left ? 1 : -1) == sign);
-
+            if (sonicPhysics && !skidding)
+            {
+                body.velocity = new Vector2((body.velocity.x * 1.024f), body.velocity.y);
+            }
             //check that we're not going above our limit
             float max = dippySpeed;
             if ((running && !flying) || state == Enums.PowerupState.MegaMushroom)

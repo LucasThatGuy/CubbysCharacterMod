@@ -5,6 +5,8 @@ using NSMB.Utils;
 [CreateAssetMenu(fileName = "PowerupTile", menuName = "ScriptableObjects/Tiles/PowerupTile", order = 2)]
 public class PowerupTile : BreakableBrickTile {
     public string resultTile;
+    public bool CustomItem = false;
+    public string CustomSpawn = "Sex";
     public override bool Interact(MonoBehaviour interacter, InteractionDirection direction, Vector3 worldLocation) {
         if (base.Interact(interacter, direction, worldLocation))
             return true;
@@ -35,6 +37,11 @@ public class PowerupTile : BreakableBrickTile {
         }
 
         Bump(interacter, direction, worldLocation);
+
+        if (CustomItem)
+        {
+            spawnResult = CustomSpawn;
+        }
 
         object[] parametersBump = new object[]{tileLocation.x, tileLocation.y, direction == InteractionDirection.Down, resultTile, spawnResult};
         GameManager.Instance.SendAndExecuteEvent(Enums.NetEventIds.BumpTile, parametersBump, ExitGames.Client.Photon.SendOptions.SendReliable);

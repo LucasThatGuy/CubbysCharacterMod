@@ -30,4 +30,8 @@ MonoBehaviour:
   breakableByBombs: 1
   bumpIfNotBroken: 0
   bumpIfBroken: 0
+  iceSkidding: 0
+  isMario3: 0
   resultTile: SpecialTiles/EmptyBlueQuestion
+  CustomItem: 0
+  CustomSpawn: Sex

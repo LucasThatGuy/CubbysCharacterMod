@@ -10360,6 +10360,7 @@ MonoBehaviour:
   playerId: -1
   dead: 0
   spawned: 0
+  sonicPhysics: 0
   state: 0
   previousState: 0
   slowriseGravity: 1.05

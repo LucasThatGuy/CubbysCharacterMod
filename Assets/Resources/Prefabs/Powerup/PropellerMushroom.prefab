@@ -366,6 +366,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NewSprite: {fileID: -788295505, guid: 752c51ce7499177419a33a6cddc8de5c, type: 3}
-  NewAnimation: {fileID: 0}
-  DisableAnimator: 1
-  UseController: 0
+  NewAnimation: {fileID: 9100000, guid: 19f1c013b93b94841a1fb4386158aba0, type: 2}
+  DisableAnimator: 0
+  UseController: 1

@@ -26,7 +26,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public GameObject connecting;
     public GameObject title, bg, mainMenu, optionsMenu, lobbyMenu, createLobbyPrompt, inLobbyMenu, creditsMenu, controlsMenu, privatePrompt, updateBox;
     public GameObject[] levelCameraPositions;
-    public GameObject sliderText, lobbyText, currentMaxPlayers, settingsPanel;
+    public GameObject sliderText, lobbyText, currentMaxPlayers, settingsPanel, lobbyColor;
     public TMP_Dropdown levelDropdown, characterDropdown;
     public RoomIcon selectedRoomIcon, privateJoinRoom;
     public Button joinRoomBtn, createRoomBtn, startGameBtn;
@@ -539,9 +539,21 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                 }
                 else
                 {
-                    message = sender.GetUniqueNickname() + ": " + message.Filter();
-                    LocalChatMessage(message, Color.black, false);
+                    if (sender.GetUniqueNickname() == "AutumnLeaf" || sender.GetUniqueNickname() == "Leafy" || sender.GetUniqueNickname() == "Leaf")
+                    {
+                        message = sender.GetUniqueNickname() + ": " + message.Filter();
+                        LocalChatMessage(message, new Color(0f,0.5f,0f,1f), false);
+                    }
+                    else
+                    {
+                        message = sender.GetUniqueNickname() + ": " + message.Filter();
+                        LocalChatMessage(message, Color.black, false);
+                    }
                 }
+            }
+            if (sender.GetUniqueNickname() == "MvLFredFlintstone")
+            {
+                sfx.PlayOneShot(Enums.Sounds.UI_Flingtone.GetClip());
             }
                     break;
         }
@@ -1034,6 +1046,19 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             LocalChatMessage(levelDropdown.options[index].text + " is where god will send you on your day of reckoning.", Color.red);
         }
         Camera.main.transform.position = levelCameraPositions[index].transform.position;
+        if(index == 13)
+        {
+            LocalChatMessage("The rules are simple!                           Do not the Bob-Omb.                                 If you the Bob-Omb, you lose!", Color.black);
+            LocalChatMessage("   - Gamemode created by Freeze -", Color.blue);
+        }
+        if (index == 14)
+        {
+            LocalChatMessage("WARNING: This map will be the worst experience of your entire life. <color=#080>We hate you <3</color>", Color.magenta);
+        }
+        if(index == 15)
+        {
+            LocalChatMessage("Check out NSMB: Star Chasers by Freeze, another great recreation of Mario Vs. Luigi:                             freeze7.itch.io/nsmb-starchasers", new Color(0.5f, 0f, 1f, 1f));
+        }
     }
     public void SetLevelIndex() {
         if (!PhotonNetwork.IsMasterClient)
@@ -1674,6 +1699,21 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         return seconds;
     }
     public void ChangeLobbyHeader(string name) {
-        SetText(lobbyText, $"{name.ToValidUsername()}'s Lobby", true);
+        if(name == "MvLWalterWhite")
+        {
+            SetText(lobbyText, $"Walter White's Sussus Amogus Lobby", true);
+        } else
+        {
+            SetText(lobbyText, $"{name.ToValidUsername()}'s Lobby", true);
+        }
+        Random.InitState(name.ToValidUsername().GetHashCode());
+        if (name == "Cubby")
+        {
+            lobbyColor.GetComponent<Image>().color = new Color(0f, 0.7f, 1f, 1f);
+        }
+        else
+        {
+            lobbyColor.GetComponent<Image>().color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f), 1f);
+        }
     }
 }

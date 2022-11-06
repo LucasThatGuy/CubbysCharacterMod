@@ -34,8 +34,8 @@ MonoBehaviour:
     overallsColor: {r: 0, g: 0.254717, b: 0.24683087, a: 1}
     ColorName: Metal Mario
   - player: {fileID: 11400000, guid: ac01b8abb6cd32d459870beafb44251e, type: 2}
-    hatColor: {r: 0.735849, g: 0.71673745, b: 0.2880918, a: 1}
-    overallsColor: {r: 0.16113387, g: 0.3092753, b: 0.4811321, a: 1}
+    hatColor: {r: 0.16078432, g: 0.30980393, b: 0.48235294, a: 1}
+    overallsColor: {r: 0.7372549, g: 0.7176471, b: 0.28627452, a: 1}
     ColorName: Ghost T.
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
     hatColor: {r: 0.735849, g: 0.71673745, b: 0.2880918, a: 1}

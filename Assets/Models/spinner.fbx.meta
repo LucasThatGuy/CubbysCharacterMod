@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 5801964e0dfe6e64c80864e6bf0b86e4
 ModelImporter:
-  serializedVersion: 21202
+  serializedVersion: 22103
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -12,7 +12,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mat_biss.001
+    second: {fileID: 2100000, guid: 40d6a17e3fd317a44a9ceddf3f59a515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mat_env_s_j1
+    second: {fileID: 2100000, guid: dd703753f738bac4895375d789070ac3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_env_s_j1.001
     second: {fileID: 2100000, guid: dd703753f738bac4895375d789070ac3, type: 2}
   - first:
       type: UnityEngine:Material
@@ -22,10 +32,20 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mat_env_s_j_top.001
+    second: {fileID: 2100000, guid: 4dfc0238438b52e43b0421a6074d2f92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mat_spin_j_obj4
     second: {fileID: 2100000, guid: 56852aa23e2781140b534bc30f39cdc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_spin_j_obj4.001
+    second: {fileID: 2100000, guid: 56852aa23e2781140b534bc30f39cdc4, type: 2}
   materials:
-    materialImportMode: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -87,6 +107,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -119,6 +140,8 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

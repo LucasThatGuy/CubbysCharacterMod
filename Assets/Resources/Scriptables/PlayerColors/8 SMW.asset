@@ -38,8 +38,8 @@ MonoBehaviour:
     overallsColor: {r: 0.11863652, g: 0.8113208, b: 0.25750634, a: 1}
     ColorName: Banktoad
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
-    hatColor: {r: 1, g: 1, b: 1, a: 1}
-    overallsColor: {r: 0.11863652, g: 0.8113208, b: 0.25750634, a: 1}
+    hatColor: {r: 0.11764706, g: 0.8117647, b: 0.25882354, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
     ColorName: Banktoad
   - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
     hatColor: {r: 0.34509805, g: 0.34509805, b: 0.72156864, a: 1}

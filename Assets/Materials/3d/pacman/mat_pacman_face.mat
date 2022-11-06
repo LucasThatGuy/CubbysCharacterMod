@@ -74,7 +74,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Textures:
-        m_Texture: {fileID: 18700000, guid: b3c89f592d33cad4689c7337a206315d, type: 3}
+        m_Texture: {fileID: 18700000, guid: 8e003ca8f1f47ed4a8db06f3f3b4c51c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -92,6 +92,7 @@ Material:
     m_Ints: []
     m_Floats:
     - FireFlower: 0
+    - Hat: 0
     - IsEyeTexture: 0
     - OutlineSize: 0.01
     - PowerupState: 0

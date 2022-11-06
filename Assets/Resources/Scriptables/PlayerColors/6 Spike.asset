@@ -38,8 +38,8 @@ MonoBehaviour:
     overallsColor: {r: 0.9960785, g: 0.43137258, b: 0.8000001, a: 1}
     ColorName: Super Mario Bros. 3 (Pink)
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
-    hatColor: {r: 0.99607843, g: 0.8, b: 0.77254903, a: 1}
-    overallsColor: {r: 0.9960785, g: 0.43137258, b: 0.8000001, a: 1}
+    hatColor: {r: 0.9960785, g: 0.43137258, b: 0.8000001, a: 1}
+    overallsColor: {r: 0.9960785, g: 0.8000001, b: 0.7725491, a: 1}
     ColorName: Super Mario Bros. 3 (Pink)
   - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
     hatColor: {r: 0.65882355, g: 0.47058827, b: 0.3137255, a: 1}

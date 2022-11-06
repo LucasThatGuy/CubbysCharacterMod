@@ -38,8 +38,8 @@ MonoBehaviour:
     overallsColor: {r: 0.8313726, g: 0.6627451, b: 0.1137255, a: 1}
     ColorName: Yellow Toad (NSMBWii)
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
-    hatColor: {r: 1, g: 1, b: 1, a: 1}
-    overallsColor: {r: 0.8301887, g: 0.66365695, b: 0.11356357, a: 1}
+    hatColor: {r: 0.83137256, g: 0.6627451, b: 0.11372549, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
     ColorName: Yellow Toad (NSMBWii)
   - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
     hatColor: {r: 0.4138483, g: 0.7920969, b: 0.9433962, a: 1}

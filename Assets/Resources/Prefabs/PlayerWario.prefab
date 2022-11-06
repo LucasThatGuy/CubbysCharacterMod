@@ -10360,21 +10360,22 @@ MonoBehaviour:
   playerId: -1
   dead: 0
   spawned: 0
+  sonicPhysics: 0
   state: 0
   previousState: 0
   slowriseGravity: 1.05
-  normalGravity: 3.875
+  normalGravity: 3.25
   flyingGravity: 0.8
-  flyingTerminalVelocity: 3
+  flyingTerminalVelocity: 1.40625
   drillVelocity: 7.5
   groundpoundTime: 0.26666668
-  groundpoundVelocity: 18
+  groundpoundVelocity: 30
   blinkingSpeed: 0.25
   terminalVelocity: -7.5
-  jumpVelocity: 6
-  megaJumpVelocity: 10
-  launchVelocity: 10
-  wallslideSpeed: -5
+  jumpVelocity: 6.5
+  megaJumpVelocity: 12
+  launchVelocity: 11
+  wallslideSpeed: -4.6875
   giantStartTime: 1.5
   soundRange: 10
   slopeSlidingAngle: 12.5
@@ -10382,8 +10383,8 @@ MonoBehaviour:
   LightningTimer: 0
   LightningTimerPrevious: 0
   propellerLaunchVelocity: 6
-  propellerFallSpeed: 10
-  propellerSpinFallSpeed: 3
+  propellerFallSpeed: 2.5
+  propellerSpinFallSpeed: 1.75
   propellerSpinTime: 0.5
   propellerDrillBuffer: 0
   heightSmallModel: 0.42
@@ -10448,7 +10449,7 @@ MonoBehaviour:
   propellerTimer: 0
   propellerSpinTimer: 0
   fireballTimer: 0
-  dippySpeed: 5
+  dippySpeed: 5.25
   invincible: 0
   giantTimer: 0
   floorAngle: 0

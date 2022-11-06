@@ -34,12 +34,12 @@ MonoBehaviour:
     overallsColor: {r: 0, g: 0, b: 0, a: 1}
     ColorName: Waluigi
   - player: {fileID: 11400000, guid: ac01b8abb6cd32d459870beafb44251e, type: 2}
-    hatColor: {r: 0.9622642, g: 0.36765754, b: 0.7447254, a: 1}
-    overallsColor: {r: 1, g: 1, b: 1, a: 1}
+    hatColor: {r: 1, g: 1, b: 1, a: 1}
+    overallsColor: {r: 0.9607844, g: 0.36862746, b: 0.74509805, a: 1}
     ColorName: Toadette
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
-    hatColor: {r: 1, g: 1, b: 1, a: 1}
-    overallsColor: {r: 0.8490566, g: 0.06007475, b: 0.06804601, a: 1}
+    hatColor: {r: 0.85098046, g: 0.058823533, b: 0.06666667, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
     ColorName: Red Toad
   - player: {fileID: 11400000, guid: f405d9761cc5e9a49a4f5a4ff3dc4ffb, type: 2}
     hatColor: {r: 0.08962265, g: 0.3584906, b: 0.101024024, a: 1}

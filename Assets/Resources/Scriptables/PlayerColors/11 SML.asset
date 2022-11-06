@@ -34,8 +34,8 @@ MonoBehaviour:
     overallsColor: {r: 0.94509804, g: 0.4399948, b: 0.011764705, a: 1}
     ColorName: Smash 64 (Mario Alt 3)
   - player: {fileID: 11400000, guid: ac01b8abb6cd32d459870beafb44251e, type: 2}
-    hatColor: {r: 0.2232111, g: 0.5285514, b: 0.8301887, a: 1}
-    overallsColor: {r: 1, g: 1, b: 1, a: 1}
+    hatColor: {r: 1, g: 1, b: 1, a: 1}
+    overallsColor: {r: 0.22352943, g: 0.5294118, b: 0.8313726, a: 1}
     ColorName: Toadbert
   - player: {fileID: 11400000, guid: aee78e40c03e5704d8dfbadb794b1d0d, type: 2}
     hatColor: {r: 0.2232111, g: 0.5285514, b: 0.8301887, a: 1}
