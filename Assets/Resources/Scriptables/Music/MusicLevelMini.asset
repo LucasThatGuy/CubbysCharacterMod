@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MusicLevelMini
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: eae7cf93219bbc44586345c872dc396b, type: 3}
-  fastClip: {fileID: 8300000, guid: 98a759ee0125f5245b316adc8944cd5d, type: 3}
+  fastClip: {fileID: 8300000, guid: eddf778c54d66974b879c1b5ac85a558, type: 3}
   loopStartSample: 0
   loopEndSample: -1

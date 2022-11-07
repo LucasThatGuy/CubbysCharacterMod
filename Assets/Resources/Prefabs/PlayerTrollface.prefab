@@ -10360,6 +10360,7 @@ MonoBehaviour:
   playerId: -1
   dead: 0
   spawned: 0
+  sonicPhysics: 0
   state: 0
   previousState: 0
   slowriseGravity: 1.05
@@ -21771,7 +21772,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 8a01c0181944c1846be6837aa0dc7585, type: 2}
-  - {fileID: 2100000, guid: 49491396e7c09e04097a9355ff74a840, type: 2}
+  - {fileID: 2100000, guid: 148fb8520bb5a8d4cbfd6d6add1c457a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

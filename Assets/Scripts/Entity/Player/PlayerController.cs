@@ -2246,7 +2246,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             bool reverse = body.velocity.x != 0 && ((left ? 1 : -1) == sign);
             if (sonicPhysics && !skidding)
             {
-                body.velocity = new Vector2((body.velocity.x * 1.024f), body.velocity.y);
+                body.velocity = new Vector2((body.velocity.x * 1.055f), body.velocity.y);
             }
             //check that we're not going above our limit
             float max = dippySpeed;

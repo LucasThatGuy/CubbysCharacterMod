@@ -1205,7 +1205,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 9
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 23
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1355,7 +1355,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 10
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1415,7 +1415,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 27
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2799,9 +2799,8 @@ Tilemap:
   - m_RefCount: 5
     m_Data: {fileID: 8182505639897311671, guid: c55eba81d441d3f439e8289699cf72c8,
       type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -6786872277579448766, guid: c55eba81d441d3f439e8289699cf72c8,
-      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -259225683, guid: c55eba81d441d3f439e8289699cf72c8, type: 3}
   - m_RefCount: 12
@@ -2816,13 +2815,13 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 817122783, guid: c55eba81d441d3f439e8289699cf72c8, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -8214984105036659224, guid: 5f97a3adca3c1c04e9b3eb9c5bc49eae,
+    m_Data: {fileID: -6786872277579448766, guid: c55eba81d441d3f439e8289699cf72c8,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 3940509154638213084, guid: 5f97a3adca3c1c04e9b3eb9c5bc49eae,
       type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -4831188527725574933, guid: 5f97a3adca3c1c04e9b3eb9c5bc49eae,
+    m_Data: {fileID: -8214984105036659224, guid: 5f97a3adca3c1c04e9b3eb9c5bc49eae,
       type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 8402262941519369470, guid: 5f97a3adca3c1c04e9b3eb9c5bc49eae,
@@ -2854,8 +2853,9 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -2327602286159423677, guid: c55eba81d441d3f439e8289699cf72c8,
       type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -4831188527725574933, guid: 5f97a3adca3c1c04e9b3eb9c5bc49eae,
+      type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 2502133524153868366, guid: 5f97a3adca3c1c04e9b3eb9c5bc49eae,
       type: 3}
@@ -2948,52 +2948,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &268409193
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 268409194}
-  - component: {fileID: 268409195}
-  m_Layer: 0
-  m_Name: GoombaSpawn (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &268409194
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 268409193}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.5, y: 12, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1292545025}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &268409195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 268409193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cd6e70ad40a93f419db4c4118455d7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: Prefabs/Enemy/Goomba
-  currentEntity: {fileID: 0}
 --- !u!1001 &300660856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10137,7 +10091,6 @@ Transform:
   - {fileID: 2099660501}
   - {fileID: 1277646851}
   - {fileID: 698390813}
-  - {fileID: 268409194}
   - {fileID: 1181345489}
   - {fileID: 867571226}
   - {fileID: 718747274}
