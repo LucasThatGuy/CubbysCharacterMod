@@ -198,8 +198,8 @@ MonoBehaviour:
     overallsColor: {r: 0.39607847, g: 0.7254902, b: 0.75294125, a: 1}
     ColorName: Cyan Candy Wrapper
   - player: {fileID: 11400000, guid: b4fe72e0991e7854796b638645892d76, type: 2}
-    hatColor: {r: 1, g: 0.8862746, b: 0.3372549, a: 1}
-    overallsColor: {r: 0.8679245, g: 0.47501412, b: 0.24154504, a: 1}
+    hatColor: {r: 1, g: 0.9176471, b: 0.50980395, a: 1}
+    overallsColor: {r: 0.4784314, g: 0.8000001, b: 1, a: 1}
     ColorName: Just Steve
   - player: {fileID: 11400000, guid: 913a318059cd0fb45a2eec6674e3e64b, type: 2}
     hatColor: {r: 0.7490196, g: 0.6901961, b: 0.93333334, a: 1}

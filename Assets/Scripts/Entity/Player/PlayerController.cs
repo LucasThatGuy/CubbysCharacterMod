@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
     // == MONOBEHAVIOURS ==
 
-    public int playerId = -1;
+    public int playerId = -1, DrowningTimer = 0;
     public bool dead = false, spawned = false, sonicPhysics = false;
     public Enums.PowerupState state = Enums.PowerupState.Small, previousState;
     public float slowriseGravity = 0.85f, normalGravity = 2.5f, flyingGravity = 0.8f, flyingTerminalVelocity = 1.25f, drillVelocity = 7f, groundpoundTime = 0.25f, groundpoundVelocity = 10, blinkingSpeed = 0.25f, terminalVelocity = -7f, jumpVelocity = 6.25f, megaJumpVelocity = 16f, launchVelocity = 12f, wallslideSpeed = -4.25f, giantStartTime = 1.5f, soundRange = 10f, slopeSlidingAngle = 12.5f, pickupTime = 0.5f, LightningTimer = 0f, LightningTimerPrevious = 0f;
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
     //MOVEMENT STAGES
     private static readonly int WALK_STAGE = 1, RUN_STAGE = 3, STAR_STAGE = 4;
     private static readonly float[] SPEED_STAGE_MAX = { 0.9375f, 2.8125f, 4.21875f, 5.625f, 8.4375f };
-    private static readonly float SPEED_SLIDE_MAX = 7.5f;
+    private static readonly float SPEED_SLIDE_MAX = 9999999f;
     private static readonly float[] SPEED_STAGE_ACC = { 0.131835975f, 0.06591802875f, 0.087890625f, 0.087890625f, 0.087890625f };
     private static readonly float[] WALK_TURNAROUND_ACC = { 0.0659179686f, 0.146484375f, 0.234375f };
     private static readonly float BUTTON_RELEASE_DEC = 0.0659179686f;
@@ -345,6 +345,28 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         }
 
         LightningTimerPrevious = LightningTimer;
+        if(sonicPhysics && GameManager.Instance.isCoral)
+        {
+            if (!dead && spawned)
+            {
+                DrowningTimer += 1;
+                if (DrowningTimer == 300 || DrowningTimer == 600 || DrowningTimer == 900)
+                {
+                    PlaySound(Enums.Sounds.Sonic_Drown_Ding);
+                }
+                if (DrowningTimer == 1080)
+                {
+                    PlaySound(Enums.Sounds.Sonic_Drown_End);
+                }
+                if (DrowningTimer == 1800)
+                {
+                    DrowningTimer = 0;
+                    PlaySound(Enums.Sounds.Sonic_Drown_Die);
+                    dead = true;
+
+                }
+            }
+        }
 
         groundpoundLastFrame = groundpound;
         previousOnGround = onGround;
@@ -448,7 +470,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             }
         }
     }
-
+    //l
     private ContactPoint2D[] contacts = new ContactPoint2D[0];
     public void OnCollisionStay2D(Collision2D collision) {
         if (!photonView.IsMine || (knockback && !fireballKnockback) || Frozen)
@@ -820,13 +842,17 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             Enums.Sounds sound = ice ? Enums.Sounds.Powerup_Iceball_Shoot : Enums.Sounds.Powerup_Fireball_Shoot;
             if (lightning)
                 {
-                    LightningTimer = 10f;
+                    LightningTimer = 6.4f;
                     projectile = "Lightningball";
                     sound = Enums.Sounds.Powerup_Lightningball_Shoot;
                 }
+            if(GameManager.Instance.isMarioLand && state == Enums.PowerupState.FireFlower)
+                    {
+                        sound = Enums.Sounds.Land_Fireball_Shoot;
+                    }
             if (isBomberman && state == Enums.PowerupState.FireFlower)
                 {
-                    LightningTimer = 6.4f;
+                    LightningTimer = 5f;
                     projectile = "Enemy/Bobomberman";
                     sound = Enums.Sounds.Powerup_BombOmb_Shoot;
                 }
@@ -1235,7 +1261,28 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
         Instantiate(Resources.Load("Prefabs/Particle/CoinCollect"), position, Quaternion.identity);
 
-        PlaySound(Enums.Sounds.World_Coin_Collect);
+        if (GameManager.Instance.isNSMB2)
+        {
+            PlaySound(Enums.Sounds.NSMB2_Coin_Collect);
+        }
+        else
+        {
+            if (GameManager.Instance.isMarioLand)
+            {
+                PlaySound(Enums.Sounds.Land_Coin_Collect);
+            }
+            else
+            {
+                if (GameManager.Instance.isLabyrinth)
+                {
+                    PlaySound(Enums.Sounds.Sonic_Coin_Collect);
+                }
+                else
+                {
+                    PlaySound(Enums.Sounds.World_Coin_Collect);
+                }
+            } 
+        }
         NumberParticle num = ((GameObject) Instantiate(Resources.Load("Prefabs/Particle/Number"), position, Quaternion.identity)).GetComponentInChildren<NumberParticle>();
         num.text.text = Utils.GetSymbolString((coins + 1).ToString(), Utils.numberSymbols);
         num.ApplyColor(AnimationController.GlowColor);
@@ -1766,22 +1813,17 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         startedSliding = false;
         if (groundpound) {
             if (onGround) {
-                if (state == Enums.PowerupState.MegaMushroom) {
-                    groundpound = false;
-                    groundpoundCounter = 0.5f;
-                    return;
-                }
                 if (!inShell && Mathf.Abs(floorAngle) >= slopeSlidingAngle) {
                     groundpound = false;
                     sliding = true;
                     alreadyGroundpounded = true;
-                    body.velocity = new Vector2(-Mathf.Sign(floorAngle) * SPEED_SLIDE_MAX, 0);
+                    body.velocity = new Vector2(-Mathf.Sign(floorAngle) * 7.5f * (groundpoundVelocity / 11.25f), 0);
                     startedSliding = true;
                 } else {
                     body.velocity = Vector2.zero;
-                    if (!down || state == Enums.PowerupState.MegaMushroom) {
+                    if (!down) {
                         groundpound = false;
-                        groundpoundCounter = state == Enums.PowerupState.MegaMushroom ? 0.4f : 0.25f;
+                        groundpoundCounter = 0.25f;
                     }
                 }
             }
@@ -1790,7 +1832,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                 body.velocity = Vector2.down * groundpoundVelocity;
             }
         }
-        if (!((facingRight && hitRight) || (!facingRight && hitLeft)) && crouching && Mathf.Abs(floorAngle) >= slopeSlidingAngle && !inShell && state != Enums.PowerupState.MegaMushroom) {
+        if (!((facingRight && hitRight) || (!facingRight && hitLeft)) && crouching && Mathf.Abs(floorAngle) >= slopeSlidingAngle && !inShell) {
             sliding = true;
             crouching = false;
             alreadyGroundpounded = true;
@@ -1799,9 +1841,9 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             float angleDeg = floorAngle * Mathf.Deg2Rad;
 
             bool uphill = Mathf.Sign(floorAngle) == Mathf.Sign(body.velocity.x);
-            float speed = Time.fixedDeltaTime * 5f * (uphill ? Mathf.Clamp01(1f - (Mathf.Abs(body.velocity.x) / RunningMaxSpeed)) : 4f);
+            float speed = Time.fixedDeltaTime * 5f * (uphill ? Mathf.Clamp01(1f - (Mathf.Abs(body.velocity.x) / (RunningMaxSpeed / 2f))) : 4f);
 
-            float newX = Mathf.Clamp(body.velocity.x - (Mathf.Sin(angleDeg) * speed), -(RunningMaxSpeed * 1.3f), RunningMaxSpeed * 1.3f);
+            float newX = Mathf.Clamp(body.velocity.x - (Mathf.Sin(angleDeg) * speed), -(RunningMaxSpeed * 3f), RunningMaxSpeed * 3f);
             float newY = Mathf.Sin(angleDeg) * newX + 0.4f;
             body.velocity = new Vector2(newX, newY);
 
@@ -2246,7 +2288,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             bool reverse = body.velocity.x != 0 && ((left ? 1 : -1) == sign);
             if (sonicPhysics && !skidding)
             {
-                body.velocity = new Vector2((body.velocity.x * 1.055f), body.velocity.y);
+                body.velocity = new Vector2((body.velocity.x * 1.3f), body.velocity.y);
             }
             //check that we're not going above our limit
             float max = dippySpeed;

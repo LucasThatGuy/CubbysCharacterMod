@@ -104,7 +104,7 @@ public class FireballMover : MonoBehaviourPun {
         case "koopa":
         case "goomba": {
             KillableEntity en = collider.gameObject.GetComponentInParent<KillableEntity>();
-            if (en.dead || en.Frozen)
+            if (en.dead || en.Frozen || en.DoNotBurn)
                 return;
 
             if (isIceball) {

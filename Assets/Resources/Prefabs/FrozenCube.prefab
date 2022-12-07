@@ -59,6 +59,7 @@ MonoBehaviour:
   collide: 1
   iceCarryable: 0
   flying: 0
+  DoNotBurn: 0
   body: {fileID: -1029166702606754831}
   hitbox: {fileID: 0}
   holder: {fileID: 0}

@@ -1,0 +1,2929 @@
+fileFormatVersion: 2
+guid: 480fd3f84b948764c83d6b4122804b2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6300410782580505984
+    second: 17 Snow (with ice)_0
+  - first:
+      213: -4053067319055912903
+    second: 17 Snow (with ice)_1
+  - first:
+      213: 5118175505408131421
+    second: 17 Snow (with ice)_2
+  - first:
+      213: 1813239276613189179
+    second: 17 Snow (with ice)_3
+  - first:
+      213: -9013453111420326038
+    second: 17 Snow (with ice)_4
+  - first:
+      213: 1893304468737283418
+    second: 17 Snow (with ice)_5
+  - first:
+      213: 8293584250301118868
+    second: 17 Snow (with ice)_6
+  - first:
+      213: 2365977113783317205
+    second: 17 Snow (with ice)_7
+  - first:
+      213: -2138034016857250402
+    second: 17 Snow (with ice)_8
+  - first:
+      213: 335365305919136532
+    second: 17 Snow (with ice)_9
+  - first:
+      213: -2837221730051091734
+    second: 17 Snow (with ice)_10
+  - first:
+      213: -4494366842637114311
+    second: 17 Snow (with ice)_11
+  - first:
+      213: 3460211445942149478
+    second: 17 Snow (with ice)_12
+  - first:
+      213: 1548642490827387919
+    second: 17 Snow (with ice)_13
+  - first:
+      213: -3970593749064347476
+    second: 17 Snow (with ice)_14
+  - first:
+      213: -182444427051251573
+    second: 17 Snow (with ice)_15
+  - first:
+      213: -7538437064517441079
+    second: 17 Snow (with ice)_16
+  - first:
+      213: -6660284966460321296
+    second: 17 Snow (with ice)_17
+  - first:
+      213: -7655771042961951389
+    second: 17 Snow (with ice)_18
+  - first:
+      213: 3226195363676501907
+    second: 17 Snow (with ice)_19
+  - first:
+      213: 6276221612720772921
+    second: 17 Snow (with ice)_20
+  - first:
+      213: -4530427751867993857
+    second: 17 Snow (with ice)_21
+  - first:
+      213: 1231485242115983449
+    second: 17 Snow (with ice)_22
+  - first:
+      213: 6828257872530074796
+    second: 17 Snow (with ice)_23
+  - first:
+      213: -1688621852434866573
+    second: 17 Snow (with ice)_24
+  - first:
+      213: -3556226607749843564
+    second: 17 Snow (with ice)_25
+  - first:
+      213: -5262711072247304031
+    second: 17 Snow (with ice)_26
+  - first:
+      213: -3572203244071242199
+    second: 17 Snow (with ice)_29
+  - first:
+      213: -5997012777536148397
+    second: 17 Snow (with ice)_30
+  - first:
+      213: -7810133161317435622
+    second: 17 Snow (with ice)_31
+  - first:
+      213: -4926953012709212600
+    second: 17 Snow (with ice)_38
+  - first:
+      213: 1928070836197381956
+    second: 17 Snow (with ice)_39
+  - first:
+      213: 6580648872662214890
+    second: 17 Snow (with ice)_40
+  - first:
+      213: -2631127404179897917
+    second: 17 Snow (with ice)_41
+  - first:
+      213: 7395684506710753096
+    second: 17 Snow (with ice)_42
+  - first:
+      213: 1976347658632571419
+    second: 17 Snow (with ice)_43
+  - first:
+      213: 1697982533516544020
+    second: 17 Snow (with ice)_44
+  - first:
+      213: 945367669344123159
+    second: 17 Snow (with ice)_45
+  - first:
+      213: -2732051846205184009
+    second: 17 Snow (with ice)_46
+  - first:
+      213: 3243707234121225211
+    second: 17 Snow (with ice)_47
+  - first:
+      213: -2842157672857578184
+    second: 17 Snow (with ice)_54
+  - first:
+      213: 9084816540663525322
+    second: 17 Snow (with ice)_55
+  - first:
+      213: -369944536642310432
+    second: 17 Snow (with ice)_56
+  - first:
+      213: -863726444344398902
+    second: 17 Snow (with ice)_57
+  - first:
+      213: 4176180033442103499
+    second: 17 Snow (with ice)_58
+  - first:
+      213: -5818526749545188408
+    second: 17 Snow (with ice)_59
+  - first:
+      213: -6356306983337635172
+    second: 17 Snow (with ice)_60
+  - first:
+      213: 4700990251516197323
+    second: 17 Snow (with ice)_61
+  - first:
+      213: 2844340004484196322
+    second: 17 Snow (with ice)_62
+  - first:
+      213: -2298399621995650721
+    second: 17 Snow (with ice)_63
+  - first:
+      213: 7983974791397222505
+    second: 17 Snow (with ice)_69
+  - first:
+      213: 5631042602748212753
+    second: 17 Snow (with ice)_70
+  - first:
+      213: -8962288578422844348
+    second: 17 Snow (with ice)_73
+  - first:
+      213: -3381731573352926752
+    second: 17 Snow (with ice)_74
+  - first:
+      213: -7617203997942276020
+    second: 17 Snow (with ice)_75
+  - first:
+      213: 7772855040124251841
+    second: 17 Snow (with ice)_76
+  - first:
+      213: 7521112415818800856
+    second: 17 Snow (with ice)_77
+  - first:
+      213: 5862298523878809754
+    second: 17 Snow (with ice)_78
+  - first:
+      213: -4667633893116139394
+    second: 17 Snow (with ice)_79
+  - first:
+      213: 947766031780083832
+    second: 17 Snow (with ice)_80
+  - first:
+      213: -8407847473480121096
+    second: 17 Snow (with ice)_81
+  - first:
+      213: -4862717808911733
+    second: 17 Snow (with ice)_82
+  - first:
+      213: 6648006000860349067
+    second: 17 Snow (with ice)_83
+  - first:
+      213: -3937821555686740368
+    second: 17 Snow (with ice)_84
+  - first:
+      213: 5449189118766894354
+    second: 17 Snow (with ice)_85
+  - first:
+      213: 441550507884855593
+    second: 17 Snow (with ice)_86
+  - first:
+      213: 4374294410776526029
+    second: 17 Snow (with ice)_87
+  - first:
+      213: -6630464420988987600
+    second: 17 Snow (with ice)_88
+  - first:
+      213: -494903562235785116
+    second: 17 Snow (with ice)_89
+  - first:
+      213: 8640388344009670486
+    second: 17 Snow (with ice)_95
+  - first:
+      213: 6929731253186273174
+    second: 17 Snow (with ice)_96
+  - first:
+      213: 3791035259704847999
+    second: 17 Snow (with ice)_97
+  - first:
+      213: 341520223738611989
+    second: 17 Snow (with ice)_98
+  - first:
+      213: 3894684780014457245
+    second: 17 Snow (with ice)_99
+  - first:
+      213: 5893547083715574885
+    second: 17 Snow (with ice)_100
+  - first:
+      213: 8176468427257778730
+    second: 17 Snow (with ice)_101
+  - first:
+      213: 1484539609621353927
+    second: 17 Snow (with ice)_102
+  - first:
+      213: 4854830910324205991
+    second: 17 Snow (with ice)_103
+  - first:
+      213: 6520820702182674956
+    second: 17 Snow (with ice)_104
+  - first:
+      213: 1722470237677832252
+    second: 17 Snow (with ice)_105
+  - first:
+      213: -276582683036807909
+    second: 17 Snow (with ice)_106
+  - first:
+      213: 6779239019230897394
+    second: 17 Snow (with ice)_107
+  - first:
+      213: 6413545887853820868
+    second: 17 Snow (with ice)_212
+  - first:
+      213: 3431206980173699850
+    second: 17 Snow (with ice)_32
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e7c3495bf5ca342b7279d215f247c9
+      internalID: 743591657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683cd369acdc1a44a8fa1b98ef3c8b36
+      internalID: 241421144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1955549c9e3f742814e2e25cdab090
+      internalID: 795286127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff95b7f39708144f8dfd24b90370a39
+      internalID: -24561849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405c8741123907b489d4e1568ab76618
+      internalID: -183330467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bb692646bd1b443a5864c0250c85d4
+      internalID: -1038482239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671c41dfda333a8438fae2afd54d52df
+      internalID: 1989375993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1874f5147280647a0f588694d3c4c0
+      internalID: -1104541291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352e2addada678f46a8bfae81ddd2cda
+      internalID: -1587805774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69d62c698841564ea151d091e7e87ac
+      internalID: -741106591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -8}
+        - {x: 8, y: 0}
+        - {x: 8, y: -2}
+        - {x: 2, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdde4c964be6e64e82c5f5f3a9fa855
+      internalID: 261567487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9001037745cc843a25202e37486124
+      internalID: -1501344568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b2af6f94f63554b894a63c2f3059b7
+      internalID: -259964839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b163c709f611c489da6238bc91ec02
+      internalID: 1376182567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75ec2ecfed4b5348b9672df6107fd8a
+      internalID: 620309202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a63829105b23084bae0c307d458738c
+      internalID: 137252090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e151ce16fac5434597975055035c21d
+      internalID: -1717898640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84ef624066407849bd8e7be9a3501c6
+      internalID: 831477455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055400fd95f259041acb713717c36d79
+      internalID: 1825660149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4a5473d9df103479c783218e855bf4
+      internalID: 1192593676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de8c1c5edce8544eaad45f1a80f600c
+      internalID: -1811176129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 7}
+        - {x: 1, y: 7}
+        - {x: -5.9877167, y: 0.012268066}
+        - {x: 0, y: 0}
+        - {x: 0, y: -1}
+        - {x: -7, y: -1}
+        - {x: -8, y: -2}
+        - {x: -8, y: 0}
+        - {x: 0, y: 8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec207ae2c78e4d4aa1ced97635a0d4d
+      internalID: -503773929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283199c180b43914b9e57fffa6cd914f
+      internalID: 643237079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033ce9dc2dc3791429576d74f31bdda2
+      internalID: 66359479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3186713967880e148ab41f6b1f5c64a6
+      internalID: 830161808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4131838e3b9a264a935f2bc797a33f0
+      internalID: 373366007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5b4e3c81ab2fc4cae098899c1bcf30
+      internalID: -145680218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241ee4272f56ee549a13773a41dfe198
+      internalID: 265680697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7e115a0fc03ca4ab820e9d0155de44
+      internalID: -836209366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e502ce946fecaa64b8c9bc42b0d0e078
+      internalID: -828981452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45f65f2382cc0a4a9f1c3918b4a36c9
+      internalID: -884600873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c67a3cb182d9f45981d7704820671f
+      internalID: -281434175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: 0}
+        - {x: 6, y: 0}
+        - {x: -1, y: 7}
+        - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 0, y: 8}
+        - {x: 8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eae5cede24a224bbbbbba452298694
+      internalID: -300893024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25154b171757dd42a698b45ca5e9644
+      internalID: -242950856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cf507783e3d844ea8686ab47abeb38
+      internalID: -1205840772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb52e80077deb60459cc18e3adc00535
+      internalID: -587016905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39eed4cfafb7094189bbd5e1631cba3
+      internalID: 1335128633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0521cd35ca2b5174dbe9108bb644ee48
+      internalID: -955468650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89986c0f982b19a48aef16ccacd8b712
+      internalID: 417079067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12a2d91959d4204480c1b7277b3736b
+      internalID: 546642681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -8}
+        - {x: -8, y: -2}
+        - {x: -8, y: 0}
+        - {x: 0, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba166ba3cc4e3c740814c727a0c3877f
+      internalID: 902388817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd4b2cf775f93b488c4394f8e72ee0f
+      internalID: -131524558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0638c2033f05f5e4bbd99bc9a3092003
+      internalID: -464123546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c5b357cba5f1e40b658af88e669e09
+      internalID: -1121238359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebbd748e6d20cb4cab8ce0426728305
+      internalID: 1941061711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0810e12fb55d748ac7895b80250fef
+      internalID: 1546376843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cce76a2d93221a40a92f6d469f6a037
+      internalID: -824972928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f1e0535bb8c9a41b1350e57e30462e
+      internalID: 1096039296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edbc9845f81b5c4c9c9f2b4678164ed
+      internalID: 1434745768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -1}
+        - {x: -8, y: -2}
+        - {x: -8, y: 0}
+        - {x: 0, y: 0}
+        - {x: 8, y: 8}
+        - {x: 8, y: 6}
+        - {x: 2, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: -1}
+        - {x: 1, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a51007d5c35e604599370f255067c7c
+      internalID: 32645927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 7}
+        - {x: -8, y: 6}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741feb1a2a1d0e94db20e705a23e4d66
+      internalID: 2051592530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdafbec0efb388e41973175838ed6f9a
+      internalID: -2064384773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5908c42c4f2a546af3210bf5c23ae8
+      internalID: -397570348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82491dd349858c64a82ead7fc8e65db2
+      internalID: 108504482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a0ee0dfb019d0429c1cde31ff8f675
+      internalID: 444540254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbe4d5e5f2c4f14b930c6bbf0e3ff41
+      internalID: 1527502462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb1b72d8e605a049985e237da41950f
+      internalID: 1696741745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b4193a1ac715c4584f14c1d9188b10
+      internalID: -112647905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_58
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7104ab80c838144a1e31210fa5e87a
+      internalID: -1982809995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6.770012, y: 7}
+        - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4d16989b672174f81d5cc8c8fa1a10
+      internalID: 831296565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -1}
+        - {x: -8, y: -1}
+        - {x: -8, y: 0}
+        - {x: -2, y: 0}
+        - {x: -8, y: 6}
+        - {x: -8, y: 8}
+        - {x: 0, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f93cc89f8160e4a91bc3e7efcb4257
+      internalID: 1636403660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42c08e2a11772448b53020594071c90
+      internalID: -53314295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_62
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d9fbcadf7365f45a9fa79f85017e10
+      internalID: 78579649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624b2ee1ed385f24193770416a78e168
+      internalID: 1228245835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155e57a2b9833464c947d8295fefb07f
+      internalID: 2008617567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeec4a6e57a481459eb351fd24f2bf7
+      internalID: 672044533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966e97b47c5ee1a4c8fcb63027c7512d
+      internalID: -746243748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_67
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cef324cdcd730428872918831a3729
+      internalID: 660980122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0313b0e93665dc84dad3d37ca25e8bb1
+      internalID: -2130147272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f514337e4f9730744a73a0f22f2d6e48
+      internalID: -1549659743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774bf72dd695da34b865caa87985dcc5
+      internalID: -1284880138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_71
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a3484c974aba647940b7e200e39d97
+      internalID: 909071001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7106f931bcd796d41a0295ea2b33a1b7
+      internalID: 673006975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_73
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75551e136c7f52c4db825d6017ee79f0
+      internalID: 1801122453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da12dcf96b8e24b4291c4de4409d63cd
+      internalID: -1565071127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1482e972eff6ff942a9c33c2b0a2458e
+      internalID: -1853431366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0ba3ace0fc6764c983bbb90c734940
+      internalID: -1054715974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d684ee879033f704b947f606d6ace2d3
+      internalID: 238742578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d33f873852b64391422e6d966be29
+      internalID: 1328112769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eecdc5c375edf4eb08a9ef5f155821
+      internalID: 692357536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_80
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5798df64f72709e409340154f2f719a9
+      internalID: -1393242175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496352ebf9de14c468614ff78497df40
+      internalID: -245496243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e8b00b6d27e9542b3485c131935712
+      internalID: 1196924854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec2ac1c3d45a647bdad78bf19467ba
+      internalID: 699639238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_84
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b9add1691f6424cb68092d2d263e4a
+      internalID: 1484308322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693271d1c309c3f41a5e768171d1f6a3
+      internalID: 1338810952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_86
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aed47f4c52ff0408b18844b63e1cc3
+      internalID: -561364228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_87
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3438e5d5f5f483945a9fbdb974e0d974
+      internalID: -1507167970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068e2681e4d10544d9711c4332c9e0fc
+      internalID: 1704640876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f8bb5936604c54b9d703046b02b591
+      internalID: -47004783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0438313071afbd141a09237cca59f3ed
+      internalID: -2072939154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ff6b36e0900e94f91739a6daa2d3ea
+      internalID: 1992218262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b1d025cd2121e4082aa6a126815083
+      internalID: 1019206767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e063f6f1a374d47a6d5962a63838f7
+      internalID: 1604555094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698fc0b7d80184f4cb25dfc62dabe35a
+      internalID: 1190483741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860c3802ec83c134d9c5152f3bcea02b
+      internalID: 906462212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938787b7f53b7084f9f3869c7127b85a
+      internalID: -1749258722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_97
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eac8c1c85c56a40b44a328696875f6
+      internalID: -713644725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6a3722368ea194baf1322bac65d6c8
+      internalID: -1118224789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde5bf310dec6434dbb75a8576de86d2
+      internalID: 1410335023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_100
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2858f0bf3ca87b04db3342e1a22142e6
+      internalID: -464416654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f594f71373b3b47984cc970028c8d9
+      internalID: -1818922484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0bc73152b392742a586112031e31af
+      internalID: 600774808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6857e81e69e4ddf478172d224f374e5b
+      internalID: -1238532729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_104
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080140f4c69b5fc49b0d69adf141f274
+      internalID: -2109341922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_105
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffd996321590724893503b5499d6558
+      internalID: -426153209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_106
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e0d611af03e564aa99a8f7da2da689
+      internalID: -293872210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47370ca9a6463e041bdfe98d7d9e5904
+      internalID: 1961524620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_108
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d84f354c1ec2324fbd95d677d0467f3
+      internalID: -1695174029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deghosthaseatenmyglasagna_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0243a94746fa9942aec61d80b6d627d
+      internalID: -1243337934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      deghosthaseatenmyglasagna_1: 241421144
+      deghosthaseatenmyglasagna_73: 1801122453
+      deghosthaseatenmyglasagna_12: -259964839
+      deghosthaseatenmyglasagna_70: -1284880138
+      deghosthaseatenmyglasagna_54: 444540254
+      deghosthaseatenmyglasagna_69: -1549659743
+      deghosthaseatenmyglasagna_59: 831296565
+      deghosthaseatenmyglasagna_77: 238742578
+      deghosthaseatenmyglasagna_66: -746243748
+      deghosthaseatenmyglasagna_98: -1118224789
+      deghosthaseatenmyglasagna_11: -1501344568
+      deghosthaseatenmyglasagna_41: -131524558
+      deghosthaseatenmyglasagna_37: -955468650
+      deghosthaseatenmyglasagna_57: -112647905
+      deghosthaseatenmyglasagna_105: -426153209
+      deghosthaseatenmyglasagna_106: -293872210
+      deghosthaseatenmyglasagna_52: -397570348
+      deghosthaseatenmyglasagna_16: -1717898640
+      deghosthaseatenmyglasagna_108: -1695174029
+      deghosthaseatenmyglasagna_30: -884600873
+      deghosthaseatenmyglasagna_38: 417079067
+      deghosthaseatenmyglasagna_47: 1096039296
+      deghosthaseatenmyglasagna_75: -1853431366
+      deghosthaseatenmyglasagna_28: -836209366
+      deghosthaseatenmyglasagna_89: -47004783
+      deghosthaseatenmyglasagna_35: -587016905
+      deghosthaseatenmyglasagna_29: -828981452
+      deghosthaseatenmyglasagna_76: -1054715974
+      deghosthaseatenmyglasagna_87: -1507167970
+      deghosthaseatenmyglasagna_0: 743591657
+      deghosthaseatenmyglasagna_19: 1192593676
+      deghosthaseatenmyglasagna_27: 265680697
+      deghosthaseatenmyglasagna_102: 600774808
+      deghosthaseatenmyglasagna_56: 1696741745
+      deghosthaseatenmyglasagna_46: -824972928
+      deghosthaseatenmyglasagna_55: 1527502462
+      deghosthaseatenmyglasagna_82: 1196924854
+      deghosthaseatenmyglasagna_36: 1335128633
+      deghosthaseatenmyglasagna_67: 660980122
+      deghosthaseatenmyglasagna_96: -1749258722
+      deghosthaseatenmyglasagna_95: 906462212
+      deghosthaseatenmyglasagna_58: -1982809995
+      deghosthaseatenmyglasagna_80: -1393242175
+      deghosthaseatenmyglasagna_72: 673006975
+      deghosthaseatenmyglasagna_14: 620309202
+      deghosthaseatenmyglasagna_94: 1190483741
+      deghosthaseatenmyglasagna_6: 1989375993
+      deghosthaseatenmyglasagna_99: 1410335023
+      deghosthaseatenmyglasagna_64: 2008617567
+      deghosthaseatenmyglasagna_51: -2064384773
+      deghosthaseatenmyglasagna_34: -1205840772
+      deghosthaseatenmyglasagna_40: 902388817
+      deghosthaseatenmyglasagna_32: -300893024
+      deghosthaseatenmyglasagna_48: 1434745768
+      deghosthaseatenmyglasagna_24: 830161808
+      deghosthaseatenmyglasagna_104: -2109341922
+      deghosthaseatenmyglasagna_17: 831477455
+      deghosthaseatenmyglasagna_74: -1565071127
+      deghosthaseatenmyglasagna_31: -281434175
+      deghosthaseatenmyglasagna_68: -2130147272
+      deghosthaseatenmyglasagna_61: -53314295
+      deghosthaseatenmyglasagna_84: 1484308322
+      deghosthaseatenmyglasagna_107: 1961524620
+      deghosthaseatenmyglasagna_103: -1238532729
+      deghosthaseatenmyglasagna_78: 1328112769
+      deghosthaseatenmyglasagna_85: 1338810952
+      deghosthaseatenmyglasagna_44: 1941061711
+      deghosthaseatenmyglasagna_2: 795286127
+      deghosthaseatenmyglasagna_43: -1121238359
+      deghosthaseatenmyglasagna_21: -503773929
+      deghosthaseatenmyglasagna_49: 32645927
+      deghosthaseatenmyglasagna_93: 1604555094
+      deghosthaseatenmyglasagna_65: 672044533
+      deghosthaseatenmyglasagna_86: -561364228
+      deghosthaseatenmyglasagna_13: 1376182567
+      deghosthaseatenmyglasagna_63: 1228245835
+      deghosthaseatenmyglasagna_15: 137252090
+      deghosthaseatenmyglasagna_25: 373366007
+      deghosthaseatenmyglasagna_50: 2051592530
+      deghosthaseatenmyglasagna_45: 1546376843
+      deghosthaseatenmyglasagna_91: 1992218262
+      deghosthaseatenmyglasagna_71: 909071001
+      deghosthaseatenmyglasagna_101: -1818922484
+      deghosthaseatenmyglasagna_92: 1019206767
+      deghosthaseatenmyglasagna_3: -24561849
+      deghosthaseatenmyglasagna_60: 1636403660
+      deghosthaseatenmyglasagna_4: -183330467
+      deghosthaseatenmyglasagna_42: -464123546
+      deghosthaseatenmyglasagna_26: -145680218
+      deghosthaseatenmyglasagna_79: 692357536
+      deghosthaseatenmyglasagna_39: 546642681
+      deghosthaseatenmyglasagna_20: -1811176129
+      deghosthaseatenmyglasagna_9: -741106591
+      deghosthaseatenmyglasagna_81: -245496243
+      deghosthaseatenmyglasagna_90: -2072939154
+      deghosthaseatenmyglasagna_109: -1243337934
+      deghosthaseatenmyglasagna_97: -713644725
+      deghosthaseatenmyglasagna_8: -1587805774
+      deghosthaseatenmyglasagna_33: -242950856
+      deghosthaseatenmyglasagna_62: 78579649
+      deghosthaseatenmyglasagna_83: 699639238
+      deghosthaseatenmyglasagna_88: 1704640876
+      deghosthaseatenmyglasagna_7: -1104541291
+      deghosthaseatenmyglasagna_5: -1038482239
+      deghosthaseatenmyglasagna_23: 66359479
+      deghosthaseatenmyglasagna_100: -464416654
+      deghosthaseatenmyglasagna_10: 261567487
+      deghosthaseatenmyglasagna_53: 108504482
+      deghosthaseatenmyglasagna_18: 1825660149
+      deghosthaseatenmyglasagna_22: 643237079
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

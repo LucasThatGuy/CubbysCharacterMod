@@ -49,8 +49,8 @@ public class CustomRigidbodySerializer : MonoBehaviourPun, ICustomSerializeView 
 
         //we can't just send one, we dont know the read length.
         if (forceResend || sendVelocity || sendPosition) {
-            SerializationUtils.PackToInt(buffer, body.position, GameManager.Instance.GetLevelMinX() - 0.5f, GameManager.Instance.GetLevelMaxX() + 0.5f, -20, 20);
-            SerializationUtils.PackToInt(buffer, body.velocity, -20, 20);
+            SerializationUtils.WriteVector2(buffer, body.position);
+            SerializationUtils.WriteVector2(buffer, body.velocity);
 
             previousPosition = body.position;
             previousVelocity = body.velocity;
@@ -60,12 +60,12 @@ public class CustomRigidbodySerializer : MonoBehaviourPun, ICustomSerializeView 
 
     public void Deserialize(List<byte> buffer, ref int index, PhotonMessageInfo info) {
         //position
-        SerializationUtils.UnpackFromInt(buffer, ref index, GameManager.Instance.GetLevelMinX() - 0.5f, GameManager.Instance.GetLevelMaxX() + 0.5f, out Vector2 newPosition, -20, 20);
+        SerializationUtils.ReadVector2(buffer, ref index, out Vector2 newPosition);
 
         //velocity
         bool syncVelocity = body.bodyType != RigidbodyType2D.Static;
         if (syncVelocity) {
-            SerializationUtils.UnpackFromInt(buffer, ref index, -20, 20, out Vector2 newVelocity);
+            SerializationUtils.ReadVector2(buffer, ref index, out Vector2 newVelocity);
 
             if (Mathf.Abs(newVelocity.x) < EPSILON)
                 newVelocity = new(0, newVelocity.y);

@@ -16,7 +16,7 @@ public class DiscordController : MonoBehaviour {
         return;
 #endif
 
-        discord = new Discord.Discord(962073502469459999, (ulong) CreateFlags.NoRequireDiscord);
+        discord = new Discord.Discord(1045784139749666826, (ulong) CreateFlags.NoRequireDiscord);
         activityManager = discord.GetActivityManager();
         activityManager.OnActivityJoinRequest += AskToJoin;
         activityManager.OnActivityJoin += TryJoinGame;
@@ -116,7 +116,7 @@ public class DiscordController : MonoBehaviour {
         } else {
             //in the main menu, not in a room
 
-            activity.Details = "Browsing the Main Menu...";
+            activity.Details = "Exhibiting Bozo Behavior";
             activity.Assets = new() { LargeImage = "mainmenu" };
 
         }

@@ -198,8 +198,8 @@ MonoBehaviour:
     overallsColor: {r: 0.46274513, g: 0.46274513, b: 0.46274513, a: 1}
     ColorName: '"I Got a Rock" Gray'
   - player: {fileID: 11400000, guid: b4fe72e0991e7854796b638645892d76, type: 2}
-    hatColor: {r: 0.7372549, g: 1, b: 0.49411768, a: 1}
-    overallsColor: {r: 0.20392159, g: 0.7607844, b: 0.8470589, a: 1}
+    hatColor: {r: 0.87843144, g: 0.5647059, b: 0.1254902, a: 1}
+    overallsColor: {r: 0.654902, g: 0.34117648, b: 0.26666668, a: 1}
     ColorName: AutumnLeaf
   - player: {fileID: 11400000, guid: 913a318059cd0fb45a2eec6674e3e64b, type: 2}
     hatColor: {r: 0.8235294, g: 0.8352941, b: 0.15294118, a: 1}

@@ -6,6 +6,32 @@ using UnityEngine;
 namespace NSMB.Utils {
     public static class SerializationUtils {
 
+        #region FLOAT PRECISION
+        public static void WriteFloat(List<byte> buffer, float input)
+        {
+            WriteInt(buffer, System.BitConverter.SingleToInt32Bits(input));
+        }
+
+        public static void ReadFloat(List<byte> buffer, ref int index, out float value)
+        {
+            ReadInt(buffer, ref index, out int intValue);
+            value = System.BitConverter.Int32BitsToSingle(intValue);
+        }
+        public static void WriteVector2(List<byte> buffer, Vector2 input)
+        {
+            WriteFloat(buffer, input.x);
+            WriteFloat(buffer, input.y);
+        }
+
+        public static void ReadVector2(List<byte> buffer, ref int index, out Vector2 value)
+        {
+            ReadFloat(buffer, ref index, out float x);
+            ReadFloat(buffer, ref index, out float y);
+            value = new(x, y);
+        }
+
+        #endregion
+
         #region INT PRECISION
         public static void PackToInt(List<byte> buffer, Vector2 input, float xMin, float xMax, float? yMin = null, float? yMax = null) {
             SetIfNull(ref yMin, xMin);

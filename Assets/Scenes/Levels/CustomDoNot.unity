@@ -471,7 +471,7 @@ PrefabInstance:
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: levelDesigner
-      value: Cubby
+      value: Cubby, Freeze
       objectReference: {fileID: 0}
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -506,7 +506,7 @@ PrefabInstance:
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: richPresenceId
-      value: donot
+      value: c-donotthebobomb
       objectReference: {fileID: 0}
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -6531,6 +6531,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3106545712320729601, guid: c133c3ca03df9b0489dc5b7f83cda9d2,
         type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3106545712320729601, guid: c133c3ca03df9b0489dc5b7f83cda9d2,
+        type: 3}
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
@@ -6553,6 +6558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kill
+      objectReference: {fileID: 0}
+    - target: {fileID: 6004104070224972752, guid: c133c3ca03df9b0489dc5b7f83cda9d2,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6004104070224972753, guid: c133c3ca03df9b0489dc5b7f83cda9d2,
         type: 3}

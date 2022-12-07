@@ -10,8 +10,19 @@ public static class PhotonExtensions {
     private static readonly Dictionary<string, string> SPECIAL_PLAYERS = new() {
         ["cf03abdb5d2ef1b6f0d30ae40303936f9ab22f387f8a1072e2849c8292470af1"] = "ipodtouch0218",
         ["d5ba21667a5da00967cc5ebd64c0d648e554fb671637adb3d22a688157d39bf6"] = "mindnomad",
-        ["95962949aacdbb42a6123732dabe9c7200ded59d7eeb39c889067bafeebecc72"] = "MPS64",
-        ["7e9c6f2eaf0ce11098c8a90fcd9d48b13017667e33d09d0cc5dfe924f3ead6c1"] = "Fawndue",
+        ["080bf7071cde398203f8ebe86171b6461c697441baa10f69e25d7adf3c17e606"] = "Cubby",
+        ["e22b0af382ee827f220519b31b15f58113885b8bf86c1917875e871fee3806cf"] = "AutumnLeaf",
+        ["3d4c251a2b0a78243b49922256fb18cfeee9c13cf5f408fead6c8bb6cab459eb"] = "MiiBumm",
+        ["5328dab6e3958c1a6769f07bcb897054dd1b40a757adeaa5598559ce4e969ddc"] = "Grape",
+        ["514e957b394bef3143b5d026b309d60846ed5715d155a9c34a252719892c2ccf"] = "Player1214", //Cubby in Unity editor
+        ["091a6fec86285fb1be3689a1b9c87d7449bcd7422f2d12874ed3489b5705e8c1"] = "justarobotidk",
+        ["639a44e1f831f3fe5ae6c6e5d82cb8e2df8d02ed927725ffc3305c9e0c34612e"] = "MvLWalterWhite"
+    };
+
+    private static readonly Dictionary<string, string> POOPIE_PLAYERS = new()
+    {
+        ["f9f44ec0da6bd789788cd269c9a445ee4151297177bbb7d62b495cf0b4d485eb"] = "SMYT",
+        ["514e957b394bef3143b5d026b309d60846ed5715d155a9c34a252719892c2ccf"] = "Player1214"
     };
 
     public static bool IsMineOrLocal(this PhotonView view) {
@@ -29,6 +40,19 @@ public static class PhotonExtensions {
 
         string hash = sb.ToString().ToLower();
         return SPECIAL_PLAYERS.ContainsKey(hash) && player.NickName == SPECIAL_PLAYERS[hash];
+    }
+
+        public static bool HasPoopieName(this Player player) {
+        if (player == null || player.UserId == null)
+            return false;
+
+        byte[] bytes = SHA256.Create().ComputeHash(Encoding.UTF8.GetBytes(player.UserId));
+        StringBuilder sb = new();
+        foreach (byte b in bytes)
+            sb.Append(b.ToString("X2"));
+
+        string hash = sb.ToString().ToLower();
+        return POOPIE_PLAYERS.ContainsKey(hash);
     }
 
     //public static void RPCFunc(this PhotonView view, Delegate action, RpcTarget target, params object[] parameters) {

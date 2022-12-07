@@ -76,8 +76,6 @@ public class DebugControls : MonoBehaviour {
     }
 
     private void FreezePlayer(Key key) {
-        if (!GameManager.Instance.localPlayer)
-            return;
 
         PlayerController p = GameManager.Instance.localPlayer.GetComponent<PlayerController>();
         if (Keyboard.current[key].wasPressedThisFrame && !p.Frozen && !p.frozenObject && p.state != Enums.PowerupState.MegaMushroom && !p.pipeEntering && !p.knockback && p.hitInvincibilityCounter <= 0) {
@@ -85,8 +83,6 @@ public class DebugControls : MonoBehaviour {
         }
     }
     private void DebugItem(Key key, string item) {
-        if (!GameManager.Instance.localPlayer)
-            return;
 
         if (Keyboard.current[key].wasPressedThisFrame) {
             SpawnDebugItem(item);
@@ -94,8 +90,6 @@ public class DebugControls : MonoBehaviour {
     }
 
     private void SpawnDebugItem(string prefab) {
-        if (!PhotonNetwork.IsMasterClient)
-            return;
 
         PlayerController local = GameManager.Instance.localPlayer.GetComponent<PlayerController>();
 
@@ -106,8 +100,6 @@ public class DebugControls : MonoBehaviour {
     }
 
     private void DebugEntity(Key key, string entity) {
-        if (!GameManager.Instance.localPlayer)
-            return;
 
         if (Keyboard.current[key].wasPressedThisFrame)
             PhotonNetwork.Instantiate("Prefabs/Enemy/" + entity, GameManager.Instance.localPlayer.transform.position + (GameManager.Instance.localPlayer.GetComponent<PlayerController>().facingRight ? Vector3.right : Vector3.left) + new Vector3(0, 0.2f, 0), Quaternion.identity);

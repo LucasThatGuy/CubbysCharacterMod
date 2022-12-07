@@ -5246,23 +5246,25 @@ MonoBehaviour:
   mainMusic: {fileID: 11400000, guid: 488f1c737d498714c951d86c1a790bcc, type: 2}
   invincibleMusic: {fileID: 11400000, guid: fb397722d9ffbb145a088ac9ce60908c, type: 2}
   megaMushroomMusic: {fileID: 11400000, guid: 3fb519076901a294493ae6e0c10c979b, type: 2}
-  levelMinTileX: -30
+  levelMinTileX: -32
   levelMinTileY: -12
-  levelWidthTile: 50
-  levelHeightTile: 15
+  levelWidthTile: 256
+  levelHeightTile: 20
+  StarRange: 8
   cameraMinY: 0
   cameraHeightY: 0
   cameraMinX: -1000
   cameraMaxX: 1000
   loopingLevel: 1
-  spawnpoint: {x: 0, y: 0, z: 0}
+  isMario3: 0
+  spawnpoint: {x: -10, y: 3.25, z: 0}
   tilemap: {fileID: 0}
-  levelUIColor: {r: 0.09411766, g: 0.69803923, b: 0.6666667, a: 1}
+  levelUIColor: {r: 0, g: 0, b: 0, a: 1}
   spawnBigPowerups: 1
   spawnVerticalPowerups: 1
-  levelDesigner: 
-  richPresenceId: 
-  levelName: Unknown
+  levelDesigner: FriendlyButEvil
+  richPresenceId: c-birabutokingdom
+  levelName: Birabuto Kingdom
   startServerTime: 0
   endServerTime: -1
   startRealTime: -1

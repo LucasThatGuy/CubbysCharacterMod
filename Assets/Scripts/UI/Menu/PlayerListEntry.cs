@@ -31,6 +31,17 @@ public class PlayerListEntry : MonoBehaviour {
 
     public void Update() {
         nameText.color = Utils.GetRainbowColor();
+        if (player.HasPoopieName())
+        {
+            if (player.IsLocal)
+            {
+                nameText.color = new Color(1f, 0.82353f, 0.2f);
+            }
+            else
+            {
+                nameText.color = new Color(0.490196f, 0.2862745f, 0.14117647f);
+            }
+        }
     }
 
     public void UpdateText() {

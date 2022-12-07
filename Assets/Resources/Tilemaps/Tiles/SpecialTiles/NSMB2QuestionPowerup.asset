@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aca9efef55f6a45a53ffcbd56a57cb, type: 3}
+  m_Name: NSMB2QuestionPowerup
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 1861783040, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: -1032003197, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: 970534565, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: -1824924263, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: 1824284920, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: -1035821395, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: -1877712397, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: 987946968, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: 844139746, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: -579484719, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: 2028753343, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: 1128652897, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: -1477323385, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: -1130811549, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: 1295259276, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  - {fileID: 851022551, guid: ae2786cdd71e3ee48aa48b5d910f5f69, type: 3}
+  m_MinSpeed: 32
+  m_MaxSpeed: 32
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 2
+  particleColor: {r: 0.9137255, g: 0.84705883, b: 0.28235295, a: 0}
+  breakableBySmallMario: 0
+  breakableByLargeMario: 0
+  breakableByGiantMario: 1
+  breakableByShells: 0
+  breakableByBombs: 1
+  bumpIfNotBroken: 0
+  bumpIfBroken: 0
+  iceSkidding: 0
+  isMario3: 0
+  resultTile: SpecialTiles/EmptyNSMB2Question
+  CustomItem: 0
+  CustomSpawn: Sex

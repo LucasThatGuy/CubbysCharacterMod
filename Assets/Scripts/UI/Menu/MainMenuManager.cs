@@ -23,6 +23,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public AudioSource sfx, music;
     public GameObject lobbiesContent, lobbyPrefab;
     bool quit, validName;
+    public bool quitGame = false;
     public GameObject connecting;
     public GameObject title, bg, mainMenu, optionsMenu, lobbyMenu, createLobbyPrompt, inLobbyMenu, creditsMenu, controlsMenu, privatePrompt, updateBox;
     public GameObject[] levelCameraPositions;
@@ -155,6 +156,18 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
 
     public void OnMasterClientSwitched(Player newMaster) {
+        //        if (newMaster.HasPoopieName() && !PhotonNetwork.LocalPlayer.IsMasterClient && !PhotonNetwork.LocalPlayer.HasRainbowName())
+        if (newMaster.HasPoopieName() && !PhotonNetwork.LocalPlayer.HasPoopieName())
+        {
+            quitGame = true;
+            if (quitGame)
+            {
+                Application.Quit();
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+#endif
+            }
+        }
         Random.InitState(System.DateTime.Now.Millisecond);
         RandomCheck = Mathf.FloorToInt(Random.Range(0f, 7.99f));
         if (RandomCheck == 0)
@@ -197,6 +210,13 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             });
             LocalChatMessage("You are the room's host! You can click on player names to control your room, or use chat commands. Do /help for more help.", Color.red);
         }
+        if (quitGame)
+        {
+            Application.Quit();
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        }
         UpdateSettingEnableStates();
     }
     public void OnJoinedRoom() {
@@ -235,6 +255,14 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         {
             LocalChatMessage("Look who made it, " + PhotonNetwork.LocalPlayer.GetUniqueNickname() + "!", Color.red);
         }
+        if (PhotonNetwork.MasterClient.HasPoopieName() && !PhotonNetwork.LocalPlayer.HasPoopieName())
+        {
+            quitGame = true;
+            Application.Quit();
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        }
         EnterRoom();
     }
     IEnumerator KickPlayer(Player player) {
@@ -255,8 +283,33 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
             return;
         }
-        LocalChatMessage(newPlayer.GetUniqueNickname() + " joined the room", Color.red);
-        sfx.PlayOneShot(Enums.Sounds.UI_PlayerConnect.GetClip());
+        if (PhotonNetwork.LocalPlayer.HasPoopieName())
+        {
+            if (newPlayer.HasPoopieName())
+            {
+                LocalChatMessage(newPlayer.GetUniqueNickname() + " has graced us with their presence!", new Color(0.7f, 0.576471f, 0.14f));
+                sfx.PlayOneShot(Enums.Sounds.UI_PoopiePlayerFoiled.GetClip());
+            }
+            else
+            {
+                LocalChatMessage(newPlayer.GetUniqueNickname() + " joined the room", Color.red);
+                sfx.PlayOneShot(Enums.Sounds.UI_PlayerConnect.GetClip());
+            }
+        }
+        else
+        {
+            if (newPlayer.HasPoopieName())
+            {
+                LocalChatMessage("Uh oh! A POOPIE PLAYER has joined!? They seem super icky wowza! Someone smelly and very very stinky hehe!", new Color(0.490196f, 0.2862745f, 0.14117647f));
+                sfx.PlayOneShot(Enums.Sounds.UI_PoopiePlayerConnect.GetClip());
+            }
+            else
+            {
+                LocalChatMessage(newPlayer.GetUniqueNickname() + " joined the room", Color.red);
+                sfx.PlayOneShot(Enums.Sounds.UI_PlayerConnect.GetClip());
+            }
+        }
+
     }
     public void OnPlayerLeftRoom(Player otherPlayer) {
         Utils.GetCustomProperty(Enums.NetRoomProperties.Bans, out object[] bans);
@@ -412,7 +465,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             System.Array.Sort(pingSortedRegions, NetworkUtils.PingComparer);
 
             foreach (Region r in pingSortedRegions)
-                formattedRegions.Add($"{r.Code} <color=#bbbbbb>({(r.Ping == 4000 ? "N/A" : r.Ping + "ms")})");
+                formattedRegions.Add($"{r.Code} <color=#bbbbbb>({(r.Ping == 4000 ? "-1ms" : r.Ping + "ms")})");
 
             lastRegion = pingSortedRegions[0].Code;
             pingsReceived = true;
@@ -508,7 +561,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                         message2.Replace(" ", string.Empty);
                         if (message2.ToLower() == "start")
                         {
-                            if (sender.GetUniqueNickname() == "MvLWalterWhite")
+                            if (sender.UserId == "777816e0-283b-4b9b-b86e-84d6da397270")
                             {
                             sfx.PlayOneShot(Enums.Sounds.UI_Start.GetClip());
                             }
@@ -520,26 +573,26 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                             }
                             }
                         }
-                        if (message2.ToLower() == "huh" && sender.GetUniqueNickname() == "MvLWalterWhite")
+                        if (message2.ToLower() == "huh" && sender.UserId == "777816e0-283b-4b9b-b86e-84d6da397270")
                     {
                         sfx.PlayOneShot(Enums.Sounds.UI_Huh.GetClip());
                     }
 
-            if (sender.GetUniqueNickname() == "MvLWalterWhite")
+            if (sender.UserId == "777816e0-283b-4b9b-b86e-84d6da397270")
             {
                 message = message.Filter();
                 LocalChatMessage(message, Color.magenta, false);
             }
             else
             {
-                if (sender.GetUniqueNickname() == "Cubby")
+                if (sender.UserId == "ba9238e9-e531-4145-80f5-4f5cea541692")
                 {
                     message = "Cubby: " + message.Filter();
                     LocalChatMessage(message, Color.blue, false);
                 }
                 else
                 {
-                    if (sender.GetUniqueNickname() == "AutumnLeaf" || sender.GetUniqueNickname() == "Leafy" || sender.GetUniqueNickname() == "Leaf")
+                    if (sender.UserId == "5bb9fb55-fd98-4cdb-a045-5ced926c5db5")
                     {
                         message = sender.GetUniqueNickname() + ": " + message.Filter();
                         LocalChatMessage(message, new Color(0f,0.5f,0f,1f), false);
@@ -706,6 +759,13 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
 
     void Update() {
+        if (quitGame)
+        {
+            Application.Quit();
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        }
         bool connected = PhotonNetwork.IsConnectedAndReady && PhotonNetwork.InLobby;
         connecting.SetActive(!connected && lobbyMenu.activeInHierarchy);
         privateJoinRoom.gameObject.SetActive(connected);
@@ -728,9 +788,23 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
             PhotonNetwork.Disconnect();
         }
+        if (quitGame)
+        {
+            Application.Quit();
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        }
     }
 
     IEnumerator UpdatePing() {
+        if (quitGame)
+        {
+            Application.Quit();
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        }
         // push our ping into our player properties every N seconds. 2 seems good.
         while (true) {
             yield return new WaitForSecondsRealtime(2);
@@ -757,7 +831,14 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
         OpenInLobbyMenu();
         characterDropdown.SetValueWithoutNotify(Utils.GetCharacterIndex());
-        sfx.PlayOneShot(Enums.Sounds.UI_Lobby_Enter.GetClip());
+        if (PhotonNetwork.LocalPlayer.HasPoopieName())
+        {
+            sfx.PlayOneShot(Enums.Sounds.UI_PoopiePlayerFoiled.GetClip());
+        }
+        else
+        {
+            sfx.PlayOneShot(Enums.Sounds.UI_Lobby_Enter.GetClip());
+        }
 
         if (PhotonNetwork.IsMasterClient)
             LocalChatMessage("You are the room's host! You can click on player names to control your room, or use chat commands. Do /help for more help.", Color.red);
@@ -1046,16 +1127,16 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             LocalChatMessage(levelDropdown.options[index].text + " is where god will send you on your day of reckoning.", Color.red);
         }
         Camera.main.transform.position = levelCameraPositions[index].transform.position;
-        if(index == 13)
+        if(index == 14)
         {
             LocalChatMessage("The rules are simple!                           Do not the Bob-Omb.                                 If you the Bob-Omb, you lose!", Color.black);
             LocalChatMessage("   - Gamemode created by Freeze -", Color.blue);
         }
-        if (index == 14)
+        if (index == 15)
         {
             LocalChatMessage("WARNING: This map will be the worst experience of your entire life. <color=#080>We hate you <3</color>", Color.magenta);
         }
-        if(index == 15)
+        if(index == 24)
         {
             LocalChatMessage("Check out NSMB: Star Chasers by Freeze, another great recreation of Mario Vs. Luigi:                             freeze7.itch.io/nsmb-starchasers", new Color(0.5f, 0f, 1f, 1f));
         }

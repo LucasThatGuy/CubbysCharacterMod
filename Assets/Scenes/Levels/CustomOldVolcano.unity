@@ -13008,7 +13008,7 @@ PrefabInstance:
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
       propertyPath: richPresenceId
-      value: old_volcano
+      value: c-oldvolcano
       objectReference: {fileID: 0}
     - target: {fileID: 5500062339093502114, guid: 43d56bd18d06e9b4abe323618a20a228,
         type: 3}
@@ -13395,7 +13395,7 @@ PrefabInstance:
     - target: {fileID: 8995129457460367436, guid: a3e7cb13a940dcc41a13d1d3c91396d1,
         type: 3}
       propertyPath: miniOnly
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8995129457460367436, guid: a3e7cb13a940dcc41a13d1d3c91396d1,
         type: 3}
@@ -13486,7 +13486,7 @@ PrefabInstance:
     - target: {fileID: 8995129457460367436, guid: a3e7cb13a940dcc41a13d1d3c91396d1,
         type: 3}
       propertyPath: miniOnly
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8995129457460367436, guid: a3e7cb13a940dcc41a13d1d3c91396d1,
         type: 3}
@@ -15832,7 +15832,7 @@ PrefabInstance:
     - target: {fileID: 8995129457460367436, guid: a3e7cb13a940dcc41a13d1d3c91396d1,
         type: 3}
       propertyPath: miniOnly
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8995129457460367436, guid: a3e7cb13a940dcc41a13d1d3c91396d1,
         type: 3}
@@ -17487,7 +17487,7 @@ PrefabInstance:
     - target: {fileID: 8995129457460367436, guid: a3e7cb13a940dcc41a13d1d3c91396d1,
         type: 3}
       propertyPath: miniOnly
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8995129457460367436, guid: a3e7cb13a940dcc41a13d1d3c91396d1,
         type: 3}

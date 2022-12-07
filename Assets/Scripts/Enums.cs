@@ -46,7 +46,7 @@ public static class Enums {
     //Sound effects
     public enum Sounds : byte {
 
-        //CURRENT MAX: 111
+        //CURRENT MAX: 122
 
         //Enemy
         [SoundData("enemy/freeze")] Enemy_Generic_Freeze = 0,
@@ -114,6 +114,7 @@ public static class Enums {
         [SoundData("powerup/blueshell_slide")] Powerup_BlueShell_Slide = 42,
         [SoundData("powerup/fireball_break")] Powerup_Fireball_Break = 43,
         [SoundData("powerup/fireball_shoot")] Powerup_Fireball_Shoot = 44,
+        [SoundData("powerup/land_fireball_shoot")] Land_Fireball_Shoot = 114,
         [SoundData("powerup/iceball_break")] Powerup_Iceball_Break = 46,
         [SoundData("powerup/iceball_shoot")] Powerup_Iceball_Shoot = 47,
         [SoundData("powerup/bobomb_shoot")] Powerup_BombOmb_Shoot = 104,
@@ -143,6 +144,8 @@ public static class Enums {
         [SoundData("ui/quit")] UI_Quit = 65,
         [SoundData("ui/start_game")] UI_StartGame = 66,
         [SoundData("ui/player_connect")] UI_PlayerConnect = 79,
+        [SoundData("ui/poopieplayer_connect")] UI_PoopiePlayerConnect = 121,
+        [SoundData("ui/poopieplayer_foiled")] UI_PoopiePlayerFoiled = 122,
         [SoundData("ui/player_disconnect")] UI_PlayerDisconnect = 80,
         [SoundData("ui/decide")] UI_Decide = 81,
         [SoundData("ui/back")] UI_Back = 82,
@@ -163,6 +166,8 @@ public static class Enums {
         [SoundData("world/block_bump")] World_Block_Bump = 68,
         [SoundData("world/block_powerup")] World_Block_Powerup = 69, //not nice
         [SoundData("world/coin_collect")] World_Coin_Collect = 70,
+        [SoundData("world/land_coin_collect")] Land_Coin_Collect = 113,
+        [SoundData("world/coin_collect_nsmb2")] NSMB2_Coin_Collect = 115,
         [SoundData("world/coin_drop")] World_Coin_Drop = 91,
         [SoundData("world/ice_skidding")] World_Ice_Skidding = 71,
         [SoundData("world/spinner_launch")] World_Spinner_Launch = 72,
@@ -172,6 +177,13 @@ public static class Enums {
         [SoundData("world/star_spawn")] World_Star_Spawn = 76,
         [SoundData("world/water_splash")] World_Water_Splash = 77,
         [SoundData("world/mario3_break")] World_Mario3_Break = 109,
+
+        //Drowning and Sonic stuff
+        [SoundData("world/sonic_drown")] Sonic_Drown_Ding = 116,
+        [SoundData("world/sonic_drown_2")] Sonic_Drown_End = 117,
+        [SoundData("world/sonic_drown_3")] Sonic_Drown_Die = 118, //Shut the fuck up
+        [SoundData("world/sonic_coin")] Sonic_Coin_Collect = 119,
+        [SoundData("world/sonic_break")] Sonic_Break = 120,
     }
 
     #endregion

@@ -27,17 +27,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/DefaultSnow.unity
     guid: 42e7b04a277dea44eab7edc32729f7a5
   - enabled: 1
+    path: Assets/Scenes/Levels/CustomOldJungle.unity
+    guid: 2168a8f1ee86caf44b7cf3db06d7ded6
+  - enabled: 1
     path: Assets/Scenes/Levels/CustomJungle.unity
     guid: de8e2edb54b6b5e489c97578fa670804
   - enabled: 1
     path: Assets/Scenes/Levels/CustomSky.unity
     guid: addb28d9cb6d8a6498a3b328a6e57f33
   - enabled: 1
-    path: Assets/Scenes/Levels/CustomVolcano.unity
-    guid: 48dfbffbd41b62a41a8135ce450497f5
-  - enabled: 1
     path: Assets/Scenes/Levels/CustomOldVolcano.unity
     guid: 73eabd220f283164b8af2e8bea9b191f
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomVolcano.unity
+    guid: 48dfbffbd41b62a41a8135ce450497f5
   - enabled: 1
     path: Assets/Scenes/Levels/CustomBonus.unity
     guid: ce4cf98f31007b44ea19a2fb2ab0924a
@@ -57,11 +60,44 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/CustomCastle.unity
     guid: 2fd88ab551c27564c8947e1229827f57
   - enabled: 1
+    path: Assets/Scenes/Levels/CustomDesertBus.unity
+    guid: 0dd9fa5ffc2237e4bb577efe6c99281d
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomSnow.unity
+    guid: 424e3a97f48fabc4dab7405ec40225d1
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomNewSnow.unity
+    guid: a1613cf54adb55942bb0784ac2bfed11
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomCoral.unity
+    guid: 0b8829e4fc2586d4fa007cfe8881ec2c
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomMarioLand.unity
+    guid: 989bc4bb76a9e93429aca7c7a9abb359
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomGhostHouse.unity
+    guid: b74d2deb549c0cc4ab41454adc38bba8
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomLeaf.unity
+    guid: a4f476ec6bebb2549aaab9c975f3e816
+  - enabled: 1
+    path: Assets/Scenes/Levels/CustomLabyrinth.unity
+    guid: d7a170b206401ae47bf567819faf81eb
+  - enabled: 1
     path: Assets/Scenes/Levels/CustomStarChasers.unity
     guid: 68375ef286521144fa1613adece88d58
   - enabled: 1
     path: Assets/Scenes/Levels/SCustomFinalDestination.unity
     guid: 67658b0e075d6e44e94ec6a4e37a3470
+  - enabled: 1
+    path: Assets/Scenes/Levels/ChrisLevel.unity
+    guid: 726270b3f73301e4d86c79f4ef9e818c
+  - enabled: 1
+    path: Assets/Scenes/Levels/DebugLevel.unity
+    guid: 73f3b6526cecdb847a5602d33bd0ecb6
+  - enabled: 1
+    path: Assets/Scenes/Template/LevelTemplate.unity
+    guid: 47aaf49f05a8de34a9a8c7a237dfbcf9
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 49335f30d253220488d2d332ade6e901,
       type: 2}
