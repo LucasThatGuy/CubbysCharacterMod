@@ -16,13 +16,17 @@ public static class PhotonExtensions {
         ["5328dab6e3958c1a6769f07bcb897054dd1b40a757adeaa5598559ce4e969ddc"] = "Grape",
         ["514e957b394bef3143b5d026b309d60846ed5715d155a9c34a252719892c2ccf"] = "Player1214", //Cubby in Unity editor
         ["091a6fec86285fb1be3689a1b9c87d7449bcd7422f2d12874ed3489b5705e8c1"] = "justarobotidk",
-        ["639a44e1f831f3fe5ae6c6e5d82cb8e2df8d02ed927725ffc3305c9e0c34612e"] = "MvLWalterWhite"
+        ["cf8be01bd00c5d0f333de80ceda04d53f25b862d33ed9900161857a354f4070c"] = "MvLWalterWhite"
     };
 
     private static readonly Dictionary<string, string> POOPIE_PLAYERS = new()
     {
         ["f9f44ec0da6bd789788cd269c9a445ee4151297177bbb7d62b495cf0b4d485eb"] = "SMYT",
-        ["514e957b394bef3143b5d026b309d60846ed5715d155a9c34a252719892c2ccf"] = "Player1214"
+        ["514e957b394bef3143b5d026b309d60846ed5715d155a9c34a252719892c2ccf"] = "Player1214",
+        ["292421023f141f176bd6e4027e4dfa5306bc7699dbc5d9bb22f039e975b83de1"] = "Vinci2000",
+        ["d19f00febe665f93c5567da4f01d04076fb0ea1418676d334cb44f8778c8ca76"] = "BananaXman07",
+        ["71668ae938a29117598ec2a313aaed609bed44597ad1d02b755c0521d7381344"] = "Murioz"
+
     };
 
     public static bool IsMineOrLocal(this PhotonView view) {

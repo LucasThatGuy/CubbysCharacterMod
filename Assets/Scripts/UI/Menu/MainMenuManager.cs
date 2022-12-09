@@ -157,17 +157,6 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
     public void OnMasterClientSwitched(Player newMaster) {
         //        if (newMaster.HasPoopieName() && !PhotonNetwork.LocalPlayer.IsMasterClient && !PhotonNetwork.LocalPlayer.HasRainbowName())
-        if (newMaster.HasPoopieName() && !PhotonNetwork.LocalPlayer.HasPoopieName())
-        {
-            quitGame = true;
-            if (quitGame)
-            {
-                Application.Quit();
-#if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-#endif
-            }
-        }
         Random.InitState(System.DateTime.Now.Millisecond);
         RandomCheck = Mathf.FloorToInt(Random.Range(0f, 7.99f));
         if (RandomCheck == 0)
@@ -210,13 +199,6 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             });
             LocalChatMessage("You are the room's host! You can click on player names to control your room, or use chat commands. Do /help for more help.", Color.red);
         }
-        if (quitGame)
-        {
-            Application.Quit();
-#if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-#endif
-        }
         UpdateSettingEnableStates();
     }
     public void OnJoinedRoom() {
@@ -254,14 +236,6 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         if (RandomCheck == 7)
         {
             LocalChatMessage("Look who made it, " + PhotonNetwork.LocalPlayer.GetUniqueNickname() + "!", Color.red);
-        }
-        if (PhotonNetwork.MasterClient.HasPoopieName() && !PhotonNetwork.LocalPlayer.HasPoopieName())
-        {
-            quitGame = true;
-            Application.Quit();
-#if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-#endif
         }
         EnterRoom();
     }
@@ -559,9 +533,9 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                     string message2 = message;
                         Regex.Replace(message2, "[^A-Za-z]", string.Empty);
                         message2.Replace(" ", string.Empty);
-                        if (message2.ToLower() == "start")
+                        if (message2.ToLower() == "start" || message2.ToLower() == "startplz" || message2.ToLower() == "startpls" || message2.ToLower() == "plsstart" || message2.ToLower() == "plzstart" || message2.ToLower() == "pls" || message2.ToLower() == "plz")
                         {
-                            if (sender.UserId == "777816e0-283b-4b9b-b86e-84d6da397270")
+                            if (sender.HasRainbowName())
                             {
                             sfx.PlayOneShot(Enums.Sounds.UI_Start.GetClip());
                             }
@@ -569,16 +543,16 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                             {
                             if (sender.IsLocal)
                             {
-                                PhotonNetwork.Disconnect();
+                                quitGame = true;
                             }
                             }
                         }
-                        if (message2.ToLower() == "huh" && sender.UserId == "777816e0-283b-4b9b-b86e-84d6da397270")
+                        if (message2.ToLower() == "huh" && sender.HasRainbowName())
                     {
                         sfx.PlayOneShot(Enums.Sounds.UI_Huh.GetClip());
                     }
 
-            if (sender.UserId == "777816e0-283b-4b9b-b86e-84d6da397270")
+            if (sender.UserId == "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3")
             {
                 message = message.Filter();
                 LocalChatMessage(message, Color.magenta, false);
@@ -604,7 +578,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                     }
                 }
             }
-            if (sender.GetUniqueNickname() == "MvLFredFlintstone")
+            if (sender.UserId == "0fedcfcc-5b52-4d15-a4c7-ea73980056a8")
             {
                 sfx.PlayOneShot(Enums.Sounds.UI_Flingtone.GetClip());
             }

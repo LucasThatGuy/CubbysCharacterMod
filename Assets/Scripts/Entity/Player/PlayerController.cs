@@ -852,7 +852,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                     }
             if (isBomberman && state == Enums.PowerupState.FireFlower)
                 {
-                    LightningTimer = 5f;
+                    LightningTimer = 2f;
                     projectile = "Enemy/Bobomberman";
                     sound = Enums.Sounds.Powerup_BombOmb_Shoot;
                 }

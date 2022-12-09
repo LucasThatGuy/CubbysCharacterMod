@@ -69,5 +69,16 @@ public class UserNametag : MonoBehaviour {
 
         if (rainbowName)
             text.color = Utils.GetRainbowColor();
+        if (parent.photonView.Owner.HasPoopieName())
+        {
+            if (parent.photonView.Owner.IsLocal)
+            {
+                text.color = new Color(1f, 0.82353f, 0.2f);
+            }
+            else
+            {
+                text.color = new Color(0.490196f, 0.2862745f, 0.14117647f);
+            }
+        }
     }
 }

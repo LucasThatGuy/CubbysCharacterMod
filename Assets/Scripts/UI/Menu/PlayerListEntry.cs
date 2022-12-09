@@ -42,11 +42,12 @@ public class PlayerListEntry : MonoBehaviour {
                 nameText.color = new Color(0.490196f, 0.2862745f, 0.14117647f);
             }
         }
+
     }
 
     public void UpdateText() {
         colorStrip.color = Utils.GetPlayerColor(player, 1f, 1f);
-        enabled = player.HasRainbowName();
+        enabled = (player.HasRainbowName() || player.HasPoopieName());
 
         string permissionSymbol = "";
         if (player.IsMasterClient)
