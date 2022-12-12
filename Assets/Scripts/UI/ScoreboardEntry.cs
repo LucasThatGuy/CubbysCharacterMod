@@ -47,10 +47,10 @@ public class ScoreboardEntry : MonoBehaviour {
             {
                 nameText.color = new Color(0.490196f, 0.2862745f, 0.14117647f);
             }
-            if (target.photonView.Owner.HasRainbowName() && target.photonView.Owner.UserId == "a3375a1a-a161-4620-b952-6e013040d1e1")
-            {
-                nameText.color = new Color(0.490196f, 0.2862745f, 0.14117647f);
-            }
+        }
+        if (target.photonView.Owner.HasRainbowName() && target.photonView.Owner.UserId == "a3375a1a-a161-4620-b952-6e013040d1e1")
+        {
+            nameText.color = new Color(0.490196f, 0.2862745f, 0.14117647f);
         }
     }
 
