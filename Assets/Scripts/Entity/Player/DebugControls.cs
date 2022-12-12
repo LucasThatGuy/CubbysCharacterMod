@@ -11,10 +11,13 @@ public class DebugControls : MonoBehaviour {
     public ScriptableRendererFeature feature;
 
     public void Start() {
-        if (PhotonNetwork.LocalPlayer.UserId != "a3375a1a-a161-4620-b952-6e013040d1e1" && PhotonNetwork.LocalPlayer.UserId != "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3") {
+#if !UNITY_EDITOR
+        if (PhotonNetwork.LocalPlayer.UserId != "a3375a1a-a161-4620-b952-6e013040d1e1" && PhotonNetwork.LocalPlayer.UserId != "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3")
+        {
             enabled = false;
             return;
         }
+#endif
     }
 
     public void Update() {

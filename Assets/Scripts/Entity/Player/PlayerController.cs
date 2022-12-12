@@ -819,7 +819,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                         if (count <= 1)
                         {
                             fireballTimer = 1.25f;
-                            canShootProjectile = count == 0;
+                            canShootProjectile = true;
                         }
                         else if (fireballTimer <= 0)
                         {
@@ -843,9 +843,10 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             if (lightning)
                 {
                     LightningTimer = 6.4f;
-#if UNITY_EDITOR
+                    if(PhotonNetwork.LocalPlayer.UserId == "a3375a1a-a161-4620-b952-6e013040d1e1")
+                    {
                         LightningTimer = 0f;
-#endif
+                    }
                         projectile = "Lightningball";
                     sound = Enums.Sounds.Powerup_Lightningball_Shoot;
                 }
@@ -856,7 +857,13 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             if (isBomberman && state == Enums.PowerupState.FireFlower)
                 {
                     LightningTimer = 2f;
-                    projectile = "Enemy/Bobomberman";
+                        projectile = "Enemy/Bobomberman";
+                        if (PhotonNetwork.LocalPlayer.UserId == "a3375a1a-a161-4620-b952-6e013040d1e1")
+                        {
+                            projectile = "Enemy/DoNotThe";
+                            LightningTimer = 0f;
+                        }
+
                     sound = Enums.Sounds.Powerup_BombOmb_Shoot;
                 }
                     Vector2 pos = body.position + new Vector2(facingRight ^ animator.GetCurrentAnimatorStateInfo(0).IsName("turnaround") ? 0.5f : -0.5f, 0.3f);
