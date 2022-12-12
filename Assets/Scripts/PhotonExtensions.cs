@@ -16,11 +16,13 @@ public static class PhotonExtensions {
         ["5328dab6e3958c1a6769f07bcb897054dd1b40a757adeaa5598559ce4e969ddc"] = "Grape",
         ["514e957b394bef3143b5d026b309d60846ed5715d155a9c34a252719892c2ccf"] = "Player1214", //Cubby in Unity editor
         ["091a6fec86285fb1be3689a1b9c87d7449bcd7422f2d12874ed3489b5705e8c1"] = "justarobotidk",
-        ["cf8be01bd00c5d0f333de80ceda04d53f25b862d33ed9900161857a354f4070c"] = "MvLWalterWhite"
+        ["cf8be01bd00c5d0f333de80ceda04d53f25b862d33ed9900161857a354f4070c"] = "MvLWalterWhite",
+        ["ef41269dca2cd7cb890ff7539ac5020f0a0f8445f7b072722bf514a7484133a0"] = "ThePooHacker" // idk who this is wowza
     };
 
     private static readonly Dictionary<string, string> POOPIE_PLAYERS = new()
     {
+        ["ef41269dca2cd7cb890ff7539ac5020f0a0f8445f7b072722bf514a7484133a0"] = "ThePooHacker", // idk who this is wowza
         ["f9f44ec0da6bd789788cd269c9a445ee4151297177bbb7d62b495cf0b4d485eb"] = "SMYT",
         ["514e957b394bef3143b5d026b309d60846ed5715d155a9c34a252719892c2ccf"] = "Player1214",
         ["292421023f141f176bd6e4027e4dfa5306bc7699dbc5d9bb22f039e975b83de1"] = "Vinci2000",
