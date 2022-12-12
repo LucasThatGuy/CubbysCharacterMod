@@ -192,11 +192,12 @@ public static class Enums {
         [SoundData("world/star_spawn")] World_Star_Spawn = 76,
         [SoundData("world/water_splash")] World_Water_Splash = 77,
         [SoundData("world/mario3_break")] World_Mario3_Break = 109,
+        [SoundData("world/marioland_break")] PooHacker = 136,
 
         //Drowning and Sonic stuff
         [SoundData("world/sonic_drown")] Sonic_Drown_Ding = 116,
-        [SoundData("world/sonic_drown_2")] Sonic_Drown_End = 117,
-        [SoundData("world/sonic_drown_3")] Sonic_Drown_Die = 118, //Shut the fuck up
+        [SoundData("world/sonic_drown_2")] Sonic_Drown_End = 117, //Shut the fuck up
+        [SoundData("world/sonic_drown_3")] Sonic_Drown_Die = 118, 
         [SoundData("world/sonic_coin")] Sonic_Coin_Collect = 119,
         [SoundData("world/sonic_break")] Sonic_Break = 120,
     }

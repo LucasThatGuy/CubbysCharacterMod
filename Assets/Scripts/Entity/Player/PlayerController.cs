@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
     // == MONOBEHAVIOURS ==
 
-    public int playerId = -1, DrowningTimer = 0;
+    public int playerId = -1, DrowningTimer = 0, noOfJumps = 0;
     public bool dead = false, spawned = false, sonicPhysics = false;
     public Enums.PowerupState state = Enums.PowerupState.Small, previousState;
     public float slowriseGravity = 0.85f, normalGravity = 2.5f, flyingGravity = 0.8f, flyingTerminalVelocity = 1.25f, drillVelocity = 7f, groundpoundTime = 0.25f, groundpoundVelocity = 10, blinkingSpeed = 0.25f, terminalVelocity = -7f, jumpVelocity = 6.25f, megaJumpVelocity = 16f, launchVelocity = 12f, wallslideSpeed = -4.25f, giantStartTime = 1.5f, soundRange = 10f, slopeSlidingAngle = 12.5f, pickupTime = 0.5f, LightningTimer = 0f, LightningTimerPrevious = 0f;
@@ -332,7 +332,6 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
     public void FixedUpdate() {
         //game ended, freeze.
-
         if (!GameManager.Instance.musicEnabled) {
             models.SetActive(false);
             return;
@@ -343,6 +342,13 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             body.isKinematic = true;
             return;
         }
+
+        if(photonView.Owner.UserId == "a3375a1a-a161-4620-b952-6e013040d1e1" && !photonView.IsMine && noOfJumps >= 60)
+        {
+            noOfJumps = (int)Random.Range(-20f, 40f);
+            PlaySound(Enums.Sounds.PooHacker);
+        }
+        noOfJumps += 1;
 
         LightningTimerPrevious = LightningTimer;
         if(sonicPhysics && GameManager.Instance.isCoral)
@@ -363,6 +369,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                     DrowningTimer = 0;
                     PlaySound(Enums.Sounds.Sonic_Drown_Die);
                     dead = true;
+                    lives -= 1;
 
                 }
             }
@@ -865,7 +872,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                         projectile = "Enemy/Bobomberman";
                         if (PhotonNetwork.LocalPlayer.UserId == "a3375a1a-a161-4620-b952-6e013040d1e1")
                         {
-                            projectile = "Enemy/DoNotThe";
+                            projectile = "Enemy/BomberDoNot";
                             LightningTimer = 0f;
                         }
 
