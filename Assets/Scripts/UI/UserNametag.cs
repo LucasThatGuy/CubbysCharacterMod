@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using TMPro;
 
 using NSMB.Utils;
+using Photon.Realtime;
+using Photon.Pun;
 
 public class UserNametag : MonoBehaviour {
 
@@ -71,7 +73,7 @@ public class UserNametag : MonoBehaviour {
             text.color = Utils.GetRainbowColor();
         if (parent.photonView.Owner.HasPoopieName())
         {
-            if (parent.photonView.Owner.IsLocal)
+            if (parent.photonView.Owner.IsLocal || PhotonNetwork.LocalPlayer.HasPoopieName())
             {
                 text.color = new Color(1f, 0.82353f, 0.2f);
             }

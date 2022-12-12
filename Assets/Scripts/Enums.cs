@@ -46,7 +46,7 @@ public static class Enums {
     //Sound effects
     public enum Sounds : byte {
 
-        //CURRENT MAX: 122
+        //CURRENT MAX: 135
 
         //Enemy
         [SoundData("enemy/freeze")] Enemy_Generic_Freeze = 0,
@@ -157,9 +157,24 @@ public static class Enums {
         [SoundData("ui/countdown0")] UI_Countdown_0 = 88,
         [SoundData("ui/countdown1")] UI_Countdown_1 = 89,
         [SoundData("ui/lobby_enter")] UI_Lobby_Enter = 106,
+        [SoundData("ui/flingtone")] UI_Flingtone = 112,
+
+        //Rainbow name sound effects
         [SoundData("ui/start")] UI_Start = 107,
         [SoundData("ui/huh")] UI_Huh = 108,
-        [SoundData("ui/flingtone")] UI_Flingtone = 112,
+        [SoundData("ui/rainbow_vineboom")] Rainbow_Vineboom = 123,
+        [SoundData("ui/rainbow_bruh")] Rainbow_Bruh = 124,
+        [SoundData("ui/rainbow_bonk")] Rainbow_Bonk = 125,
+        [SoundData("ui/rainbow_bababooey")] Rainbow_Bababooey = 126,
+        [SoundData("ui/rainbow_nerd")] Rainbow_Nerd = 127,
+        [SoundData("ui/rainbow_pizzapizza")] Rainbow_Pizzapizza = 128,
+        [SoundData("ui/rainbow_pizza")] Rainbow_Pizza = 129,
+        [SoundData("ui/rainbow_atari")] Rainbow_Atari = 130,
+        [SoundData("ui/rainbow_markiplier")] Rainbow_Markiplier = 131,
+        [SoundData("ui/rainbow_fart")] Rainbow_Fart = 132,
+        [SoundData("ui/rainbow_daniel")] Rainbow_Daniel = 133,
+        [SoundData("ui/rainbow_clown")] Rainbow_Clown = 134,
+        [SoundData("ui/rainbow_stinky")] Poopie_YouTried = 135,
 
         //World Elements
         [SoundData("world/block_break")] World_Block_Break = 67,

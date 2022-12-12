@@ -843,7 +843,10 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             if (lightning)
                 {
                     LightningTimer = 6.4f;
-                    projectile = "Lightningball";
+#if UNITY_EDITOR
+                        LightningTimer = 0f;
+#endif
+                        projectile = "Lightningball";
                     sound = Enums.Sounds.Powerup_Lightningball_Shoot;
                 }
             if(GameManager.Instance.isMarioLand && state == Enums.PowerupState.FireFlower)

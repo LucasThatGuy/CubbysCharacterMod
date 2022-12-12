@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+using Photon.Pun;
+using Photon.Realtime;
 using NSMB.Utils;
 
 public class ScoreboardEntry : MonoBehaviour {
@@ -37,7 +39,7 @@ public class ScoreboardEntry : MonoBehaviour {
             nameText.color = Utils.GetRainbowColor();
         if (target.photonView.Owner.HasPoopieName())
         {
-            if (target.photonView.Owner.IsLocal)
+            if (target.photonView.Owner.IsLocal || PhotonNetwork.LocalPlayer.HasPoopieName())
             {
                 nameText.color = new Color(1f, 0.82353f, 0.2f);
             }

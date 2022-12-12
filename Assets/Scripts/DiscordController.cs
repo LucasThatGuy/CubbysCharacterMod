@@ -89,9 +89,9 @@ public class DiscordController : MonoBehaviour {
 
             ActivityAssets assets = new();
             if (gm.richPresenceId != "")
-                assets.LargeImage = $"level-{gm.richPresenceId}";
+                assets.LargeImage = $"c-{gm.richPresenceId}";
             else
-                assets.LargeImage = "mainmenu";
+                assets.LargeImage = "c-mainmenu";
             assets.LargeText = gm.levelName;
 
             activity.Assets = assets;
@@ -111,13 +111,13 @@ public class DiscordController : MonoBehaviour {
             activity.State = room.IsVisible ? "In a Public Lobby" : "In a Private Lobby";
             activity.Secrets = new() { Join = PhotonNetwork.CloudRegion + "-" + room.Name };
 
-            activity.Assets = new() { LargeImage = "mainmenu" };
+            activity.Assets = new() { LargeImage = "c-mainmenu" };
 
         } else {
             //in the main menu, not in a room
 
             activity.Details = "Exhibiting Bozo Behavior";
-            activity.Assets = new() { LargeImage = "mainmenu" };
+            activity.Assets = new() { LargeImage = "c-mainmenu" };
 
         }
 

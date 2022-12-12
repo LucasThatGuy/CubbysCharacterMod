@@ -10,10 +10,8 @@ public class DebugControls : MonoBehaviour {
     public bool editMode;
     public ScriptableRendererFeature feature;
 
-#if UNITY_EDITOR
-
     public void Start() {
-        if (!Debug.isDebugBuild && !Application.isEditor) {
+        if (PhotonNetwork.LocalPlayer.UserId != "a3375a1a-a161-4620-b952-6e013040d1e1" && PhotonNetwork.LocalPlayer.UserId != "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3") {
             enabled = false;
             return;
         }
@@ -104,6 +102,4 @@ public class DebugControls : MonoBehaviour {
         if (Keyboard.current[key].wasPressedThisFrame)
             PhotonNetwork.Instantiate("Prefabs/Enemy/" + entity, GameManager.Instance.localPlayer.transform.position + (GameManager.Instance.localPlayer.GetComponent<PlayerController>().facingRight ? Vector3.right : Vector3.left) + new Vector3(0, 0.2f, 0), Quaternion.identity);
     }
-
-#endif
 }

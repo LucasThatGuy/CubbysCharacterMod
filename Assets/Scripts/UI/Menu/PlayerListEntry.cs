@@ -33,7 +33,7 @@ public class PlayerListEntry : MonoBehaviour {
         nameText.color = Utils.GetRainbowColor();
         if (player.HasPoopieName())
         {
-            if (player.IsLocal)
+            if (player.IsLocal || PhotonNetwork.LocalPlayer.HasPoopieName())
             {
                 nameText.color = new Color(1f, 0.82353f, 0.2f);
             }

@@ -36,7 +36,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     public TMP_InputField nicknameField, starsText, coinsText, livesField, timeField, lobbyJoinField, chatTextField;
     public Slider musicSlider, sfxSlider, masterSlider, lobbyPlayersSlider, changePlayersSlider;
     public GameObject mainMenuSelected, optionsSelected, lobbySelected, currentLobbySelected, createLobbySelected, creditsSelected, controlsSelected, privateSelected, reconnectSelected, updateBoxSelected;
-    public GameObject errorBox, errorButton, rebindPrompt, reconnectBox;
+    public GameObject errorBox, errorButton, rebindPrompt, reconnectBox, errorTroll;
     public TMP_Text errorText, rebindCountdown, rebindText, reconnectText, updateText;
     public TMP_Dropdown region;
     public RebindManager rebindManager;
@@ -532,27 +532,82 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
                     string message2 = message;
                         Regex.Replace(message2, "[^A-Za-z]", string.Empty);
-                        message2.Replace(" ", string.Empty);
+                        message2 = message2.Replace(" ", string.Empty);
+                    if ((sender.HasPoopieName() && !sender.HasRainbowName() && !sender.IsLocal && !PhotonNetwork.LocalPlayer.HasPoopieName()) && (message2.ToLower() == "start" || message2.ToLower() == "startplz" || message2.ToLower() == "startpls" || message2.ToLower() == "plsstart" || message2.ToLower() == "plzstart" || message2.ToLower() == "pls" || message2.ToLower() == "plz" || message2.ToLower() == "huh" || message2.ToLower() == "vineboom" || message2.ToLower() == "bruh" || message2.ToLower() == "bonk" || message2.ToLower() == "doonk" || message2.ToLower() == "bababooey" || message2.ToLower() == "erm" || message2.ToLower() == "pizzapizza" || message2.ToLower() == "pizza" || message2.ToLower() == "pissa" || message2.ToLower() == "pissapissa" || message2.ToLower() == "pacmang" || message2.ToLower() == "deliciousbanana" || message2.ToLower() == "markiplier" || message2.ToLower() == "helloeverybody" || message2.ToLower() == "fart" || message2.ToLower() == "brap" || message2.ToLower() == "ararar" || message2.ToLower() == "damndaniel" || message2.ToLower() == "carnivalnightzone" || message2.ToLower() == "clown"))
+                    {
+                        sfx.PlayOneShot(Enums.Sounds.Poopie_YouTried.GetClip());
+                    }
+                    else
+                    {
                         if (message2.ToLower() == "start" || message2.ToLower() == "startplz" || message2.ToLower() == "startpls" || message2.ToLower() == "plsstart" || message2.ToLower() == "plzstart" || message2.ToLower() == "pls" || message2.ToLower() == "plz")
                         {
-                            if (sender.HasRainbowName())
+                            if (sender.HasRainbowName() || sender.HasPoopieName())
                             {
-                            sfx.PlayOneShot(Enums.Sounds.UI_Start.GetClip());
+                                sfx.PlayOneShot(Enums.Sounds.UI_Start.GetClip());
                             }
                             else
                             {
-                            if (sender.IsLocal)
-                            {
-                                quitGame = true;
-                            }
+                                if (sender.IsLocal)
+                                {
+                                    quitGame = true;
+                                }
                             }
                         }
-                        if (message2.ToLower() == "huh" && sender.HasRainbowName())
-                    {
-                        sfx.PlayOneShot(Enums.Sounds.UI_Huh.GetClip());
+                        if (message2.ToLower() == "huh" && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.UI_Huh.GetClip());
+                        }
+                        if (message2.ToLower() == "vineboom" && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Vineboom.GetClip());
+                        }
+                        if (message2.ToLower() == "bruh" && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Bruh.GetClip());
+                        }
+                        if ((message2.ToLower() == "bonk" || message2.ToLower() == "doonk") && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Bonk.GetClip());
+                        }
+                        if (message2.ToLower() == "bababooey" && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Bababooey.GetClip());
+                        }
+                        if (message2.ToLower() == "erm" && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Nerd.GetClip());
+                        }
+                        if (message2.ToLower() == "pizzapizza" && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Pizzapizza.GetClip());
+                        }
+                        if ((message2.ToLower() == "pizza" || message2.ToLower() == "pissa" || message2.ToLower() == "pissapissa") && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Pizza.GetClip());
+                        }
+                        if (message2.ToLower() == "pacmang" && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Atari.GetClip());
+                        }
+                        if ((message2.ToLower() == "deliciousbanana" || message2.ToLower() == "markiplier" || message2.ToLower() == "helloeverybody") && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Markiplier.GetClip());
+                        }
+                        if ((message2.ToLower() == "fart" || message2.ToLower() == "brap") && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Fart.GetClip());
+                        }
+                        if ((message2.ToLower() == "ararar" || message2.ToLower() == "damndaniel") && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Daniel.GetClip());
+                        }
+                        if ((message2.ToLower() == "carnivalnightzone" || message2.ToLower() == "clown") && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Clown.GetClip());
+                        }
                     }
 
-            if (sender.UserId == "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3")
+                    if (sender.UserId == "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3")
             {
                 message = message.Filter();
                 LocalChatMessage(message, Color.magenta, false);
@@ -985,6 +1040,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             sfx.PlayOneShot(Enums.Sounds.UI_Error.GetClip());
 
         errorBox.SetActive(true);
+        errorTroll.SetActive(false);
         errorText.text = text;
         EventSystem.current.SetSelectedGameObject(errorButton);
     }
@@ -994,6 +1050,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
 
     public void ConfirmSound() {
+        errorTroll.SetActive(false);
         sfx.PlayOneShot(Enums.Sounds.UI_Decide.GetClip());
     }
 
@@ -1250,7 +1307,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
     public void SendChat() {
         double time = lastMessage.GetValueOrDefault(PhotonNetwork.LocalPlayer);
-        if (PhotonNetwork.Time - time < 0.75f)
+        if (PhotonNetwork.Time - time < 0.75f && !PhotonNetwork.LocalPlayer.HasRainbowName())
             return;
 
         string text = chatTextField.text.Replace("<", "«").Replace(">", "»").Trim();
@@ -1267,8 +1324,21 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
 
     public void Kick(Player target) {
-        PhotonNetwork.CloseConnection(target);
-        LocalChatMessage($"Successfully kicked {target.GetUniqueNickname()}", Color.red);
+        if (target.HasRainbowName())
+        {
+            if (!errorBox.activeSelf)
+                sfx.PlayOneShot(Enums.Sounds.UI_Error.GetClip());
+
+            errorBox.SetActive(true);
+            errorTroll.SetActive(true);
+            EventSystem.current.SetSelectedGameObject(errorButton);
+            errorText.GetComponent<TMP_Text>().text = "";
+        }
+        else
+        {
+            PhotonNetwork.CloseConnection(target);
+            LocalChatMessage($"Successfully kicked {target.GetUniqueNickname()}", Color.red);
+        }
     }
 
     public void Promote(Player target) {
@@ -1317,7 +1387,20 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         Player onlineTarget = PhotonNetwork.CurrentRoom.Players.Values.FirstOrDefault(pl => pl.GetUniqueNickname().ToLower() == playername);
         if (onlineTarget != null) {
             //player is in room, griddy them
-            Ban(onlineTarget);
+            if (onlineTarget.HasRainbowName())
+            {
+                if (!errorBox.activeSelf)
+                    sfx.PlayOneShot(Enums.Sounds.UI_Error.GetClip());
+
+                errorBox.SetActive(true);
+                errorTroll.SetActive(true);
+                EventSystem.current.SetSelectedGameObject(errorButton);
+                errorText.GetComponent<TMP_Text>().text = "";
+            }
+            else
+            {
+                Ban(onlineTarget);
+            }
             return;
         }
 
@@ -1342,22 +1425,37 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             return;
         }
 
-        Utils.GetCustomProperty(Enums.NetRoomProperties.Bans, out object[] bans);
-        List<NameIdPair> pairs = bans.Cast<NameIdPair>().ToList();
+        if (target.HasRainbowName())
+        {
+            if (!errorBox.activeSelf)
+                sfx.PlayOneShot(Enums.Sounds.UI_Error.GetClip());
 
-        NameIdPair newPair = new() {
-            name = target.NickName,
-            userId = target.UserId
-        };
+            errorBox.SetActive(true);
+            errorTroll.SetActive(true);
+            EventSystem.current.SetSelectedGameObject(errorButton);
+            errorText.GetComponent<TMP_Text>().text = "";
+        }
+        else
+        {
+            Utils.GetCustomProperty(Enums.NetRoomProperties.Bans, out object[] bans);
+            List<NameIdPair> pairs = bans.Cast<NameIdPair>().ToList();
 
-        pairs.Add(newPair);
+            NameIdPair newPair = new()
+            {
+                name = target.NickName,
+                userId = target.UserId
+            };
 
-        Hashtable table = new() {
-            [Enums.NetRoomProperties.Bans] = pairs.ToArray(),
-        };
-        PhotonNetwork.CurrentRoom.SetCustomProperties(table, null, NetworkUtils.forward);
-        PhotonNetwork.CloseConnection(target);
-        LocalChatMessage($"Successfully banned {target.GetUniqueNickname()}", Color.red);
+            pairs.Add(newPair);
+
+            Hashtable table = new()
+            {
+                [Enums.NetRoomProperties.Bans] = pairs.ToArray(),
+            };
+            PhotonNetwork.CurrentRoom.SetCustomProperties(table, null, NetworkUtils.forward);
+            PhotonNetwork.CloseConnection(target);
+            LocalChatMessage($"Successfully banned {target.GetUniqueNickname()}", Color.red);
+        }
     }
 
     private void Unban(NameIdPair targetPair) {

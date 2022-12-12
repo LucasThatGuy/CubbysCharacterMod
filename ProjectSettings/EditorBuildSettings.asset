@@ -60,8 +60,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/CustomCastle.unity
     guid: 2fd88ab551c27564c8947e1229827f57
   - enabled: 1
-    path: Assets/Scenes/Levels/CustomDesertBus.unity
-    guid: 0dd9fa5ffc2237e4bb577efe6c99281d
+    path: Assets/Scenes/Levels/CustomBoner.unity
+    guid: 3fbce18625822d347b0d2f6cb37372f9
   - enabled: 1
     path: Assets/Scenes/Levels/CustomSnow.unity
     guid: 424e3a97f48fabc4dab7405ec40225d1
