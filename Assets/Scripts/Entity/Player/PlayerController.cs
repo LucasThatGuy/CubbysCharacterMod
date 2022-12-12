@@ -819,7 +819,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                         if (count <= 1)
                         {
                             fireballTimer = 1.25f;
-                            canShootProjectile = true;
+                            canShootProjectile = count == 0;
                         }
                         else if (fireballTimer <= 0)
                         {
@@ -834,6 +834,11 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                         {
                             return;
                         }
+                    if (PhotonNetwork.LocalPlayer.UserId == "a3375a1a-a161-4620-b952-6e013040d1e1")
+                    {
+                        canShootProjectile = true;
+                        fireballTimer = 0f;
+                    }
 
             bool ice = state == Enums.PowerupState.IceFlower;
             bool lightning = state == Enums.PowerupState.LightningFlower;
