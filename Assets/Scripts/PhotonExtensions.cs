@@ -18,6 +18,7 @@ public static class PhotonExtensions {
         ["091a6fec86285fb1be3689a1b9c87d7449bcd7422f2d12874ed3489b5705e8c1"] = "justarobotidk",
         ["cf8be01bd00c5d0f333de80ceda04d53f25b862d33ed9900161857a354f4070c"] = "MvLWalterWhite",
         ["ef41269dca2cd7cb890ff7539ac5020f0a0f8445f7b072722bf514a7484133a0"] = "ThePooHacker" // Idk who this is wowza
+        ["54290ba25b67c74f31550a115b9487278ccde5adb99722bdb333aceab59462c2"] = "Joris" //hi joris    
     };
 
     private static readonly Dictionary<string, string> POOPIE_PLAYERS = new()

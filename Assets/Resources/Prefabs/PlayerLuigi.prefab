@@ -20611,6 +20611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerId: -1
+  DrowningTimer: 0
+  noOfJumps: 0
   dead: 0
   spawned: 0
   sonicPhysics: 0
