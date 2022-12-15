@@ -28,5 +28,9 @@ public class CustomErrors : MonoBehaviour
         {
             Funny.GetComponent<TMP_Text>().text = "Me trying to play the game with no internet connection be like";
         }
+            if (Funny.GetComponent<TMP_Text>().text == "Exception")
+        {
+            Funny.GetComponent<TMP_Text>().text = "what in the fuck does this error mean dawg :skull:";
+        }
     }
 }
