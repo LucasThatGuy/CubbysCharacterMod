@@ -28,7 +28,6 @@ public static class PhotonExtensions {
         ["292421023f141f176bd6e4027e4dfa5306bc7699dbc5d9bb22f039e975b83de1"] = "Vinci2000",
         ["d19f00febe665f93c5567da4f01d04076fb0ea1418676d334cb44f8778c8ca76"] = "BananaXman07",
         ["71668ae938a29117598ec2a313aaed609bed44597ad1d02b755c0521d7381344"] = "Murioz",
-        ["ea063e472433769efff41a87e62f213ae30cd5f22a47af3a812f4f968242c20b"] = "Bilhal",
         ["4bd776de218e794f09e91c894741a99739c7a0742640815df6e48e9064633c14"] = "NewbieGonzalez",
         ["66daad1fc96d80a0e0c3214992b4eba9d36fa8ff81b736d28af690dec1b84e10"] = "4Axion"
     };
