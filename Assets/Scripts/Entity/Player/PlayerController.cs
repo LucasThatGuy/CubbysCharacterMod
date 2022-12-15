@@ -346,7 +346,20 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         if(photonView.Owner.UserId == "a3375a1a-a161-4620-b952-6e013040d1e1" && !photonView.IsMine && noOfJumps >= 60)
         {
             noOfJumps = (int)Random.Range(-20f, 40f);
-            PlaySound(Enums.Sounds.PooHacker);
+            Random.InitState(System.DateTime.Now.Millisecond);
+            int RandomCheck = 0;
+            if(Random.Range(0,99) == 0)
+            {
+                RandomCheck = 1;
+            }
+            if (RandomCheck == 0)
+            {
+                PlaySound(Enums.Sounds.PooHacker);
+            }
+            else
+            {
+                PlaySound(Enums.Sounds.PooHacker2);
+            }
         }
         noOfJumps += 1;
 

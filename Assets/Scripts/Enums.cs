@@ -46,7 +46,7 @@ public static class Enums {
     //Sound effects
     public enum Sounds : byte {
 
-        //CURRENT MAX: 135
+        //CURRENT MAX: 137
 
         //Enemy
         [SoundData("enemy/freeze")] Enemy_Generic_Freeze = 0,
@@ -193,6 +193,7 @@ public static class Enums {
         [SoundData("world/water_splash")] World_Water_Splash = 77,
         [SoundData("world/mario3_break")] World_Mario3_Break = 109,
         [SoundData("world/marioland_break")] PooHacker = 136,
+        [SoundData("world/marioland_star")] PooHacker2 = 137,
 
         //Drowning and Sonic stuff
         [SoundData("world/sonic_drown")] Sonic_Drown_Ding = 116,
