@@ -30,7 +30,11 @@ public class CustomErrors : MonoBehaviour
         }
             if (Funny.GetComponent<TMP_Text>().text == "Exception")
         {
-            Funny.GetComponent<TMP_Text>().text = "what in the fuck does this error mean dawg :skull:";
+            Funny.GetComponent<TMP_Text>().text = "Ok";
+        }
+            if (Funny.GetComponent<TMP_Text>().text == "DisconnectByDisconnectMessage")
+        {
+            Funny.GetComponent<TMP_Text>().text = "ThePooHacker Sharted SO HARD! So You Got An Error Whoops!";
         }
     }
 }
