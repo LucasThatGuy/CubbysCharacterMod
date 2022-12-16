@@ -32,7 +32,7 @@ public class CustomErrors : MonoBehaviour
         {
             Random.InitState(System.DateTime.Now.Millisecond);
             int Foony = Random.Range(0, 1);
-            if(Foony = 0)
+            if(Foony == 0)
             {
                 Funny.GetComponent<TMP_Text>().text = "Ok";
             }
