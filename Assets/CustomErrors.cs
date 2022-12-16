@@ -30,11 +30,20 @@ public class CustomErrors : MonoBehaviour
         }
             if (Funny.GetComponent<TMP_Text>().text == "Exception")
         {
-            Funny.GetComponent<TMP_Text>().text = "Ok";
+            Random.InitState(System.DateTime.Now.Millisecond);
+            int Foony = Random.Range(0, 1);
+            if(Foony = 0)
+            {
+                Funny.GetComponent<TMP_Text>().text = "Ok";
+            }
+            else
+            {
+                Funny.GetComponent<TMP_Text>().text = "Idk you figure it out";
+            }
         }
             if (Funny.GetComponent<TMP_Text>().text == "DisconnectByDisconnectMessage")
         {
-            Funny.GetComponent<TMP_Text>().text = "ThePooHacker Sharted SO HARD! So You Got An Error Whoops!";
+            Funny.GetComponent<TMP_Text>().text = "ThePooHacker sharted SO HARD! So you got an error whoops!";
         }
     }
 }
