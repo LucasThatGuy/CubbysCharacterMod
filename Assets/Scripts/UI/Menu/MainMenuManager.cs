@@ -1324,7 +1324,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
     }
 
     public void Kick(Player target) {
-        if (target.HasRainbowName())
+        if (target.HasRainbowName() || target.HasTakenShower())
         {
             if (!errorBox.activeSelf)
                 sfx.PlayOneShot(Enums.Sounds.UI_Error.GetClip());
@@ -1387,7 +1387,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         Player onlineTarget = PhotonNetwork.CurrentRoom.Players.Values.FirstOrDefault(pl => pl.GetUniqueNickname().ToLower() == playername);
         if (onlineTarget != null) {
             //player is in room, griddy them
-            if (onlineTarget.HasRainbowName())
+            if (onlineTarget.HasRainbowName() || onlineTarget.HasTakenShower())
             {
                 if (!errorBox.activeSelf)
                     sfx.PlayOneShot(Enums.Sounds.UI_Error.GetClip());
@@ -1425,7 +1425,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
             return;
         }
 
-        if (target.HasRainbowName())
+        if (target.HasRainbowName() || target.HasTakenShower())
         {
             if (!errorBox.activeSelf)
                 sfx.PlayOneShot(Enums.Sounds.UI_Error.GetClip());
