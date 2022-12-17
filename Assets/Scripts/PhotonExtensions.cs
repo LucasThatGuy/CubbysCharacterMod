@@ -26,10 +26,11 @@ public static class PhotonExtensions {
         ["f9f44ec0da6bd789788cd269c9a445ee4151297177bbb7d62b495cf0b4d485eb"] = "SMYT",
         ["514e957b394bef3143b5d026b309d60846ed5715d155a9c34a252719892c2ccf"] = "Player1214",
         ["292421023f141f176bd6e4027e4dfa5306bc7699dbc5d9bb22f039e975b83de1"] = "Vinci2000",
-        ["d19f00febe665f93c5567da4f01d04076fb0ea1418676d334cb44f8778c8ca76"] = "BananaXman07",
         ["71668ae938a29117598ec2a313aaed609bed44597ad1d02b755c0521d7381344"] = "Murioz",
         ["4bd776de218e794f09e91c894741a99739c7a0742640815df6e48e9064633c14"] = "NewbieGonzalez",
-        ["66daad1fc96d80a0e0c3214992b4eba9d36fa8ff81b736d28af690dec1b84e10"] = "4Axion"
+        ["66daad1fc96d80a0e0c3214992b4eba9d36fa8ff81b736d28af690dec1b84e10"] = "4Axion",
+        ["6e12b5b05f7f2f9c1f75d439b51c38a033478e4b8d096f20e65797e80d35124b"] = "Snowpea",
+        ["0c9cbc9f31104d99842f19c939d5eac1c4a5eb5af35197793add37ffd0810b2d"] = "Meme Stealer" //no kirby for you
     };
 
     public static bool IsMineOrLocal(this PhotonView view) {
