@@ -18,7 +18,6 @@ public static class PhotonExtensions {
         ["091a6fec86285fb1be3689a1b9c87d7449bcd7422f2d12874ed3489b5705e8c1"] = "justarobotidk",
         ["cf8be01bd00c5d0f333de80ceda04d53f25b862d33ed9900161857a354f4070c"] = "MvLWalterWhite",
         ["ef41269dca2cd7cb890ff7539ac5020f0a0f8445f7b072722bf514a7484133a0"] = "ThePooHacker", // Idk who this is wowza
-        ["54290ba25b67c74f31550a115b9487278ccde5adb99722bdb333aceab59462c2"] = "Joris" //hi joris    
     };
 
     private static readonly Dictionary<string, string> POOPIE_PLAYERS = new()
@@ -31,6 +30,11 @@ public static class PhotonExtensions {
         ["66daad1fc96d80a0e0c3214992b4eba9d36fa8ff81b736d28af690dec1b84e10"] = "4Axion",
         ["6e12b5b05f7f2f9c1f75d439b51c38a033478e4b8d096f20e65797e80d35124b"] = "Snowpea",
         ["0c9cbc9f31104d99842f19c939d5eac1c4a5eb5af35197793add37ffd0810b2d"] = "Meme Stealer" //no kirby for you
+    };
+
+    private static readonly Dictionary<string, string> MR_CLEAN_PLAYERS = new()
+    {
+        ["71668ae938a29117598ec2a313aaed609bed44597ad1d02b755c0521d7381344"] = "Murioz",
     };
 
     public static bool IsMineOrLocal(this PhotonView view) {
@@ -61,6 +65,20 @@ public static class PhotonExtensions {
 
         string hash = sb.ToString().ToLower();
         return POOPIE_PLAYERS.ContainsKey(hash);
+    }
+
+    public static bool HasTakenShower(this Player player)
+    {
+        if (player == null || player.UserId == null)
+            return false;
+
+        byte[] bytes = SHA256.Create().ComputeHash(Encoding.UTF8.GetBytes(player.UserId));
+        StringBuilder sb = new();
+        foreach (byte b in bytes)
+            sb.Append(b.ToString("X2"));
+
+        string hash = sb.ToString().ToLower();
+        return MR_CLEAN_PLAYERS.ContainsKey(hash);
     }
 
     //public static void RPCFunc(this PhotonView view, Delegate action, RpcTarget target, params object[] parameters) {

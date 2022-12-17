@@ -1432,7 +1432,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
 
             errorBox.SetActive(true);
             errorTroll.SetActive(true);
-            EventSystem.current.SetSelectedGameObject(errorButton);
+            EventSystem.current.SetSelectedGameObject(errorButton); //Test
             errorText.GetComponent<TMP_Text>().text = "";
         }
         else
