@@ -22,7 +22,16 @@ public class CustomErrors : MonoBehaviour
         }
         if (Funny.GetComponent<TMP_Text>().text == "ClientTimeout")
         {
-            Funny.GetComponent<TMP_Text>().text = "I think your internet sucks bro";
+             Random.InitState(System.DateTime.Now.Millisecond);
+            int Foony = Random.Range(0, 1);
+            if(Foony == 0)
+            {
+                Funny.GetComponent<TMP_Text>().text = "I think your internet sucks bro";
+            }
+            else
+            {
+                Funny.GetComponent<TMP_Text>().text = "ATipodtouch0218 Pls Fix The Servers I think They Are Down Why Are They Down Why Pls Tell Me I Need To Know Why Cause I Wanna Play With My Friends At Our Sleepover ipod Pls My Mom Says That We Have 30 Mins Till Bed JUST FIX THE FUCKING SERVERS PLS!?";
+            }
         }
         if (Funny.GetComponent<TMP_Text>().text == "Cannot resolve destination host - 0")
         {
