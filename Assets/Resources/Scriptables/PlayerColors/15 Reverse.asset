@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.9339623, g: 0.3568441, b: 0.60873777, a: 1}
     overallsColor: {r: 0.1776577, g: 0.14404595, b: 0.7830189, a: 1}
     ColorName: Explosive 4
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.45397824, g: 0.22988607, b: 0.7735849, a: 1}
+    overallsColor: {r: 0.28166434, g: 0.24764152, b: 0.3301887, a: 1}
+    ColorName: Waluigi

@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.7924528, g: 0.30528393, b: 0.23549305, a: 1}
     overallsColor: {r: 0.35686272, g: 0.5654839, b: 0.74509805, a: 1}
     ColorName: Explosive 2
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.17254902, g: 0.3254902, b: 0.77254903, a: 1}
+    overallsColor: {r: 0.13725491, g: 0.62352943, b: 0.13333334, a: 1}
+    ColorName: Luigi

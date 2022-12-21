@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.66522783, g: 0.6890163, b: 0.9339623, a: 1}
     overallsColor: {r: 0.22116414, g: 0.43713793, b: 0.6603774, a: 1}
     ColorName: Explosive 6
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.6784314, g: 0.6784314, b: 0.6784314, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
+    ColorName: Grayscale

@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.61840343, g: 0.3507031, b: 0.6698113, a: 1}
     overallsColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
     ColorName: Explosive 5
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.1372764, g: 0.3490566, b: 0.10702208, a: 1}
+    overallsColor: {r: 0.47843137, g: 0.5921569, b: 0.09803922, a: 1}
+    ColorName: Gameboy

@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.6745098, g: 0.9176471, b: 0.34509805, a: 1}
     overallsColor: {r: 0.8679245, g: 0.7965715, b: 0.5608757, a: 1}
     ColorName: Explosive 8
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.17254902, g: 0.6117647, b: 0.29803923, a: 1}
+    overallsColor: {r: 0.09803922, g: 0.43529412, b: 0.8862745, a: 1}
+    ColorName: Chrome

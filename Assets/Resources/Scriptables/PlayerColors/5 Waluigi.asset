@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.7176471, g: 0.2627451, b: 0.29803923, a: 1}
     overallsColor: {r: 0.43137258, g: 0.14901961, b: 0.2784314, a: 1}
     ColorName: Spector
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.14509805, g: 0.15686275, b: 0.14509805, a: 1}
+    overallsColor: {r: 0, g: 0, b: 0, a: 1}
+    ColorName: Black Bowser

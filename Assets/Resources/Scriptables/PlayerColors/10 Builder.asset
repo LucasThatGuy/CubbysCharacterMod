@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.58431375, g: 0.5411765, b: 0.3803922, a: 1}
     overallsColor: {r: 0.4666667, g: 0.30588236, b: 0.23529413, a: 1}
     ColorName: Zarf the Wolf
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.6392157, g: 0.05490196, b: 0.0627451, a: 1}
+    overallsColor: {r: 0.60784316, g: 0.078431375, b: 0.0627451, a: 1}
+    ColorName: Red Bowser

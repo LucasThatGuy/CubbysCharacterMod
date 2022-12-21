@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.9716981, g: 0.5568478, b: 0.18792273, a: 1}
     overallsColor: {r: 0.03470988, g: 0.5660378, b: 0.43159395, a: 1}
     ColorName: Phineas & Ferb
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.75686276, g: 0.31764707, b: 0.7294118, a: 1}
+    overallsColor: {r: 0.9528302, g: 0.8291275, b: 0.23820755, a: 1}
+    ColorName: Wario

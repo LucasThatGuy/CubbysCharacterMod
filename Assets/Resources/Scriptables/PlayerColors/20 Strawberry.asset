@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.30980393, g: 0.754717, b: 0.21568628, a: 1}
     overallsColor: {r: 0.31510323, g: 0.8342327, b: 0.9150943, a: 1}
     ColorName: Explosive 9
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.96862745, g: 0.3529412, b: 0.20392157, a: 1}
+    overallsColor: {r: 0.6509804, g: 0.2784314, b: 0.9254902, a: 1}
+    ColorName: Firefox

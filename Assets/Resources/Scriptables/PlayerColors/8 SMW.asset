@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.7176471, g: 0.45098042, b: 0.45098042, a: 1}
     overallsColor: {r: 0.45098042, g: 0.20000002, b: 0.25882354, a: 1}
     ColorName: Arf the Wolf
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.78431374, g: 0.76862746, b: 0.74509805, a: 1}
+    overallsColor: {r: 0.49803922, g: 0.4, b: 0.34901962, a: 1}
+    ColorName: Morton Koopa
