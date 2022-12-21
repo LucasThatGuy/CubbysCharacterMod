@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.42352945, g: 0.59607846, b: 0.81568635, a: 1}
     overallsColor: {r: 0.7960785, g: 0.5372549, b: 0.18431373, a: 1}
     ColorName: Werewolf Raymond
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.38039216, g: 0.44705883, b: 0.19215687, a: 1}
+    overallsColor: {r: 0.4117647, g: 0.47843137, b: 0.5882353, a: 1}
+    ColorName: Bowser (SMB Boxart)

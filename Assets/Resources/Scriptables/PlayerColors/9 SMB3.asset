@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.5686275, g: 0.6156863, b: 0.7019608, a: 1}
     overallsColor: {r: 0.41176474, g: 0.41176474, b: 0.53333336, a: 1}
     ColorName: Barf the Wolf
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.8773585, g: 0.40970984, b: 0.73183733, a: 1}
+    overallsColor: {r: 0.95686275, g: 0.7019608, b: 0, a: 1}
+    ColorName: Roy O./Wendy Koopa

@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.7924528, g: 0.58377355, b: 0.37753648, a: 1}
     overallsColor: {r: 0.5188679, g: 0.3466326, b: 0.17377181, a: 1}
     ColorName: Explosive 21
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.95686275, g: 0.29411766, b: 0.27450982, a: 1}
+    overallsColor: {r: 0.07058824, g: 0.654902, b: 0.91764706, a: 1}
+    ColorName: Safari

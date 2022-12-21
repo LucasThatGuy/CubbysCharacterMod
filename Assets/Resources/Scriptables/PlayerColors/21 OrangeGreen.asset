@@ -209,3 +209,7 @@ MonoBehaviour:
     hatColor: {r: 0.18035777, g: 0.18035777, b: 0.1981132, a: 1}
     overallsColor: {r: 0.6226415, g: 0, b: 0.537605, a: 1}
     ColorName: Explosive 10
+  - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
+    hatColor: {r: 0.35686275, g: 0.8666667, b: 0.44313726, a: 1}
+    overallsColor: {r: 0, g: 0.47843137, b: 0.8666667, a: 1}
+    ColorName: Edge
