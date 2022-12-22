@@ -8,8 +8,6 @@ using Photon.Realtime;
 public static class PhotonExtensions {
 
     private static readonly Dictionary<string, string> SPECIAL_PLAYERS = new() {
-        ["cf03abdb5d2ef1b6f0d30ae40303936f9ab22f387f8a1072e2849c8292470af1"] = "ipodtouch0218",
-        ["d5ba21667a5da00967cc5ebd64c0d648e554fb671637adb3d22a688157d39bf6"] = "mindnomad",
         ["080bf7071cde398203f8ebe86171b6461c697441baa10f69e25d7adf3c17e606"] = "Cubby",
         ["e22b0af382ee827f220519b31b15f58113885b8bf86c1917875e871fee3806cf"] = "AutumnLeaf",
         ["3d4c251a2b0a78243b49922256fb18cfeee9c13cf5f408fead6c8bb6cab459eb"] = "MiiBumm",
@@ -18,6 +16,7 @@ public static class PhotonExtensions {
         ["091a6fec86285fb1be3689a1b9c87d7449bcd7422f2d12874ed3489b5705e8c1"] = "justarobotidk",
         ["cf8be01bd00c5d0f333de80ceda04d53f25b862d33ed9900161857a354f4070c"] = "MvLWalterWhite",
         ["ef41269dca2cd7cb890ff7539ac5020f0a0f8445f7b072722bf514a7484133a0"] = "ThePooHacker", // Idk who this is wowza
+        ["19db59a8286d570e6995a2390be551060d0eae90acbd8d1941a1856c82c50a9b"] = "vic" // bowswer from fortnite
     };
 
     private static readonly Dictionary<string, string> POOPIE_PLAYERS = new()
