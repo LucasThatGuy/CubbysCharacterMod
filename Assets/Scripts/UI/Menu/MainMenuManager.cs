@@ -605,6 +605,10 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                         {
                             sfx.PlayOneShot(Enums.Sounds.Rainbow_Clown.GetClip());
                         }
+                         if ((message2.ToLower() == "chortles" || message2.ToLower() == "fawful") && (sender.HasRainbowName() || sender.HasPoopieName()))
+                        {
+                            sfx.PlayOneShot(Enums.Sounds.Rainbow_Chortles.GetClip());
+                        }
                     }
 
                     if (sender.UserId == "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3")
