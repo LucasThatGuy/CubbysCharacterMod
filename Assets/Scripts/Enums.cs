@@ -175,6 +175,8 @@ public static class Enums {
         [SoundData("ui/rainbow_daniel")] Rainbow_Daniel = 133,
         [SoundData("ui/rainbow_clown")] Rainbow_Clown = 134,
         [SoundData("ui/rainbow_stinky")] Poopie_YouTried = 135,
+        [SoundData("ui/rainbow_chortles")] Rainbow_Chortles = 136,
+
 
         //World Elements
         [SoundData("world/block_break")] World_Block_Break = 67,
