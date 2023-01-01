@@ -363,8 +363,18 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         }
         noOfJumps += 1;
 
-        LightningTimerPrevious = LightningTimer;
-        if(sonicPhysics && GameManager.Instance.isCoral)
+        foreach (RaycastHit2D hit in Physics2D.RaycastAll(body.position, Vector2.up, 1f))
+        {
+            GameObject obj = hit.transform.gameObject;
+            if (!obj.CompareTag("trollhole"))
+                continue;
+            if (!pipeEntering)
+            {
+                body.position = new Vector2(-5.25f, 1.5f);
+            }
+        }
+            LightningTimerPrevious = LightningTimer;
+        if(sonicPhysics && (GameManager.Instance.isCoral || (GameManager.Instance.isLabyrinth && body.position.y < 5.5)))
         {
             if (!dead && spawned)
             {
@@ -386,6 +396,10 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
                 }
             }
+        }
+        else
+        {
+            DrowningTimer = 0;
         }
 
         groundpoundLastFrame = groundpound;
@@ -1027,7 +1041,14 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             flying = false;
             drill = false;
             inShell = false;
-            giantTimer = 15f;
+            if (GameManager.Instance.FuckYou && !photonView.Owner.HasRainbowName())
+            {
+                giantTimer = 1.5f;
+            }
+            else
+            {
+                giantTimer = 15f;
+            }
             transform.localScale = Vector3.one;
             Instantiate(Resources.Load("Prefabs/Particle/GiantPowerup"), transform.position, Quaternion.identity);
 
@@ -1039,7 +1060,14 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
             if (invincible <= 0)
                 StarCombo = 0;
 
-            invincible = 10f;
+            if (GameManager.Instance.FuckYou && !photonView.Owner.HasRainbowName())
+            {
+                invincible = 1f;
+            }
+            else
+            {
+                invincible = 10f;
+            }
             PlaySound(powerup.soundEffect);
 
             if (holding && photonView.IsMine) {
@@ -1053,7 +1081,17 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
             return;
         } else if (powerup.prefab == "1-Up") {
-            lives = 1;
+            if (photonView.Owner.HasRainbowName())
+            {
+                if(lives >= 0)
+                {
+                    lives += 1;
+                }
+            }
+            else
+            {
+                lives = 1;
+            }
             UpdateGameState();
             PlaySound(powerup.soundEffect);
             Instantiate(Resources.Load("Prefabs/Particle/1Up"), transform.position, Quaternion.identity);
@@ -1157,7 +1195,14 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         PlaySound(Enums.Sounds.Enemy_Generic_Freeze);
         frozenObject = PhotonView.Find(cube).GetComponentInChildren<FrozenCube>();
         Frozen = true;
-        frozenObject.autoBreakTimer = 1.75f;
+        if(photonView.Owner.HasRainbowName())
+        {
+            frozenObject.autoBreakTimer = 7.5f;
+        }
+        else
+        {
+            frozenObject.autoBreakTimer = 25f;
+        }
         animator.enabled = false;
         body.isKinematic = true;
         body.simulated = false;
@@ -1455,6 +1500,10 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
         if (DeathChance == 6)
         {
             PlaySound(cameraController.IsControllingCamera ? Enums.Sounds.Player_Sound_Death_6 : Enums.Sounds.Player_Sound_DeathOthers);
+        }
+        if(character.prefab == "PlayerCubby")
+        {
+            PlaySound(Enums.Sounds.Player_Sound_CubbyDeath);//
         }
         SpawnStars(1, deathplane);
         body.isKinematic = false;

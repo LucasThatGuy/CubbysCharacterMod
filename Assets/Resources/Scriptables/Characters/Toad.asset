@@ -15,10 +15,9 @@ MonoBehaviour:
   soundFolder: toad
   prefab: PlayerToad
   uistring: <sprite=52>
-  loadingSmallSprite: {fileID: -704960554, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: -312153090, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: -1635613792, guid: a7245cae141f3ee449147539ebd2a2c9,
-    type: 3}
+  loadingBigSprite: {fileID: 1115105349, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
   readySprite: {fileID: -1924788718, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}
   largeOverrides: {fileID: 9100000, guid: fa2b2fc953f5f444291d26193e0ac7fb, type: 2}

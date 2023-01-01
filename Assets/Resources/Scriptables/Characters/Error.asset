@@ -15,9 +15,9 @@ MonoBehaviour:
   soundFolder: error
   prefab: PlayerError
   uistring: <sprite=88>
-  loadingSmallSprite: {fileID: 133123750, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: -1153294931, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: -1745517590, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingBigSprite: {fileID: -1248723344, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
   readySprite: {fileID: 265413344, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}

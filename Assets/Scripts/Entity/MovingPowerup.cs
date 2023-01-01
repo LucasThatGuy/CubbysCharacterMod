@@ -145,7 +145,7 @@ public class MovingPowerup : MonoBehaviourPun {
         if (followMe)
             return;
 
-        body.velocity = new(body.velocity.x, 5f);
+        body.velocity = new(body.velocity.x, 20f);
     }
 
     public void HandleCollision() {

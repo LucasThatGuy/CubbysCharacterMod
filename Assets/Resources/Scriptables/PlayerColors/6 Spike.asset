@@ -213,3 +213,19 @@ MonoBehaviour:
     hatColor: {r: 0.30980393, g: 0.29803923, b: 0.29411766, a: 1}
     overallsColor: {r: 0.85490197, g: 0.8392157, b: 0.7529412, a: 1}
     ColorName: Dry Bowser
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 1, g: 0.4666667, b: 0.4666667, a: 1}
+    overallsColor: {r: 0.7019608, g: 0, b: 0.21176472, a: 1}
+    ColorName: Pepper (Distancy)
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0.90196085, g: 0.34901962, b: 0.37254903, a: 1}
+    overallsColor: {r: 0.1764706, g: 0.34901962, b: 0.5411765, a: 1}
+    ColorName: Mario (SSB Brawl)
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0.23529413, g: 0.6666667, b: 0.8705883, a: 1}
+    overallsColor: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
+    ColorName: Cubby
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0.32156864, g: 0.5882353, b: 0.21176472, a: 1}
+    overallsColor: {r: 0.48627454, g: 0.27058825, b: 0.12941177, a: 1}
+    ColorName: Green Grape

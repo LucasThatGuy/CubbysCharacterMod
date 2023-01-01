@@ -15,10 +15,9 @@ MonoBehaviour:
   soundFolder: fred
   prefab: PlayerFred
   uistring: <sprite=66>
-  loadingSmallSprite: {fileID: -1024567647, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: -1250096758, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: -1502937570, guid: a7245cae141f3ee449147539ebd2a2c9,
-    type: 3}
+  loadingBigSprite: {fileID: -226589016, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
   readySprite: {fileID: 611456515, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}
   largeOverrides: {fileID: 9100000, guid: fa2b2fc953f5f444291d26193e0ac7fb, type: 2}

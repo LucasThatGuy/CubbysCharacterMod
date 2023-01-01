@@ -15,9 +15,9 @@ MonoBehaviour:
   soundFolder: baldi
   prefab: PlayerBaldi
   uistring: <sprite=80>
-  loadingSmallSprite: {fileID: 2137796077, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: -390359184, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: -1770314625, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingBigSprite: {fileID: -1635194097, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
   readySprite: {fileID: -984016594, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}

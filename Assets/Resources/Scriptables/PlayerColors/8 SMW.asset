@@ -213,3 +213,19 @@ MonoBehaviour:
     hatColor: {r: 0.78431374, g: 0.76862746, b: 0.74509805, a: 1}
     overallsColor: {r: 0.49803922, g: 0.4, b: 0.34901962, a: 1}
     ColorName: Morton Koopa
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 0.227451, g: 0.7372549, b: 1, a: 1}
+    overallsColor: {r: 1, g: 0.9568628, b: 0.8862746, a: 1}
+    ColorName: Cubby's Old Clothes
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0, g: 0.7294118, b: 0.77647066, a: 1}
+    overallsColor: {r: 0.93725497, g: 0.20784315, b: 0.3137255, a: 1}
+    ColorName: Eric Cartman
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0.45098042, g: 0.15686275, b: 0.6784314, a: 1}
+    overallsColor: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
+    ColorName: Elisa
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0.20392159, g: 0.20000002, b: 0.18431373, a: 1}
+    overallsColor: {r: 0.85098046, g: 0.43921572, b: 0.9960785, a: 1}
+    ColorName: Vola

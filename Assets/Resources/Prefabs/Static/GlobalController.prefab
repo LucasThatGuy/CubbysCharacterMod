@@ -339,6 +339,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b4fe72e0991e7854796b638645892d76, type: 2}
   - {fileID: 11400000, guid: 913a318059cd0fb45a2eec6674e3e64b, type: 2}
   - {fileID: 11400000, guid: 7e259f82204dea34382f1f9d421e33bb, type: 2}
+  - {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+  - {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+  - {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+  - {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
   settings: {fileID: 0}
   controlsJson: 
   joinedAsSpectator: 0

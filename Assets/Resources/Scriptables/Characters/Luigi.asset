@@ -15,10 +15,9 @@ MonoBehaviour:
   soundFolder: luigi
   prefab: PlayerLuigi
   uistring: <sprite=4>
-  loadingSmallSprite: {fileID: -3599161207798135845, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: -944624006, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: -309644342959843524, guid: a7245cae141f3ee449147539ebd2a2c9,
-    type: 3}
+  loadingBigSprite: {fileID: 887581737, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
   readySprite: {fileID: -7975249404588759376, guid: 70672da71d9d71a4daaf5f3fc58531e6,
     type: 3}
   smallOverrides: {fileID: 22100000, guid: a1854453357bb034e89ec419b0f57906, type: 2}

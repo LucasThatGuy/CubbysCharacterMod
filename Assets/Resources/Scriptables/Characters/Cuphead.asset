@@ -15,9 +15,10 @@ MonoBehaviour:
   soundFolder: cuphead
   prefab: PlayerCuphead
   uistring: <sprite=59>
-  loadingSmallSprite: {fileID: 1608992795, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: -110623571, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: 615670509, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
+  loadingBigSprite: {fileID: -1883944581, guid: a7245cae141f3ee449147539ebd2a2c9,
+    type: 3}
   readySprite: {fileID: -755617384, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}
   largeOverrides: {fileID: 22100000, guid: 09425aebf9120bb41895e9644740d01c, type: 2}

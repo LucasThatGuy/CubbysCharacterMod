@@ -213,3 +213,19 @@ MonoBehaviour:
     hatColor: {r: 0.17254902, g: 0.6117647, b: 0.29803923, a: 1}
     overallsColor: {r: 0.09803922, g: 0.43529412, b: 0.8862745, a: 1}
     ColorName: Chrome
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 0.7960785, g: 0.4431373, b: 1, a: 1}
+    overallsColor: {r: 0.4011949, g: 0.10484158, b: 0.7169812, a: 1}
+    ColorName: Violet Ice Cream
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0.9607844, g: 0.69803923, b: 0.003921569, a: 1}
+    overallsColor: {r: 0.19607845, g: 0.6, b: 0, a: 1}
+    ColorName: Nintendo 64
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0.909804, g: 0.5254902, b: 0.07450981, a: 1}
+    overallsColor: {r: 0, g: 0.80392164, b: 0.38823533, a: 1}
+    ColorName: Check Mii Out Channel
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0.9568628, g: 0.8000001, b: 0.6313726, a: 1}
+    overallsColor: {r: 0.7372549, g: 0.8470589, b: 0.15686275, a: 1}
+    ColorName: Turnip Boy

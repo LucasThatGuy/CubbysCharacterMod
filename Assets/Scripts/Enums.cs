@@ -46,7 +46,7 @@ public static class Enums {
     //Sound effects
     public enum Sounds : byte {
 
-        //CURRENT MAX: 137
+        //CURRENT MAX: 139
 
         //Enemy
         [SoundData("enemy/freeze")] Enemy_Generic_Freeze = 0,
@@ -79,6 +79,7 @@ public static class Enums {
         [SoundData("player/death4")] Player_Sound_Death_4 = 101,
         [SoundData("player/death5")] Player_Sound_Death_5 = 102,
         [SoundData("player/death6")] Player_Sound_Death_6 = 103,
+        [SoundData("player/deathcubby")] Player_Sound_CubbyDeath = 139,
         [SoundData("player/pipe_enter")] Player_Sound_PipeEnter = 111,
         [SoundData("player/death_others")] Player_Sound_DeathOthers = 94,
         [SoundData("player/drill")] Player_Sound_Drill = 21,
@@ -175,7 +176,7 @@ public static class Enums {
         [SoundData("ui/rainbow_daniel")] Rainbow_Daniel = 133,
         [SoundData("ui/rainbow_clown")] Rainbow_Clown = 134,
         [SoundData("ui/rainbow_stinky")] Poopie_YouTried = 135,
-        [SoundData("ui/rainbow_chortles")] Rainbow_Chortles = 136,
+        [SoundData("ui/rainbow_chortles")] Rainbow_Chortles = 138,
 
 
         //World Elements

@@ -212,4 +212,20 @@ MonoBehaviour:
   - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
     hatColor: {r: 0.0627451, g: 0.5803922, b: 0, a: 1}
     overallsColor: {r: 0.45882353, g: 0.5647059, b: 0.3019608, a: 1}
-    ColorName: Bowser (Super Mario Bros)
+    ColorName: Bowser (Super Mario Bros.)
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 0.8000001, g: 0.5568628, b: 0.3529412, a: 1}
+    overallsColor: {r: 0.23137257, g: 0, b: 0.21176472, a: 1}
+    ColorName: Caity (Distancy)
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 1, g: 0.6784314, b: 1, a: 1}
+    overallsColor: {r: 0.9058824, g: 0.43921572, b: 1, a: 1}
+    ColorName: Krystal
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0.8235295, g: 0.11764707, b: 0.078431375, a: 1}
+    overallsColor: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
+    ColorName: I Want Die
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0.26666668, g: 0.1764706, b: 0.098039225, a: 1}
+    overallsColor: {r: 0.9294118, g: 0.60784316, b: 0.3137255, a: 1}
+    ColorName: Enin

@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: loadingmini
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -20,8 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 352467455, guid: a7245cae141f3ee449147539ebd2a2c9,
-        type: 3}
+      value: {fileID: -1699749400, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
+    - time: 0.016666668
+      value: {fileID: -1699749400, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
     attribute: m_Sprite
     path: 
     classID: 114
@@ -40,14 +41,16 @@ AnimationClip:
       typeID: 114
       customType: 0
       isPPtrCurve: 1
+      isIntCurve: 0
     pptrCurveMapping:
-    - {fileID: 352467455, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
+    - {fileID: -1699749400, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
+    - {fileID: -1699749400, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 0.033333335
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

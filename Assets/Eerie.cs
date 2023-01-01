@@ -30,7 +30,7 @@ public class Eerie : KillableEntity
         }
         else
         {
-            body.velocity = new Vector2(body.velocity.x,body.velocity.y + 2.2f);
+            body.velocity = new Vector2(body.velocity.x,body.velocity.y - 22.2f);
         }
     }
     public override void InteractWithPlayer(PlayerController player)

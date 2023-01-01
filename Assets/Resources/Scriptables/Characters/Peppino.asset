@@ -15,9 +15,9 @@ MonoBehaviour:
   soundFolder: peppino
   prefab: PlayerPeppino
   uistring: <sprite=81>
-  loadingSmallSprite: {fileID: -1305252146, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: 1555336914, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: -1900712278, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingBigSprite: {fileID: -1417764019, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
   readySprite: {fileID: -1059446365, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}

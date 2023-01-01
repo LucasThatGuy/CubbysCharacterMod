@@ -198,9 +198,9 @@ MonoBehaviour:
     overallsColor: {r: 0.6, g: 0.8117648, b: 0.39607847, a: 1}
     ColorName: Witch's Potion Lime
   - player: {fileID: 11400000, guid: b4fe72e0991e7854796b638645892d76, type: 2}
-    hatColor: {r: 0.112362035, g: 0.730629, b: 0.9528302, a: 1}
-    overallsColor: {r: 0.6037736, g: 0.30588236, b: 0.21929511, a: 1}
-    ColorName: Cubby
+    hatColor: {r: 0.61960787, g: 0.5019608, b: 0.854902, a: 1}
+    overallsColor: {r: 0.91372555, g: 0.43529415, b: 0.4784314, a: 1}
+    ColorName: TetrisLBlock
   - player: {fileID: 11400000, guid: 913a318059cd0fb45a2eec6674e3e64b, type: 2}
     hatColor: {r: 0, g: 0.38039216, b: 0, a: 1}
     overallsColor: {r: 0, g: 0.76470596, b: 0, a: 1}
@@ -213,3 +213,19 @@ MonoBehaviour:
     hatColor: {r: 0.28235295, g: 0.3764706, b: 0.627451, a: 1}
     overallsColor: {r: 0.1882353, g: 0.28235295, b: 0.5019608, a: 1}
     ColorName: Dark Bowser
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 0.5803922, g: 0.6156863, b: 0.654902, a: 1}
+    overallsColor: {r: 0.4156863, g: 0.4784314, b: 0.5568628, a: 1}
+    ColorName: Errol (Distancy)
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0.73333335, g: 0.627451, b: 0.5529412, a: 1}
+    overallsColor: {r: 0.054901965, g: 0.121568635, b: 0.5764706, a: 1}
+    ColorName: Mememan
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0.47058827, g: 0.8235295, b: 0.1254902, a: 1}
+    overallsColor: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
+    ColorName: Lonk from Pennsylvania
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0, g: 0.19607845, b: 0.41176474, a: 1}
+    overallsColor: {r: 0.003921569, g: 0.11764707, b: 0.24313727, a: 1}
+    ColorName: Prince Blue

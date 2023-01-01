@@ -210,6 +210,22 @@ MonoBehaviour:
     overallsColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
     ColorName: Explosive 5
   - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
-    hatColor: {r: 0.1372764, g: 0.3490566, b: 0.10702208, a: 1}
-    overallsColor: {r: 0.47843137, g: 0.5921569, b: 0.09803922, a: 1}
-    ColorName: Gameboy
+    hatColor: {r: 0.16078432, g: 0.25490198, b: 0.22352943, a: 1}
+    overallsColor: {r: 0.48235297, g: 0.50980395, b: 0.0627451, a: 1}
+    ColorName: Game Boy
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 0.882353, g: 0.59607846, b: 0.35686275, a: 1}
+    overallsColor: {r: 0.9686275, g: 0.8745099, b: 0.8196079, a: 1}
+    ColorName: Fluffy Pancakes
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0.8980393, g: 0.03529412, b: 0.078431375, a: 1}
+    overallsColor: {r: 0.6156863, g: 0.011764707, b: 0.058823533, a: 1}
+    ColorName: Netflix
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0, g: 0.039215688, b: 0.46274513, a: 1}
+    overallsColor: {r: 0.2509804, g: 0.4039216, b: 0.7803922, a: 1}
+    ColorName: Forecast Channel
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0, g: 0, b: 0, a: 1}
+    overallsColor: {r: 0, g: 0, b: 0, a: 1}
+    ColorName: Jinx

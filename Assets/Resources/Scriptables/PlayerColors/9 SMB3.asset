@@ -212,4 +212,20 @@ MonoBehaviour:
   - player: {fileID: 11400000, guid: da0dde376c0e85387b7fec6e711a6be6, type: 2}
     hatColor: {r: 0.8773585, g: 0.40970984, b: 0.73183733, a: 1}
     overallsColor: {r: 0.95686275, g: 0.7019608, b: 0, a: 1}
-    ColorName: Roy O./Wendy Koopa
+    ColorName: Roy O. Koopa / Wendy Koopa
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 0.6, g: 0.6, b: 1, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
+    ColorName: Cubby Kong
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0.18039216, g: 0.23529413, b: 0.18431373, a: 1}
+    overallsColor: {r: 0.9333334, g: 0.86666673, b: 0.83921576, a: 1}
+    ColorName: LeafyIsHere
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0.28235295, g: 0.21960786, b: 0.09411766, a: 1}
+    overallsColor: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
+    ColorName: Freddy Fazbear
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0, g: 1, b: 0.0627451, a: 1}
+    overallsColor: {r: 0, g: 0, b: 0, a: 1}
+    ColorName: Vapor

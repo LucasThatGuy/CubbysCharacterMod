@@ -213,3 +213,19 @@ MonoBehaviour:
     hatColor: {r: 0.14509805, g: 0.15686275, b: 0.14509805, a: 1}
     overallsColor: {r: 0, g: 0, b: 0, a: 1}
     ColorName: Black Bowser
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 0.3137255, g: 0.8000001, b: 0.52156866, a: 1}
+    overallsColor: {r: 0.9490197, g: 0.3137255, b: 0.5058824, a: 1}
+    ColorName: Evol (Distancy)
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0.4901961, g: 0.8705883, b: 0.8980393, a: 1}
+    overallsColor: {r: 0.8431373, g: 0.6666667, b: 1, a: 1}
+    ColorName: Axion
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0, g: 0.47058827, b: 0.18823531, a: 1}
+    overallsColor: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
+    ColorName: Shaggy
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0.27450982, g: 0.2392157, b: 0.29411766, a: 1}
+    overallsColor: {r: 0.3921569, g: 0.27450982, b: 0.24313727, a: 1}
+    ColorName: Barbados

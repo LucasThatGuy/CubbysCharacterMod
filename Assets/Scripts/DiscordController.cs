@@ -89,7 +89,7 @@ public class DiscordController : MonoBehaviour {
 
             ActivityAssets assets = new();
             if (gm.richPresenceId != "")
-                assets.LargeImage = $"c-{gm.richPresenceId}";
+                assets.LargeImage = $"{gm.richPresenceId}";
             else
                 assets.LargeImage = "c-mainmenu";
             assets.LargeText = gm.levelName;

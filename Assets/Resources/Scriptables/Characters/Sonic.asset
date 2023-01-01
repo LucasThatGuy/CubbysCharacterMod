@@ -15,9 +15,10 @@ MonoBehaviour:
   soundFolder: sonic
   prefab: PlayerSonic
   uistring: <sprite=57>
-  loadingSmallSprite: {fileID: -341322577, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: 133123750, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: 1555336914, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
+  loadingBigSprite: {fileID: -1745517590, guid: a7245cae141f3ee449147539ebd2a2c9,
+    type: 3}
   readySprite: {fileID: 713138486, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}
   largeOverrides: {fileID: 22100000, guid: 09425aebf9120bb41895e9644740d01c, type: 2}

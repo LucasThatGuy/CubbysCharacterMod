@@ -213,3 +213,19 @@ MonoBehaviour:
     hatColor: {r: 0.45397824, g: 0.22988607, b: 0.7735849, a: 1}
     overallsColor: {r: 0.28166434, g: 0.24764152, b: 0.3301887, a: 1}
     ColorName: Waluigi
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 1, g: 0.4039216, b: 0.10588236, a: 1}
+    overallsColor: {r: 1, g: 1, b: 1, a: 1}
+    ColorName: Pizza! Pizza!
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0.078431375, g: 0.18823531, b: 0.23529413, a: 1}
+    overallsColor: {r: 0.1137255, g: 0.9058824, b: 0.5137255, a: 1}
+    ColorName: Hulu
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0.98823535, g: 0.23137257, b: 0.65882355, a: 1}
+    overallsColor: {r: 0.09019608, g: 0.07058824, b: 0.043137256, a: 1}
+    ColorName: Party Phil
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0.41176474, g: 0.81568635, b: 0.3647059, a: 1}
+    overallsColor: {r: 0.227451, g: 0.17254902, b: 0.16862746, a: 1}
+    ColorName: Oiseau

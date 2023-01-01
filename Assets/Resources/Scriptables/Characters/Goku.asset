@@ -15,9 +15,9 @@ MonoBehaviour:
   soundFolder: goku
   prefab: PlayerGoku
   uistring: <sprite=72>
-  loadingSmallSprite: {fileID: 1467935684, guid: a7245cae141f3ee449147539ebd2a2c9,
+  loadingSmallSprite: {fileID: 479806793, guid: a7245cae141f3ee449147539ebd2a2c9,
     type: 3}
-  loadingBigSprite: {fileID: 1827927866, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
+  loadingBigSprite: {fileID: 1781295232, guid: a7245cae141f3ee449147539ebd2a2c9, type: 3}
   readySprite: {fileID: -1774950497, guid: 70672da71d9d71a4daaf5f3fc58531e6, type: 3}
   smallOverrides: {fileID: 22100000, guid: 347b7f77a47c4db4b85584fbfdecf63b, type: 2}
   largeOverrides: {fileID: 9100000, guid: fa2b2fc953f5f444291d26193e0ac7fb, type: 2}

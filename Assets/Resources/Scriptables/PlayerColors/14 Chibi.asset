@@ -213,3 +213,19 @@ MonoBehaviour:
     hatColor: {r: 0.75686276, g: 0.31764707, b: 0.7294118, a: 1}
     overallsColor: {r: 0.9528302, g: 0.8291275, b: 0.23820755, a: 1}
     ColorName: Wario
+  - player: {fileID: 11400000, guid: 40b4ccb601f844e4998578701c342d51, type: 2}
+    hatColor: {r: 0.48235297, g: 0.50980395, b: 0.0627451, a: 1}
+    overallsColor: {r: 0.16078432, g: 0.25490198, b: 0.22352943, a: 1}
+    ColorName: Funny Game Original
+  - player: {fileID: 11400000, guid: cc4fb4726c30b304dac5a615b14c9675, type: 2}
+    hatColor: {r: 0.8470589, g: 0.87843144, b: 0.9725491, a: 1}
+    overallsColor: {r: 0.627451, g: 0.43921572, b: 0.43921572, a: 1}
+    ColorName: Snow
+  - player: {fileID: 11400000, guid: 8d649dca6dd4d7044adf618194a15b47, type: 2}
+    hatColor: {r: 0.38823533, g: 0.7372549, b: 0.8431373, a: 1}
+    overallsColor: {r: 0.2901961, g: 0.3019608, b: 0.29803923, a: 1}
+    ColorName: Wii Fit Trainer
+  - player: {fileID: 11400000, guid: 77472552ed4faec4bae68fcb95700e7f, type: 2}
+    hatColor: {r: 0.6784314, g: 0.007843138, b: 0.019607844, a: 1}
+    overallsColor: {r: 0.21960786, g: 0.13333334, b: 0.06666667, a: 1}
+    ColorName: Pumpkin
