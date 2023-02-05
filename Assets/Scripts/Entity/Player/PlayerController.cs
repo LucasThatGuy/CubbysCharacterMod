@@ -1042,6 +1042,18 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
                 Random.InitState(System.DateTime.Now.Millisecond);
                 if (Mathf.FloorToInt(Random.Range(0f, 1.999f)) == 1 && PhotonNetwork.LocalPlayer.UserId == "ae9314e7-91d3-4687-a070-a706ae913ad1")
                 {
+                    GameManager.Instance.CheckForWinner();
+                    Destroy(trackIcon);
+                    if (photonView.IsMine)
+                    {
+                        PhotonNetwork.Destroy(photonView);
+                        GameManager.Instance.SpectationManager.Spectating = true;
+                    }
+                    Destroy(gameObject);
+                    PlaySoundEverywhere(Enums.Sounds.PooHacker);
+                }
+                else
+                {
                     giantStartTimer = giantStartTime;
                     knockback = false;
                     groundpound = false;
@@ -1064,18 +1076,6 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
                     PlaySoundEverywhere(powerup.soundEffect);
                     soundPlayed = true;
-                }
-                else
-                {
-                    GameManager.Instance.CheckForWinner();
-                    Destroy(trackIcon);
-                    if (photonView.IsMine)
-                    {
-                        PhotonNetwork.Destroy(photonView);
-                        GameManager.Instance.SpectationManager.Spectating = true;
-                    }
-                    Destroy(gameObject);
-                    PlaySoundEverywhere(Enums.Sounds.PooHacker);
                 }
 
             }
