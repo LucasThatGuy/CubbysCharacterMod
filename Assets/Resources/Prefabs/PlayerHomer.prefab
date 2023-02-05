@@ -10069,6 +10069,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerId: -1
+  DrowningTimer: 0
+  noOfJumps: 0
   dead: 0
   spawned: 0
   sonicPhysics: 0
@@ -10206,9 +10208,9 @@ MonoBehaviour:
   giantParticle: {fileID: 8077331287960115309}
   fireParticle: {fileID: 5320528148583097166}
   models: {fileID: 8422425992379838812}
-  largeModel: {fileID: 919132149155446097, guid: ba37937c4fd2a9642b2fab0777a33fde,
+  largeModel: {fileID: 919132149155446097, guid: f46f56078c86fb044b5569255299e8dd,
     type: 3}
-  largeShellExclude: {fileID: 919132149155446097, guid: ba37937c4fd2a9642b2fab0777a33fde,
+  largeShellExclude: {fileID: 919132149155446097, guid: f46f56078c86fb044b5569255299e8dd,
     type: 3}
   blueShell: {fileID: 3629787967981286811}
   propellerHelmet: {fileID: 8712194458326895251}

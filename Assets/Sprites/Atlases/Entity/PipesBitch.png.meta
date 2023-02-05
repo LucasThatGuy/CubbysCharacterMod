@@ -1,0 +1,3864 @@
+fileFormatVersion: 2
+guid: 18d85fe7b25ec614d89cd6b7c7cb79cf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PipesBitch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088aa49403cbd3344a10802ae0993b68
+      internalID: 368326730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ca198d6930d6c42baddfc545e4cf7c
+      internalID: -1738338666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d46f0fd3db71074e9e9aca9ba64b4d7
+      internalID: -539152021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a3e5a0dcbfa86418b569a7b6a4cb56
+      internalID: 2109552602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16384a971ddeb204e839a07013cd6c0a
+      internalID: 492961579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbe9b465600f0749bec9b69766fe2df
+      internalID: 2124548228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd01ff6a115f1004f80c70848f1364e0
+      internalID: -1471514589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a8394e8bca31b44a069eb714eb0d5d
+      internalID: -565588814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577452ac9a1af10428d47ec2fa9df3e9
+      internalID: -2079255907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_9
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1024
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6547eedd98389e14f9a846d65bb8bee0
+      internalID: -1819815727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a02894a912ddb409a15d18aaa0b82f
+      internalID: 1780144817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3317f0f825c0449a960bfc80043a1f
+      internalID: -1679640652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_12
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6137b8526acede148ab0682301920bc2
+      internalID: -1119552480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51287f50b5715e648a5950734aabd11c
+      internalID: 309702470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3572b21f427cc14786113cc42dd350a
+      internalID: 422426987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eaa038938bdd8449199e57c48dd095
+      internalID: -1539264513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_16
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fa7bc6f484193439c48cd8aa0c8ce4
+      internalID: 442578014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5614e9df5cf205241ad299205e906450
+      internalID: -1556200108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9674b06083eeaf54aa3151f569f5caa6
+      internalID: -388613935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_19
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 960
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155e13babe9582042899866b69d5810a
+      internalID: -67127846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec6bb057a09600489482a76c330b8ba
+      internalID: -1395926454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6293db0cb7c1cce4c8589e617ecc3468
+      internalID: -348696930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404b6db5288c70b4bb9181963f0cecdf
+      internalID: -1382631502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4086c1ce8ff10d244a95508eb8657412
+      internalID: -904571373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_24
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc897abda44b71469fde800c4efe35f
+      internalID: -1337308032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5da944435383a4d9c2f474d1f92eb5
+      internalID: 360303118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc79c2c3b0f5e8c41b3106d69da488ad
+      internalID: -1426617764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_27
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4f1b6312ed36d4ebd1016a4e69cfc1
+      internalID: 758023752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e5446828dac064e9dc6aaa191bc7c6
+      internalID: 1458155825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_29
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 896
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361f60aea2c8d8549a155b69c7f6f717
+      internalID: -848580324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e00d88e086f1004cbb66f7129531c13
+      internalID: 339394596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d011dab2a8075a3419275b087f0bd2ea
+      internalID: -28609367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c015ca1c17cbe04da2fe0fef069dad3
+      internalID: 948480770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e79cb96cfe3c3449570773eaaca232
+      internalID: 659579258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a063771083caf8144a8d0e3a947c923c
+      internalID: 1700846487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_35
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682cca149b14194468039543c8162141
+      internalID: 1552180645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_36
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3104057b88449c4d8a121aa0249d2b8
+      internalID: -976847499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_37
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b0526c9c7a555479313298cb77fad1
+      internalID: 777181526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0d69991e8dd0342a5ea0aff74ee521
+      internalID: 1104623423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_39
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 832
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3844aeaf994a1141ae1867c326aab5b
+      internalID: -1686429269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1501b54447227c747a6f63323699962e
+      internalID: 1706373161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_41
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27888bd681b932d448d47f677354bf08
+      internalID: -1489981087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce1351ac3aacc74085118de94460718
+      internalID: -1247092656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74712191f97c77148a6e52cc4ba7decb
+      internalID: -1711999528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8199b16684370c6498857ecf00dc46b4
+      internalID: 124893029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281036b3596a3d74ba2085d4720486ed
+      internalID: 89794799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_46
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a5653dcf3f3764f8bec66248d3f228
+      internalID: -1958473419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1cbf1302376544c9bd67f0b445f6d6
+      internalID: 1772346828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d24c60a74f23c24299bb4ab28bce5c2
+      internalID: -1035732950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_49
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 768
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d7cb7dd524720458389933a9761c07
+      internalID: 849791288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7ec0faa9f231645a0bebc3e1b4ee3f
+      internalID: -1705476452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1cfd3d1b6c25948a8ac6d453281fe5
+      internalID: 308018247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_52
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5294c4aa3db7c646b7d4ebab0bfabd5
+      internalID: -903438589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd13144447e3bf4d8fb2de8f4e0e999
+      internalID: 386121776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63f599140898714ba3da2d6cb4fe30f
+      internalID: -471139343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_55
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68218c95c6b29f429607f8676ad29d2
+      internalID: -468712468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_56
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffcee37ac3d2f6498a484e00de2cdc2
+      internalID: 842694475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_57
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940952d3ebf86284bad4a019dc00139a
+      internalID: 540981017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_58
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ae3c4c73db827409fdf0a2f886762d
+      internalID: 1565368217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_59
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 704
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b118b9f144586439670d009cc1fe05
+      internalID: 886151522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4ad5d8425f2d840a7a183e97d18c6b
+      internalID: -2094948395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_61
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9c35903fb775243a2c2bb8533f99c7
+      internalID: 224705793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ad8623f8e0c5f4bb5e5e42c64aaa00
+      internalID: -736422589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_63
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16af93cf376f5884db598ac010e6233e
+      internalID: -875215234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_64
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9673e47fcdb750343ba9249b72fb3506
+      internalID: 1533793961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_65
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42a96841acc17049a9432bbbd685185
+      internalID: -20749080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_66
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ae96535fcb08e4292df917f25ccb2e
+      internalID: -363506264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_67
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c061094b347984d40b9089238f7010ea
+      internalID: 187159935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_68
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881889a1e4862134284f8598941a5123
+      internalID: -1148459851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_69
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 640
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84209c0d94b9a4478f9b285986d3095
+      internalID: 115929229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc88bd8544f4314cb33c17806781d31
+      internalID: -2144280131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_71
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c597130b37ef17d418fbc2d64eec23d5
+      internalID: 1743066830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_72
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67e6bcb7a2fe764cb1255a6e0e4d574
+      internalID: 682825318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_73
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d80c806f691734db6ea8cb86c7c7a1
+      internalID: -983565875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_74
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8f87bdc246af346aeabb7bbcb17c38
+      internalID: 827828561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_75
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59814fa6eb1487645bdec9606a0bbad8
+      internalID: 1798542200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_76
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127905434efab17478afbece0d667487
+      internalID: -1145477798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_77
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d777c01164950b947be0418dbf7ab9e2
+      internalID: 2024344367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_78
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a278615ed4e11ff46a1befdf47725ca1
+      internalID: -678363595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_79
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 576
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c716c10f2d59245a8cbaf886a5e93b
+      internalID: -1964713757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46c79826e59f6a45af7b58ba93b3ec4
+      internalID: 1766087598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_81
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9010b69a62f94f840a715ce3296a890b
+      internalID: -1504683079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_82
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69def40d6cd029241a798e4971cb6f86
+      internalID: -1055093870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_83
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a9a11886d536845a47de356acb0377
+      internalID: -840630975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6325b4ba0d575142a505289407924db
+      internalID: -1481230139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_85
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e203a65ea31657d418149d4ff82a4d4d
+      internalID: 575528662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_86
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8f9204fb0206b408a912a91ccf3a2c
+      internalID: 221261271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_87
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a304f127fa98943888ebb3e108ced0
+      internalID: 1725201469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_88
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675bffcfa692d4e418b7aac9c13268d0
+      internalID: -185465635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_89
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 512
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93975e665e6279744a8dd10bae7ad473
+      internalID: 428275518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b2641cee1ae6d41862554a6366235c
+      internalID: 1358565785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_91
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88af87f413f04bc41b858cc7986d6001
+      internalID: 853507373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_92
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d15a8e4bc70514f8f81a34673ae306
+      internalID: -725660859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_93
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a09840be66c50247a207f56ae7da997
+      internalID: -1964894510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_94
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641731123874300429f737da35f34b4b
+      internalID: 981847468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_95
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6c903538d08b64abb5c965d77b6afb
+      internalID: -434771634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_96
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923e9e83ac549894eb447167ae8f2fc5
+      internalID: 14691683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_97
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb7d58d03a5e434e9e2fdb973508b79
+      internalID: -1452001811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_98
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36a55e22f6de8743b31350d5a522686
+      internalID: 1536395822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_99
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 448
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aae0be643c105a41a49f9ab2abe90c1
+      internalID: -911044712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3275768162d523e4697389a358ebb328
+      internalID: -450336582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_101
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f13d85a26ebc749b0a3ffd19e153e2
+      internalID: -1913581265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_102
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b519d08eeca556e4a9d76a9edaa6ec14
+      internalID: -1196495626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_103
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8834dcd2d395c7640867e806dc8cfa80
+      internalID: -433407792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_104
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e38d0c98e0e1f48ad416f6bb85c7e5
+      internalID: -2139818854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_105
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5351a5fad0427754b875c2bec5a6468b
+      internalID: 1211194887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_106
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330ac7d732f232a4bbe1c7f7c0e8fdfa
+      internalID: -1274419169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_107
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b40a969ea8e2f4d8c3a5a317aac4b8
+      internalID: 410955261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_108
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360cb25fb3e26c3439dbaa89e1b5b9f7
+      internalID: -1697580019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_109
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 384
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247e3e14eef22864b879c11c85776ff4
+      internalID: 1791579707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bddbf2e900459345b65b1a7225974e8
+      internalID: 485470830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_111
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a523bb23a79da459329c8c0d91f99f
+      internalID: -1959699026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_112
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bd14ba217596d4f8e6012f5e37e0a4
+      internalID: 263440722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_113
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c4897a9f7afe049b9e3d6d61df69a6
+      internalID: 361426341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_114
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41934b4c75fa40242927a4ac6a60c33e
+      internalID: -1731103545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_115
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de635e51a2ddc44596b684e08fc66e9
+      internalID: -450139986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_116
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28799c7d67d87e45bd096f22348bf40
+      internalID: 1365790522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_117
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bab1eee03232c46ad86518cfaf5ab0
+      internalID: 2036034142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_118
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff9515b5306c89468489fa57197a805
+      internalID: 555202359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_119
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 320
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dc3753d4f387a41aa5b9f55179c400
+      internalID: 217069498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a86edb89ad2f54fb056bd67cc2ee21
+      internalID: -1792722324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_121
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f024485534018f643be410a126dbec29
+      internalID: 291168757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_122
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4754d5139722d9a48a621a8090213069
+      internalID: -1446830828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_123
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6127b7b0b76dd409b15327c09be100
+      internalID: -1850608180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_124
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35b5d1b8ce0ba5469292b7f3ea5aadd
+      internalID: 1598475638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_125
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5774caac17352f344813bc3606aee11a
+      internalID: -1684799276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_126
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4c1f8b85546484ea1af669eb7c0470
+      internalID: 929127988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_127
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77c2bdd36575434994b773368139ce5
+      internalID: -1956408322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_128
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63542b36a4b1fb542bd81106da918d84
+      internalID: 1454563955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_129
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 256
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1884746cd0ac44d85d9b8d0834c209
+      internalID: -311473098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd46ece4e3d3924082c34b4898bc6af
+      internalID: -467763022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_131
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a97987d6b51da042be324576a10a33c
+      internalID: -87592562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_132
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85fef56435120e4b89be857922afa69
+      internalID: -1350110962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_133
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50af28220679b7f4d9afc291e779e95d
+      internalID: 1681157134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_134
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3663b71004e3e441a86540406fa1206
+      internalID: 1996214090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_135
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9755ac73014ee844d963eb7eaac14d37
+      internalID: -1774338410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_136
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b363839002dd484ab071bfbd78a6243
+      internalID: -301063023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_137
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c082e1b40f1cc43b47eaaf19bf3e90
+      internalID: -1775212096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_138
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49243c4bab7628c498785ed296aea732
+      internalID: -958691318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_139
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b87bd0a712f8b047a9f0cc2d62c9d9c
+      internalID: 923406237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d0273d29f000749840e8a34aaf107c
+      internalID: -1031442822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_141
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b444a822c5cdb45821c5b628791401
+      internalID: -191599752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_142
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd9dc56cef4aa54bb877ac2b158f6f8
+      internalID: -1429773484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_143
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f41a0aa787cca4fbec6fcef07e3f77
+      internalID: 1649066491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_144
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2398eb29407c65d4eba1121315e331c4
+      internalID: 643830713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_145
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fa26ffd6369c4449fda44e0101e047
+      internalID: 188528549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_146
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3208b9eea12a7a4ba0da90284418da7
+      internalID: -1783479915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_147
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eced756111afbc40b546dd3205b3faa
+      internalID: -1231976748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_148
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d742f91bd83600648853117ae72861d8
+      internalID: 1575612194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_149
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 128
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d781efe05404a4e955dfea0505bdf4
+      internalID: 37436335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd1e03e43ca3ed40b4033a5ae44c590
+      internalID: -1225993003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_151
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d8210078c9893479b600e6373cfe2b
+      internalID: -406067075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_152
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ad63a752920af42b10583a1d030310
+      internalID: -1416031200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_153
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fc329ebb8ed424cb0a1e90781d11f7
+      internalID: 1797850084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_154
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2015cff23aaca46b2a78d42952869b
+      internalID: -1347130422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_155
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bf72dbbc8baba4e97792d8dc502774
+      internalID: 1314549402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_156
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5cc978639dc8a48908f766928eceaa
+      internalID: 1873914151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_157
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5fec3e8e1667043a4552c9c05a0c5b
+      internalID: -434876268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_158
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ac56d8362d29a47a9cf228c5c447c7
+      internalID: -1902123214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_159
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 64
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669545dd16f55b64aa23a4bffb5978da
+      internalID: -1596475862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa374f7a42f4ff4394b0cd7170a24c0
+      internalID: -1845605668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_161
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f586237f7eec8f4dae1508b15d2f1aa
+      internalID: 1569427207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_162
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c722caaffeab4654a818ef89e38c2b95
+      internalID: 458414167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_163
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7919e92ef99f4848aaf6a28adf78792
+      internalID: 1054618071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_164
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098a06ccfd652734cad69675a042da34
+      internalID: -1257286871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_165
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7d6df815e2d1a4b8c14a4bc50112a0
+      internalID: 1898874052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_166
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16004b0fb556da145a571a9392a50cdb
+      internalID: 1893082870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_167
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1155cce316f8c0646b9d6b45a45b5dee
+      internalID: -238281416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_168
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2070614bda5ac8949a9819043e44447c
+      internalID: 593431065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipesBitch_169
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8f56f1ee23f9a478f64b5ad230966e
+      internalID: 1588805579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PipesBitch_92: -725660859
+      PipesBitch_43: -1711999528
+      PipesBitch_59: 886151522
+      PipesBitch_116: 1365790522
+      PipesBitch_29: -848580324
+      PipesBitch_94: 981847468
+      PipesBitch_47: 1772346828
+      PipesBitch_73: -983565875
+      PipesBitch_100: -450336582
+      PipesBitch_108: -1697580019
+      PipesBitch_3: 2109552602
+      PipesBitch_31: -28609367
+      PipesBitch_48: -1035732950
+      PipesBitch_50: -1705476452
+      PipesBitch_95: -434771634
+      PipesBitch_128: 1454563955
+      PipesBitch_115: -450139986
+      PipesBitch_125: -1684799276
+      PipesBitch_126: 929127988
+      PipesBitch_144: 643830713
+      PipesBitch_33: 659579258
+      PipesBitch_84: -1481230139
+      PipesBitch_17: -1556200108
+      PipesBitch_8: -2079255907
+      PipesBitch_65: -20749080
+      PipesBitch_97: -1452001811
+      PipesBitch_147: -1231976748
+      PipesBitch_105: 1211194887
+      PipesBitch_63: -875215234
+      PipesBitch_70: -2144280131
+      PipesBitch_19: -67127846
+      PipesBitch_36: -976847499
+      PipesBitch_104: -2139818854
+      PipesBitch_152: -1416031200
+      PipesBitch_153: 1797850084
+      PipesBitch_54: -471139343
+      PipesBitch_168: 593431065
+      PipesBitch_60: -2094948395
+      PipesBitch_49: 849791288
+      PipesBitch_136: -301063023
+      PipesBitch_113: 361426341
+      PipesBitch_15: -1539264513
+      PipesBitch_86: 221261271
+      PipesBitch_109: 1791579707
+      PipesBitch_114: -1731103545
+      PipesBitch_148: 1575612194
+      PipesBitch_6: -1471514589
+      PipesBitch_37: 777181526
+      PipesBitch_149: 37436335
+      PipesBitch_121: 291168757
+      PipesBitch_146: -1783479915
+      PipesBitch_111: -1959699026
+      PipesBitch_22: -1382631502
+      PipesBitch_119: 217069498
+      PipesBitch_145: 188528549
+      PipesBitch_140: -1031442822
+      PipesBitch_161: 1569427207
+      PipesBitch_26: -1426617764
+      PipesBitch_9: -1819815727
+      PipesBitch_41: -1489981087
+      PipesBitch_159: -1596475862
+      PipesBitch_24: -1337308032
+      PipesBitch_76: -1145477798
+      PipesBitch_28: 1458155825
+      PipesBitch_0: 368326730
+      PipesBitch_27: 758023752
+      PipesBitch_55: -468712468
+      PipesBitch_98: 1536395822
+      PipesBitch_102: -1196495626
+      PipesBitch_44: 124893029
+      PipesBitch_120: -1792722324
+      PipesBitch_5: 2124548228
+      PipesBitch_46: -1958473419
+      PipesBitch_2: -539152021
+      PipesBitch_16: 442578014
+      PipesBitch_62: -736422589
+      PipesBitch_21: -348696930
+      PipesBitch_72: 682825318
+      PipesBitch_165: 1898874052
+      PipesBitch_51: 308018247
+      PipesBitch_154: -1347130422
+      PipesBitch_61: 224705793
+      PipesBitch_99: -911044712
+      PipesBitch_163: 1054618071
+      PipesBitch_103: -433407792
+      PipesBitch_124: 1598475638
+      PipesBitch_38: 1104623423
+      PipesBitch_117: 2036034142
+      PipesBitch_74: 827828561
+      PipesBitch_80: 1766087598
+      PipesBitch_101: -1913581265
+      PipesBitch_79: -1964713757
+      PipesBitch_157: -434876268
+      PipesBitch_12: -1119552480
+      PipesBitch_169: 1588805579
+      PipesBitch_132: -1350110962
+      PipesBitch_141: -191599752
+      PipesBitch_155: 1314549402
+      PipesBitch_25: 360303118
+      PipesBitch_167: -238281416
+      PipesBitch_45: 89794799
+      PipesBitch_158: -1902123214
+      PipesBitch_39: -1686429269
+      PipesBitch_106: -1274419169
+      PipesBitch_150: -1225993003
+      PipesBitch_58: 1565368217
+      PipesBitch_129: -311473098
+      PipesBitch_81: -1504683079
+      PipesBitch_137: -1775212096
+      PipesBitch_130: -467763022
+      PipesBitch_87: 1725201469
+      PipesBitch_93: -1964894510
+      PipesBitch_127: -1956408322
+      PipesBitch_52: -903438589
+      PipesBitch_133: 1681157134
+      PipesBitch_112: 263440722
+      PipesBitch_69: 115929229
+      PipesBitch_11: -1679640652
+      PipesBitch_156: 1873914151
+      PipesBitch_32: 948480770
+      PipesBitch_107: 410955261
+      PipesBitch_23: -904571373
+      PipesBitch_67: 187159935
+      PipesBitch_10: 1780144817
+      PipesBitch_57: 540981017
+      PipesBitch_56: 842694475
+      PipesBitch_13: 309702470
+      PipesBitch_71: 1743066830
+      PipesBitch_139: 923406237
+      PipesBitch_53: 386121776
+      PipesBitch_78: -678363595
+      PipesBitch_83: -840630975
+      PipesBitch_96: 14691683
+      PipesBitch_162: 458414167
+      PipesBitch_7: -565588814
+      PipesBitch_18: -388613935
+      PipesBitch_40: 1706373161
+      PipesBitch_64: 1533793961
+      PipesBitch_142: -1429773484
+      PipesBitch_88: -185465635
+      PipesBitch_110: 485470830
+      PipesBitch_131: -87592562
+      PipesBitch_85: 575528662
+      PipesBitch_68: -1148459851
+      PipesBitch_75: 1798542200
+      PipesBitch_30: 339394596
+      PipesBitch_77: 2024344367
+      PipesBitch_66: -363506264
+      PipesBitch_118: 555202359
+      PipesBitch_90: 1358565785
+      PipesBitch_89: 428275518
+      PipesBitch_20: -1395926454
+      PipesBitch_160: -1845605668
+      PipesBitch_134: 1996214090
+      PipesBitch_42: -1247092656
+      PipesBitch_166: 1893082870
+      PipesBitch_91: 853507373
+      PipesBitch_35: 1552180645
+      PipesBitch_34: 1700846487
+      PipesBitch_1: -1738338666
+      PipesBitch_82: -1055093870
+      PipesBitch_4: 492961579
+      PipesBitch_143: 1649066491
+      PipesBitch_123: -1850608180
+      PipesBitch_122: -1446830828
+      PipesBitch_151: -406067075
+      PipesBitch_135: -1774338410
+      PipesBitch_164: -1257286871
+      PipesBitch_14: 422426987
+      PipesBitch_138: -958691318
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

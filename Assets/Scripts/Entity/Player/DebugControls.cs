@@ -11,17 +11,21 @@ public class DebugControls : MonoBehaviour {
     public ScriptableRendererFeature feature;
 
     public void Start() {
-#if !UNITY_EDITOR
-        if (PhotonNetwork.LocalPlayer.UserId != "a3375a1a-a161-4620-b952-6e013040d1e1" && PhotonNetwork.LocalPlayer.UserId != "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3")
+    }
+
+    public void Update() {
+        enabled = true;
+        Keyboard kb = Keyboard.current;
+        if (kb[Key.P].wasPressedThisFrame && GameManager.Instance.localPlayer.GetPhotonView().Controller.HasRainbowName())
+        {
+            GameManager.Instance.localPlayer.GetPhotonView().RPC("Death", RpcTarget.All, false, false);
+        }
+        if (((PhotonNetwork.LocalPlayer.UserId != "a3375a1a-a161-4620-b952-6e013040d1e1" && PhotonNetwork.LocalPlayer.UserId != "8868d3e7-1c5f-41e7-a34c-2ed5b459fee3") || !PhotonNetwork.LocalPlayer.HasRainbowName()) && !Application.isEditor)
         {
             enabled = false;
             return;
         }
-#endif
-    }
 
-    public void Update() {
-        Keyboard kb = Keyboard.current;
         if (kb[Key.LeftBracket].wasPressedThisFrame) {
             Time.timeScale /= 2;
             Debug.Log($"[DEBUG] Timescale set to {Time.timeScale}x");

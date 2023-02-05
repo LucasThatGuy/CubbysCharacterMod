@@ -33,7 +33,7 @@ namespace NSMB.Utils {
             if (manager == null)
                 manager = GameManager.Instance;
 
-            if (!manager.loopingLevel)
+            if (!manager.loopingLevel || !manager.clampCameraPosition)
                 return false;
 
             if (location.x < manager.GetLevelMinX()) {
@@ -54,9 +54,9 @@ namespace NSMB.Utils {
                 return;
 
             if (tileLocation.x < manager.levelMinTileX) {
-                tileLocation.x += manager.levelWidthTile;
+                tileLocation.x += (int)manager.levelWidthTile;
             } else if (tileLocation.x >= manager.levelMinTileX + manager.levelWidthTile) {
-                tileLocation.x -= manager.levelWidthTile;
+                tileLocation.x -= (int)manager.levelWidthTile;
             }
         }
 

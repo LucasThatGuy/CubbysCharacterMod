@@ -155,9 +155,9 @@ TextureImporter:
       name: ghosthouse-bg_1
       rect:
         serializedVersion: 2
-        x: 506
+        x: 412
         y: 1
-        width: 506
+        width: 504
         height: 487
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -168,6 +168,48 @@ TextureImporter:
       bones: []
       spriteID: ebd620646865c374497fb8254aec382f
       internalID: -1968655616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghosthouse-bg_2
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 386
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf57b091624a7c94fad202ab8e12bf99
+      internalID: -1034134390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghosthouse-bg_3
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 232
+        width: 200
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7018a11996e5c3040bc2bfe275cd6af7
+      internalID: 1415191845
       vertices: []
       indices: 
       edges: []
@@ -184,7 +226,9 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       ghosthouse-bg_0: 2081175194
+      ghosthouse-bg_2: -1034134390
       ghosthouse-bg_1: -1968655616
+      ghosthouse-bg_3: 1415191845
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

@@ -10,6 +10,7 @@ public class FrozenCube : HoldableEntity {
 
     public IFreezableEntity.UnfreezeReason unfreezeReason = IFreezableEntity.UnfreezeReason.Other;
     public float autoBreakTimer = 10;
+    public bool NeverBreak = false;
 
     private SpriteRenderer spriteRenderer;
     private IFreezableEntity entity;
@@ -84,7 +85,7 @@ public class FrozenCube : HoldableEntity {
             return;
         }
 
-        //move the entity to be inside of us
+        //move the entity to be inside of us 
         if (entity.IsCarryable)
             entityBody.transform.position = entityBody.position = (Vector2) transform.position + entityPositionOffset;
     }
@@ -97,12 +98,12 @@ public class FrozenCube : HoldableEntity {
             body.isKinematic = true;
             return;
         }
-        if (photonView.IsMine && (body.position.y + hitbox.size.y < GameManager.Instance.GetLevelMinY() || Utils.IsTileSolidAtWorldLocation(body.position + (hitbox.size.y / 2f) * Vector2.up))) {
+        if ((photonView.IsMine && (body.position.y + hitbox.size.y < GameManager.Instance.GetLevelMinY() || Utils.IsTileSolidAtWorldLocation(body.position + (hitbox.size.y / 2f) * Vector2.up)) && !NeverBreak) || (body.position.y < (GameManager.Instance.cameraMinY - 2))) {
             entityView.RPC(nameof(IFreezableEntity.Unfreeze), RpcTarget.All, (byte) IFreezableEntity.UnfreezeReason.Other);
             PhotonNetwork.Destroy(photonView);
             return;
         }
-        if (photonView.IsMine && holder && Utils.IsAnyTileSolidBetweenWorldBox(body.position + hitbox.offset, hitbox.size * transform.lossyScale * 0.75f)) {
+        if ((photonView.IsMine && holder && Utils.IsAnyTileSolidBetweenWorldBox(body.position + hitbox.offset, hitbox.size * transform.lossyScale * 0.75f) && !NeverBreak) || (body.position.y < (GameManager.Instance.cameraMinY - 2))) {
             photonView.RPC(nameof(KillWithReason), RpcTarget.All, (byte) IFreezableEntity.UnfreezeReason.HitWall);
             return;
         }
@@ -191,7 +192,7 @@ public class FrozenCube : HoldableEntity {
 
     #region Helper Methods
     private void HandleTile() {
-        if (!photonView.IsMineOrLocal())
+        if ((!photonView.IsMineOrLocal()) || NeverBreak)
             return;
 
         physics.UpdateCollisions();
@@ -200,7 +201,10 @@ public class FrozenCube : HoldableEntity {
             || (flying && fallen && physics.onGround && !holder)
             || ((holder || physics.onGround) && physics.hitRoof)) {
 
-            photonView.RPC("Kill", RpcTarget.All);
+            if (!NeverBreak)
+            {
+                photonView.RPC("Kill", RpcTarget.All);
+            }
         }
     }
 
@@ -298,12 +302,20 @@ public class FrozenCube : HoldableEntity {
 
     [PunRPC]
     public void KillWithReason(byte reasonByte) {
+        if (NeverBreak)
+        {
+            return;
+        }
         unfreezeReason = (IFreezableEntity.UnfreezeReason) reasonByte;
         Kill();
     }
 
     [PunRPC]
     public override void Kill() {
+        if (NeverBreak)
+        {
+            return;
+        }
         entity?.Unfreeze((byte) unfreezeReason);
 
         if (holder)
@@ -320,6 +332,10 @@ public class FrozenCube : HoldableEntity {
 
 	[PunRPC]
     public override void SpecialKill(bool right, bool groundpound, int combo) {
+        if (NeverBreak)
+        {
+            return;
+        }
         Kill();
     }
     #endregion

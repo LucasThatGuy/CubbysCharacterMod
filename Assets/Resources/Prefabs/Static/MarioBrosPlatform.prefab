@@ -99,10 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fd2c7ea9582077468a278787dbccfea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformWidth: 12
   samplesPerTile: 16
   bumpWidthPoints: 1
   bumpBlurPoints: 18
+  platformWidth: 12
   bumpDuration: 0.25
   changeCollider: 1
 --- !u!61 &717523893114735296

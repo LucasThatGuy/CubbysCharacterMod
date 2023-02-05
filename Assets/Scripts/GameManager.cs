@@ -33,9 +33,11 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
 
     public MusicData mainMusic, invincibleMusic, megaMushroomMusic;
     //test
-    public int levelMinTileX, levelMinTileY, levelWidthTile, levelHeightTile, StarRange = 4;
+    public int levelMinTileX, levelMinTileY, levelHeightTile, StarRange = 4;
+    public long levelWidthTile, CapStuff = 0;
     public float cameraMinY, cameraHeightY, cameraMinX = -1000, cameraMaxX = 1000;
-    public bool loopingLevel = true, isMario3 = false, isMarioLand = false, isNSMB2 = false, isCoral = false, isLabyrinth = false, FuckYou = false;
+    public bool clampCameraPosition = true;
+    public bool loopingLevel = true, refreshLevel = true, isMario3 = false, isMarioLand = false, isNSMB2 = false, isCoral = false, isLabyrinth = false, FuckYou = false, isPizzaPizza = false;
     public Vector3 spawnpoint;
     public Tilemap tilemap;
     [ColorUsage(false)] public Color levelUIColor = new(24, 178, 170);
@@ -402,8 +404,15 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         SpectationManager = GetComponent<SpectationManager>();
         loopMusic = GetComponent<LoopingMusic>();
         coins = GameObject.FindGameObjectsWithTag("coin");
-        levelUIColor.a = .7f;
-
+        levelUIColor.a = 1f;
+        if (CapStuff == 1)
+        {
+            coinRequirement = Mathf.Max(30, coinRequirement);
+        }
+        if (CapStuff == 2)
+        {
+            starRequirement = Mathf.Max(10, starRequirement);
+        }
         InputSystem.controls.LoadBindingOverridesFromJson(GlobalController.Instance.controlsJson);
 
         //Spawning in editor??
@@ -417,8 +426,11 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         nonSpectatingPlayers = PhotonNetwork.CurrentRoom.Players.Values.Where(pl => !pl.IsSpectator()).ToHashSet();
 
         //Respawning Tilemaps
-        origin = new BoundsInt(levelMinTileX, levelMinTileY, 0, levelWidthTile, levelHeightTile, 1);
-        originalTiles = tilemap.GetTilesBlock(origin);
+        if (refreshLevel)
+        {
+            origin = new BoundsInt(levelMinTileX, levelMinTileY, 0, (int)levelWidthTile, levelHeightTile, 1);
+            originalTiles = tilemap.GetTilesBlock(origin);
+        }
 
         //Star spawning
         starSpawns = GameObject.FindGameObjectsWithTag("StarSpawn");
@@ -622,6 +634,14 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
     }
 
     public void Update() {
+        if (CapStuff == 1)
+        {
+            coinRequirement = Mathf.Max(30, coinRequirement);
+        }
+        if (CapStuff == 2)
+        {
+            starRequirement = Mathf.Max(10, starRequirement);
+        }
         if (gameover)
             return;
 

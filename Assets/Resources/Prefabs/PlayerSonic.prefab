@@ -10162,7 +10162,7 @@ MonoBehaviour:
   propellerTimer: 0
   propellerSpinTimer: 0
   fireballTimer: 0
-  dippySpeed: 299792
+  dippySpeed: 1e+20
   invincible: 0
   giantTimer: 0
   floorAngle: 0

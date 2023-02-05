@@ -543,7 +543,7 @@ TextureImporter:
       213: 550735671041698171
     second: 0 Grassland_179
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -560,6 +560,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -603,6 +604,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -2289,6 +2292,195 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: grass_slope_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88f1dfb3fede514d84c11eb0e26adea
+      internalID: -2101701232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_slope_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb1f72e29721534cb66381bb4cdd149
+      internalID: -2107742075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_slope_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53dca50c4bb13a4fb530acf6e583ddd
+      internalID: 1662846810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_slope_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f902c44e48b09419404a984e5edee7
+      internalID: 2022449354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_slope_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 0}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e070307c0ab627f4b96c9012da641828
+      internalID: 448114668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_slope_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 0}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6a1e1454c011f4180949e62d534225
+      internalID: 1067656997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 1}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83cea47a696a2947b0ed8cd62b6340d
+      internalID: -225302699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d789f5e0f1bbfa4baaa32b2d34ccc6d
+      internalID: -1753784529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2303,6 +2495,7 @@ TextureImporter:
       0 Grassland_142: -4334208827169912785
       0 Grassland_25: 2661880469452059145
       0 Grassland_44: 7024221940755843639
+      grass_2: -1753784529
       0 Grassland_26: -4542286562028243669
       0 Grassland_130: -938454729740523736
       0 Grassland_17: -269643795985375321
@@ -2338,6 +2531,7 @@ TextureImporter:
       0 Grassland_27: 5294829645523315472
       0 Grassland_91: 9004548082323880429
       0 Grassland_147: -6870083931947811948
+      grass_slope_3: 1662846810
       0 Grassland_60: 3709115134562595054
       0 Grassland_116: -2851182035262950775
       0 Grassland_175: -5285859983222969398
@@ -2345,6 +2539,7 @@ TextureImporter:
       0 Grassland_13: -4429171857789531684
       0 Grassland_92: -2929024777266657357
       0 Grassland_129: 4662088923083636939
+      grass_slope_6: 1067656997
       0 Grassland_18: 2572502463982682973
       0 Grassland_61: -1300814203282683099
       0 Grassland_159: 5255277052610759196
@@ -2380,6 +2575,7 @@ TextureImporter:
       0 Grassland_8: 2509531404680018735
       0 Grassland_78: 3582755484016520944
       0 Grassland_69: -4358832264338607076
+      grass_slope_2: -2107742075
       0 Grassland_136: 1473871065824629519
       0 Grassland_149: 7235633269239302412
       0 Grassland_2: -4697796355597963381
@@ -2417,6 +2613,7 @@ TextureImporter:
       0 Grassland_120: -2480334018557795406
       0 Grassland_68: 4538452416707052481
       0 Grassland_127: 5794554369211712875
+      grass_slope_4: 2022449354
       0 Grassland_140: -5799643608959397948
       0 Grassland_151: 7262261740020469975
       0 Grassland_174: 8008633347620254193
@@ -2433,7 +2630,9 @@ TextureImporter:
       0 Grassland_176: -2518757585333489217
       0 Grassland_81: -3039194678342183824
       0 Grassland_141: 8226831608928402000
+      grass_1: -225302699
       0 Grassland_41: 2873865852785696666
+      grass_slope_5: 448114668
       0 Grassland_38: 3940509154638213084
       0 Grassland_86: -4747627012815954686
       0 Grassland_153: -7783589487556145976
@@ -2441,6 +2640,7 @@ TextureImporter:
       0 Grassland_126: -3862210362728650303
       0 Grassland_119: 1809236013114975531
       0 Grassland_144: 7975784582202906990
+      grass_slope_1: -2101701232
       0 Grassland_90: -1238084574743955201
       0 Grassland_165: -4903351579565505817
       0 Grassland_54: -4831188527725574933
@@ -2483,7 +2683,6 @@ TextureImporter:
       0 Grassland_42: 5925013994013622594
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

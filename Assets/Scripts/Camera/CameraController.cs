@@ -77,7 +77,7 @@ public class CameraController : MonoBehaviour {
         float xDifference = Vector2.Distance(Vector2.right * currentPosition.x, Vector2.right * playerPos.x);
         bool right = currentPosition.x > playerPos.x;
 
-        if (xDifference >= 8) {
+        if (xDifference >= 8 && GameManager.Instance.clampCameraPosition) {
             currentPosition.x += (right ? -1 : 1) * GameManager.Instance.levelWidthTile / 2f;
             xDifference = Vector2.Distance(Vector2.right * currentPosition.x, Vector2.right * playerPos.x);
             right = currentPosition.x > playerPos.x;
@@ -105,7 +105,10 @@ public class CameraController : MonoBehaviour {
 
         // Clamping to within level bounds
 
-        targetPosition.x = Mathf.Clamp(targetPosition.x, minX + xOrtho, maxX - xOrtho);
+        if (GameManager.Instance.clampCameraPosition)
+        {
+            targetPosition.x = Mathf.Clamp(targetPosition.x, minX + xOrtho, maxX - xOrtho);
+        }
         targetPosition.y = Mathf.Clamp(targetPosition.y, minY + vOrtho, heightY == 0 ? (minY + vOrtho) : (minY + heightY - vOrtho));
 
         // Z preservation

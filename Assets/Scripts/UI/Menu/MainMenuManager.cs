@@ -516,7 +516,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                 return;
 
             double time = lastMessage.GetValueOrDefault(sender);
-            if (PhotonNetwork.Time - time < 0.75f)
+            if ((PhotonNetwork.Time - time < 0.75f) && !sender.HasRainbowName())
                 return;
 
             lastMessage[sender] = PhotonNetwork.Time;
@@ -533,7 +533,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
                     string message2 = message;
                         Regex.Replace(message2, "[^A-Za-z]", string.Empty);
                         message2 = message2.Replace(" ", string.Empty);
-                    if ((sender.HasPoopieName() && !sender.HasRainbowName() && !sender.IsLocal && !PhotonNetwork.LocalPlayer.HasPoopieName()) && (message2.ToLower() == "start" || message2.ToLower() == "startplz" || message2.ToLower() == "startpls" || message2.ToLower() == "plsstart" || message2.ToLower() == "plzstart" || message2.ToLower() == "pls" || message2.ToLower() == "plz" || message2.ToLower() == "huh" || message2.ToLower() == "vineboom" || message2.ToLower() == "bruh" || message2.ToLower() == "bonk" || message2.ToLower() == "doonk" || message2.ToLower() == "bababooey" || message2.ToLower() == "erm" || message2.ToLower() == "pizzapizza" || message2.ToLower() == "pizza" || message2.ToLower() == "pissa" || message2.ToLower() == "pissapissa" || message2.ToLower() == "pacmang" || message2.ToLower() == "deliciousbanana" || message2.ToLower() == "markiplier" || message2.ToLower() == "helloeverybody" || message2.ToLower() == "fart" || message2.ToLower() == "brap" || message2.ToLower() == "ararar" || message2.ToLower() == "damndaniel" || message2.ToLower() == "carnivalnightzone" || message2.ToLower() == "clown"))
+                    if ((sender.HasPoopieName() && !sender.HasRainbowName() && !sender.IsLocal && !PhotonNetwork.LocalPlayer.HasPoopieName()) && (message2.ToLower() == "start" || message2.ToLower() == "startplz" || message2.ToLower() == "startpls" || message2.ToLower() == "plsstart" || message2.ToLower() == "plzstart" || message2.ToLower() == "pls" || message2.ToLower() == "plz" || message2.ToLower() == "huh" || message2.ToLower() == "vineboom" || message2.ToLower() == "bruh" || message2.ToLower() == "bonk" || message2.ToLower() == "doonk" || message2.ToLower() == "bababooey" || message2.ToLower() == "erm" || message2.ToLower() == "pizzapizza" || message2.ToLower() == "pizza" || message2.ToLower() == "pissa" || message2.ToLower() == "pissapissa" || message2.ToLower() == "pacmang" || message2.ToLower() == "deliciousbanana" || message2.ToLower() == "markiplier" || message2.ToLower() == "helloeverybody" || message2.ToLower() == "fart" || message2.ToLower() == "brap" || message2.ToLower() == "ararar" || message2.ToLower() == "damndaniel" || message2.ToLower() == "carnivalnightzone" || message2.ToLower() == "clown" || message2.ToLower() == "chortles" || message2.ToLower() == "fawful"))
                     {
                         sfx.PlayOneShot(Enums.Sounds.Poopie_YouTried.GetClip());
                     }
@@ -1171,9 +1171,17 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         {
             LocalChatMessage("WARNING: This map will be the worst experience of your entire life. <color=#080>We hate you <3</color>", Color.magenta);
         }
-        if(index == 24)
+        if(index == 31 || index == 29 || index == 30)
         {
             LocalChatMessage("Check out NSMB: Star Chasers by Freeze, another great recreation of Mario Vs. Luigi:                             freeze7.itch.io/nsmb-starchasers", new Color(0.5f, 0f, 1f, 1f));
+        }
+        if (index == 23)
+        {
+            LocalChatMessage("Coins are set to a minimum of 30 on this map.", new Color(0.5f, 0f, 1f, 1f));
+        }
+        if (index == 16)
+        {
+            LocalChatMessage("Stars are set to a minimum of 10 on this map.", new Color(0.5f, 0f, 1f, 1f));
         }
     }
     public void SetLevelIndex() {
@@ -1651,7 +1659,7 @@ public class MainMenuManager : MonoBehaviour, ILobbyCallbacks, IInRoomCallbacks,
         textComp.color = color;
     }
     public void OpenLinks() {
-        Application.OpenURL("https://github.com/ipodtouch0218/NSMB-MarioVsLuigi/blob/master/LINKS.md");
+        Application.OpenURL("https://www.youtube.com/watch?v=O0cp9IJLr2s");
     }
     public void Quit() {
         if (quit)

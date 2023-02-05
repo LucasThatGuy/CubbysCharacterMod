@@ -195,11 +195,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,11 +216,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 24
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,11 +237,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,11 +258,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 72
-        y: 0
+        y: 24
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,6 +279,27 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c2ca95810f8a643ac723a578d0b3a0
+      internalID: -550597824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaf_5
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 24
         height: 24
@@ -289,8 +310,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c2ca95810f8a643ac723a578d0b3a0
-      internalID: -550597824
+      spriteID: aa3d534df04b0dd478cb28e283e9475f
+      internalID: 484431694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaf_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf997e2c5b8482f44a7b4cecd25fa971
+      internalID: -189372093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaf_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b18e39bc2a5094690770f0d629d178
+      internalID: -564168487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaf_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a5d12bd1da8a74f906df1151481aa4
+      internalID: -228463157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaf_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2883b76a44317469af6edb6be52bd2
+      internalID: 1691577056
       vertices: []
       indices: 
       edges: []
@@ -306,11 +411,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      leaf_6: -189372093
       leaf_4: -550597824
       leaf_1: -1951123935
+      leaf_9: 1691577056
       leaf_3: -1188394407
+      leaf_5: 484431694
       leaf_2: -1027966945
       leaf_0: -1387965048
+      leaf_8: -228463157
+      leaf_7: -564168487
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

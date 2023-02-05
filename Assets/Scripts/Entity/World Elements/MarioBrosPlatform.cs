@@ -8,7 +8,8 @@ public class MarioBrosPlatform : MonoBehaviourPun {
     private static readonly Vector2 BUMP_OFFSET = new(-0.25f, -0.1f);
 
     [Delayed]
-    public int platformWidth = 8, samplesPerTile = 8, bumpWidthPoints = 3, bumpBlurPoints = 6;
+    public int samplesPerTile = 8, bumpWidthPoints = 3, bumpBlurPoints = 6;
+    public long platformWidth = 8;
     public float bumpDuration = 0.4f;
     public bool changeCollider = true;
 
@@ -39,7 +40,7 @@ public class MarioBrosPlatform : MonoBehaviourPun {
         if (changeCollider)
             GetComponent<BoxCollider2D>().size = new Vector2(platformWidth, 5f / 8f);
 
-        displacementMap = new(platformWidth * samplesPerTile, 1);
+        displacementMap = new((int)platformWidth * samplesPerTile, 1);
         pixels = new Color32[platformWidth * samplesPerTile];
 
         mpb = new();

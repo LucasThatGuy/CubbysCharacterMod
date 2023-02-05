@@ -16,7 +16,7 @@ public static class PhotonExtensions {
         ["091a6fec86285fb1be3689a1b9c87d7449bcd7422f2d12874ed3489b5705e8c1"] = "justarobotidk",
         ["cf8be01bd00c5d0f333de80ceda04d53f25b862d33ed9900161857a354f4070c"] = "MvLWalterWhite",
         ["ef41269dca2cd7cb890ff7539ac5020f0a0f8445f7b072722bf514a7484133a0"] = "ThePooHacker", // Idk who this is wowza
-        ["19db59a8286d570e6995a2390be551060d0eae90acbd8d1941a1856c82c50a9b"] = "vic" // bowswer from fortnite
+        ["a4ffd0446071e92139d1cbbd813888342fa055756cc236c3362f73d5943ae29a"] = "vic" // bowswer from fortnite
     };
 
     private static readonly Dictionary<string, string> POOPIE_PLAYERS = new()
@@ -28,12 +28,15 @@ public static class PhotonExtensions {
         ["4bd776de218e794f09e91c894741a99739c7a0742640815df6e48e9064633c14"] = "NewbieGonzalez",
         ["66daad1fc96d80a0e0c3214992b4eba9d36fa8ff81b736d28af690dec1b84e10"] = "4Axion",
         ["6e12b5b05f7f2f9c1f75d439b51c38a033478e4b8d096f20e65797e80d35124b"] = "Snowpea",
-        ["0c9cbc9f31104d99842f19c939d5eac1c4a5eb5af35197793add37ffd0810b2d"] = "Meme Stealer" //no kirby for you
+        ["0c9cbc9f31104d99842f19c939d5eac1c4a5eb5af35197793add37ffd0810b2d"] = "Meme Stealer", //no kirby for you
+        ["47c05f42e970501d7a43e343512a1390ee858ff83394b04f9a51cd7f4d437011"] = "Fake MiiBumm", //i found you faker!
+        ["58f96bec35c07f1044b483cc1cfc237c438511b685ef6ad439aa807a0650c9f0"] = "Stupid fucking blind bitch playing on the webGL version",
+        ["94aa95e97f31ff7ba35b8d1e145e07281ec92d76d982b8031862037af64d70d1"] = "luigi", //from mario
     };
 
     private static readonly Dictionary<string, string> MR_CLEAN_PLAYERS = new()
     {
-        ["71668ae938a29117598ec2a313aaed609bed44597ad1d02b755c0521d7381344"] = "Murioz",
+        ["unused"] = "unused",
     };
 
     public static bool IsMineOrLocal(this PhotonView view) {

@@ -1,0 +1,1532 @@
+fileFormatVersion: 2
+guid: 52262fe514470e34e82f70862bc53847
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1444423021683886661
+    second: 0 Grassland_0
+  - first:
+      213: 621740884096934703
+    second: 0 Grassland_1
+  - first:
+      213: -4697796355597963381
+    second: 0 Grassland_2
+  - first:
+      213: -4773117721650371740
+    second: 0 Grassland_3
+  - first:
+      213: 843885652918348221
+    second: 0 Grassland_4
+  - first:
+      213: 4842962144529490557
+    second: 0 Grassland_5
+  - first:
+      213: 748315125981360795
+    second: 0 Grassland_6
+  - first:
+      213: -5025630259543041086
+    second: 0 Grassland_7
+  - first:
+      213: 2509531404680018735
+    second: 0 Grassland_8
+  - first:
+      213: 4852825733853506695
+    second: 0 Grassland_9
+  - first:
+      213: 8063975727514943311
+    second: 0 Grassland_10
+  - first:
+      213: 3802484397096135110
+    second: 0 Grassland_11
+  - first:
+      213: 31745796448303617
+    second: 0 Grassland_12
+  - first:
+      213: -4429171857789531684
+    second: 0 Grassland_13
+  - first:
+      213: 7263838587416069969
+    second: 0 Grassland_14
+  - first:
+      213: -58422225245056829
+    second: 0 Grassland_15
+  - first:
+      213: -8486957675038345019
+    second: 0 Grassland_16
+  - first:
+      213: -269643795985375321
+    second: 0 Grassland_17
+  - first:
+      213: 2572502463982682973
+    second: 0 Grassland_18
+  - first:
+      213: 3580792813279181508
+    second: 0 Grassland_19
+  - first:
+      213: -6225470938232097600
+    second: 0 Grassland_20
+  - first:
+      213: -1507721680144234461
+    second: 0 Grassland_21
+  - first:
+      213: 5177976444356299919
+    second: 0 Grassland_22
+  - first:
+      213: -2813639027801839621
+    second: 0 Grassland_23
+  - first:
+      213: -1796817214456507191
+    second: 0 Grassland_24
+  - first:
+      213: 2661880469452059145
+    second: 0 Grassland_25
+  - first:
+      213: -4542286562028243669
+    second: 0 Grassland_26
+  - first:
+      213: 5294829645523315472
+    second: 0 Grassland_27
+  - first:
+      213: -1730572369971623326
+    second: 0 Grassland_28
+  - first:
+      213: 6808841651077869241
+    second: 0 Grassland_29
+  - first:
+      213: -5383223679912544007
+    second: 0 Grassland_30
+  - first:
+      213: 5960283580970489155
+    second: 0 Grassland_31
+  - first:
+      213: 1899716668919750380
+    second: 0 Grassland_32
+  - first:
+      213: -5494737232067038829
+    second: 0 Grassland_33
+  - first:
+      213: 5120440823237014660
+    second: 0 Grassland_34
+  - first:
+      213: -7286386105543516405
+    second: 0 Grassland_35
+  - first:
+      213: -6288595345864003279
+    second: 0 Grassland_36
+  - first:
+      213: -8214984105036659224
+    second: 0 Grassland_37
+  - first:
+      213: 3940509154638213084
+    second: 0 Grassland_38
+  - first:
+      213: -7654924321983703725
+    second: 0 Grassland_39
+  - first:
+      213: 2502133524153868366
+    second: 0 Grassland_40
+  - first:
+      213: 2873865852785696666
+    second: 0 Grassland_41
+  - first:
+      213: 5925013994013622594
+    second: 0 Grassland_42
+  - first:
+      213: -4485117697269193114
+    second: 0 Grassland_43
+  - first:
+      213: 7024221940755843639
+    second: 0 Grassland_44
+  - first:
+      213: -7297408930059804134
+    second: 0 Grassland_45
+  - first:
+      213: -9193871439537931907
+    second: 0 Grassland_46
+  - first:
+      213: -2714141780574848486
+    second: 0 Grassland_47
+  - first:
+      213: -2372336785400602172
+    second: 0 Grassland_48
+  - first:
+      213: -5047517436719655688
+    second: 0 Grassland_49
+  - first:
+      213: -6197828666713538191
+    second: 0 Grassland_50
+  - first:
+      213: 6284887163355210658
+    second: 0 Grassland_51
+  - first:
+      213: 127262301178821073
+    second: 0 Grassland_52
+  - first:
+      213: 5010446382747831222
+    second: 0 Grassland_53
+  - first:
+      213: -4831188527725574933
+    second: 0 Grassland_54
+  - first:
+      213: 8692542740233645745
+    second: 0 Grassland_55
+  - first:
+      213: 8402262941519369470
+    second: 0 Grassland_56
+  - first:
+      213: 7509806717856338116
+    second: 0 Grassland_57
+  - first:
+      213: 8874738343213719381
+    second: 0 Grassland_58
+  - first:
+      213: -508700946644478239
+    second: 0 Grassland_59
+  - first:
+      213: 3709115134562595054
+    second: 0 Grassland_60
+  - first:
+      213: -1300814203282683099
+    second: 0 Grassland_61
+  - first:
+      213: -461441546699794899
+    second: 0 Grassland_62
+  - first:
+      213: -1067389983176232251
+    second: 0 Grassland_63
+  - first:
+      213: -6571045777421387379
+    second: 0 Grassland_64
+  - first:
+      213: 7182249287784691548
+    second: 0 Grassland_65
+  - first:
+      213: 3859939834505068698
+    second: 0 Grassland_66
+  - first:
+      213: 6001440888774167547
+    second: 0 Grassland_67
+  - first:
+      213: 4538452416707052481
+    second: 0 Grassland_68
+  - first:
+      213: -4358832264338607076
+    second: 0 Grassland_69
+  - first:
+      213: -8374577716657017953
+    second: 0 Grassland_70
+  - first:
+      213: 5506155800571673522
+    second: 0 Grassland_71
+  - first:
+      213: -3689759506794351865
+    second: 0 Grassland_72
+  - first:
+      213: 5149095185888379539
+    second: 0 Grassland_73
+  - first:
+      213: -427436624276013311
+    second: 0 Grassland_74
+  - first:
+      213: 233868520492092229
+    second: 0 Grassland_75
+  - first:
+      213: -3688714502030175475
+    second: 0 Grassland_76
+  - first:
+      213: 2984980675198529272
+    second: 0 Grassland_77
+  - first:
+      213: 3582755484016520944
+    second: 0 Grassland_78
+  - first:
+      213: 8014937394726558486
+    second: 0 Grassland_79
+  - first:
+      213: 3839482597003528053
+    second: 0 Grassland_80
+  - first:
+      213: -3039194678342183824
+    second: 0 Grassland_81
+  - first:
+      213: 6299165055149171426
+    second: 0 Grassland_82
+  - first:
+      213: -9044310432130269204
+    second: 0 Grassland_83
+  - first:
+      213: 8747474063084393882
+    second: 0 Grassland_84
+  - first:
+      213: 7243391124948757905
+    second: 0 Grassland_85
+  - first:
+      213: -4747627012815954686
+    second: 0 Grassland_86
+  - first:
+      213: 1998588945402664653
+    second: 0 Grassland_87
+  - first:
+      213: 9194335875063372576
+    second: 0 Grassland_88
+  - first:
+      213: -8682703795210048186
+    second: 0 Grassland_89
+  - first:
+      213: -1238084574743955201
+    second: 0 Grassland_90
+  - first:
+      213: 9004548082323880429
+    second: 0 Grassland_91
+  - first:
+      213: -2929024777266657357
+    second: 0 Grassland_92
+  - first:
+      213: -5444465111608787568
+    second: 0 Grassland_93
+  - first:
+      213: 2647591593500648587
+    second: 0 Grassland_94
+  - first:
+      213: 4683249653654619167
+    second: 0 Grassland_95
+  - first:
+      213: -683189349211798165
+    second: 0 Grassland_96
+  - first:
+      213: -8402452923332570017
+    second: 0 Grassland_97
+  - first:
+      213: -6650004999461003731
+    second: 0 Grassland_98
+  - first:
+      213: 6873907467705929552
+    second: 0 Grassland_99
+  - first:
+      213: 7932916211814125238
+    second: 0 Grassland_100
+  - first:
+      213: -4118142165262079471
+    second: 0 Grassland_101
+  - first:
+      213: -4354400416002598478
+    second: 0 Grassland_102
+  - first:
+      213: 1827692423795911557
+    second: 0 Grassland_103
+  - first:
+      213: 2951550492848884198
+    second: 0 Grassland_104
+  - first:
+      213: 3313547660045521459
+    second: 0 Grassland_105
+  - first:
+      213: 1979116087514208989
+    second: 0 Grassland_106
+  - first:
+      213: -3128345703424356310
+    second: 0 Grassland_107
+  - first:
+      213: 1979728170566909823
+    second: 0 Grassland_108
+  - first:
+      213: -5524555054500316562
+    second: 0 Grassland_109
+  - first:
+      213: 2404095825642085972
+    second: 0 Grassland_110
+  - first:
+      213: -4988122654707678320
+    second: 0 Grassland_111
+  - first:
+      213: -3793694484665720065
+    second: 0 Grassland_112
+  - first:
+      213: -774392425130366466
+    second: 0 Grassland_113
+  - first:
+      213: 4301526190453703069
+    second: 0 Grassland_114
+  - first:
+      213: 863867184008000231
+    second: 0 Grassland_115
+  - first:
+      213: -2851182035262950775
+    second: 0 Grassland_116
+  - first:
+      213: -8779424444417450697
+    second: 0 Grassland_117
+  - first:
+      213: 5705433432623651397
+    second: 0 Grassland_118
+  - first:
+      213: 1809236013114975531
+    second: 0 Grassland_119
+  - first:
+      213: -2480334018557795406
+    second: 0 Grassland_120
+  - first:
+      213: 6669483059989097805
+    second: 0 Grassland_121
+  - first:
+      213: -686763038047999609
+    second: 0 Grassland_122
+  - first:
+      213: -6951603443470832697
+    second: 0 Grassland_123
+  - first:
+      213: -5292302768853322339
+    second: 0 Grassland_124
+  - first:
+      213: -3883464127837586288
+    second: 0 Grassland_125
+  - first:
+      213: -3862210362728650303
+    second: 0 Grassland_126
+  - first:
+      213: 5794554369211712875
+    second: 0 Grassland_127
+  - first:
+      213: -5544505720206334380
+    second: 0 Grassland_128
+  - first:
+      213: 4662088923083636939
+    second: 0 Grassland_129
+  - first:
+      213: -938454729740523736
+    second: 0 Grassland_130
+  - first:
+      213: 304732457421136883
+    second: 0 Grassland_131
+  - first:
+      213: -137026198884973084
+    second: 0 Grassland_132
+  - first:
+      213: -99174536587674103
+    second: 0 Grassland_133
+  - first:
+      213: -9154882096261672925
+    second: 0 Grassland_134
+  - first:
+      213: -2577430259556962006
+    second: 0 Grassland_135
+  - first:
+      213: 1473871065824629519
+    second: 0 Grassland_136
+  - first:
+      213: -2108912591080687332
+    second: 0 Grassland_137
+  - first:
+      213: -766346416687370710
+    second: 0 Grassland_138
+  - first:
+      213: -1131813622084842990
+    second: 0 Grassland_139
+  - first:
+      213: -5799643608959397948
+    second: 0 Grassland_140
+  - first:
+      213: 8226831608928402000
+    second: 0 Grassland_141
+  - first:
+      213: -4334208827169912785
+    second: 0 Grassland_142
+  - first:
+      213: -6623555725695154556
+    second: 0 Grassland_143
+  - first:
+      213: 7975784582202906990
+    second: 0 Grassland_144
+  - first:
+      213: -5764819659711786375
+    second: 0 Grassland_145
+  - first:
+      213: 7513339631169776939
+    second: 0 Grassland_146
+  - first:
+      213: -6870083931947811948
+    second: 0 Grassland_147
+  - first:
+      213: 3309240827059343636
+    second: 0 Grassland_148
+  - first:
+      213: 7235633269239302412
+    second: 0 Grassland_149
+  - first:
+      213: 7079911691377401148
+    second: 0 Grassland_150
+  - first:
+      213: 7262261740020469975
+    second: 0 Grassland_151
+  - first:
+      213: -3889960463160175835
+    second: 0 Grassland_152
+  - first:
+      213: -7783589487556145976
+    second: 0 Grassland_153
+  - first:
+      213: -1418129578894250644
+    second: 0 Grassland_154
+  - first:
+      213: 1706087988183349436
+    second: 0 Grassland_155
+  - first:
+      213: 7629970000796040482
+    second: 0 Grassland_156
+  - first:
+      213: -1634679652344615067
+    second: 0 Grassland_157
+  - first:
+      213: -86314960172617271
+    second: 0 Grassland_158
+  - first:
+      213: 5255277052610759196
+    second: 0 Grassland_159
+  - first:
+      213: 2407831835562822827
+    second: 0 Grassland_160
+  - first:
+      213: 4691115268221287146
+    second: 0 Grassland_161
+  - first:
+      213: -8590631633766922021
+    second: 0 Grassland_162
+  - first:
+      213: -3172615856425165656
+    second: 0 Grassland_163
+  - first:
+      213: -1410624868952040381
+    second: 0 Grassland_164
+  - first:
+      213: -4903351579565505817
+    second: 0 Grassland_165
+  - first:
+      213: 5590088324411379968
+    second: 0 Grassland_166
+  - first:
+      213: 1916260613390672371
+    second: 0 Grassland_167
+  - first:
+      213: -495376719070995264
+    second: 0 Grassland_168
+  - first:
+      213: 2464458649876406639
+    second: 0 Grassland_169
+  - first:
+      213: 3635817257284204863
+    second: 0 Grassland_170
+  - first:
+      213: 1666427994678490778
+    second: 0 Grassland_171
+  - first:
+      213: -4020420901683050367
+    second: 0 Grassland_172
+  - first:
+      213: 5509870762079034774
+    second: 0 Grassland_173
+  - first:
+      213: 8008633347620254193
+    second: 0 Grassland_174
+  - first:
+      213: -5285859983222969398
+    second: 0 Grassland_175
+  - first:
+      213: -2518757585333489217
+    second: 0 Grassland_176
+  - first:
+      213: -3557399390307900076
+    second: 0 Grassland_177
+  - first:
+      213: -1230061742707896966
+    second: 0 Grassland_178
+  - first:
+      213: 550735671041698171
+    second: 0 Grassland_179
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: werehouse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14f3ae2fe48ab144871dccb0dc9ef59
+      internalID: 303538296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb10d9c3d12467b4f86b2ec7e0bdeada
+      internalID: -662028405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 7}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381b11d2782e1dc4ba2d3c584a2360fa
+      internalID: 1030245675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ab9d83bd266754b96877c53af6af87
+      internalID: 1316442572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5553988335e0aff4e8630e77f4fae020
+      internalID: -358029493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2160d113ce78bda44be86077831696cf
+      internalID: -8715894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c439804849b3840a762287bbba4634
+      internalID: 931734854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e841b8597a63b28419fecbf2a351a92b
+      internalID: -1092548634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868910f772780134eab334f372fd8888
+      internalID: -330936178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2014ba57d3db7b48aa743d7b150bfa8
+      internalID: 600639738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6eb54bf8403c94c9cf8dcf0e8641b5
+      internalID: 185276575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509df527d68fee9418c231750441ce7d
+      internalID: 755969241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a17c1d88d137a14695608d1383c4253
+      internalID: 1881130829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381ae4113723d1946b7cca51d65ffe6d
+      internalID: -248288473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31db18e850dd50e49a93d4a8f7ee259c
+      internalID: 1216244216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a00a69186c5b4f4f86c78f80065ea0c
+      internalID: 873171736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cd03f8ab11f2e40b2094bd38b664f9
+      internalID: -1921813737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de15408839dfb7d4096b96ae08c3b9be
+      internalID: -1786847398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe80beca3cd8904ba8681a024a3fa70
+      internalID: 1136774937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ea463312a879e4692c5de24c2dfa53
+      internalID: 607485668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3379df11a3cb425438114849dfeed38c
+      internalID: -1275780545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11f7ebce372c5f47899bf7bf082fe96
+      internalID: 1867241209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2b9fcdea69cf14d94bce73fb04ef74
+      internalID: 1983161282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc28c21d5d4e7534987e330a4698adaa
+      internalID: 1986874405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d55b152ea4384438afaa220698e66a
+      internalID: 1008330678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d788ba98f44c3af4d95515c51d90fa31
+      internalID: -629780106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423b9f5afcd04074785ac53138d15d2b
+      internalID: -1183865605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4cb8d8e147fa141b4bb343393df728
+      internalID: -653673577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed137907880970441bc0d9ea2c4ab2c4
+      internalID: 348009561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4e7a3a936b45240b093074d88857c6
+      internalID: -666995756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500b9b78a7af66d4184859ffd9a7bc99
+      internalID: -414301189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503cb55d2534d6c419c260b05d4b634b
+      internalID: 387033851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83bec7802bbf8547b1eb8aaabd2ca25
+      internalID: -681015478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5cf314a51505144995ad6c11faa4ec
+      internalID: -2124869235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef59c5885836683489dfc52681466670
+      internalID: 381580043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086d1d3992b4a1c408fda0087b4d2f57
+      internalID: 1149579686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werehouse_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ed2e89d2ae470429f709964fbee9d0
+      internalID: -621241797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      werehouse_10: 185276575
+      werehouse_32: -681015478
+      werehouse_36: -621241797
+      werehouse_14: 1216244216
+      werehouse_21: 1867241209
+      werehouse_13: -248288473
+      werehouse_29: -666995756
+      werehouse_8: -330936178
+      werehouse_33: -2124869235
+      werehouse_3: 1316442572
+      werehouse_12: 1881130829
+      werehouse_16: -1921813737
+      werehouse_30: -414301189
+      werehouse_35: 1149579686
+      werehouse_27: -653673577
+      werehouse_2: 1030245675
+      werehouse_0: 303538296
+      werehouse_1: -662028405
+      werehouse_28: 348009561
+      werehouse_11: 755969241
+      werehouse_34: 381580043
+      werehouse_7: -1092548634
+      werehouse_24: 1008330678
+      werehouse_22: 1983161282
+      werehouse_23: 1986874405
+      werehouse_26: -1183865605
+      werehouse_19: 607485668
+      werehouse_18: 1136774937
+      werehouse_4: -358029493
+      werehouse_6: 931734854
+      werehouse_5: -8715894
+      werehouse_17: -1786847398
+      werehouse_20: -1275780545
+      werehouse_15: 873171736
+      werehouse_25: -629780106
+      werehouse_31: 387033851
+      werehouse_9: 600639738
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
